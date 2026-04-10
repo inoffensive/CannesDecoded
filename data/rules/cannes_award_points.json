@@ -1,0 +1,36 @@
+{
+  "description": "Point values for ranking Cannes Lions performance (user-supplied scheme). Use scripts/award-points.mjs to score rows from cannes_lovethework.jsonl.",
+  "rules": [
+    {
+      "points": 50,
+      "label": "titanium_or_creative_effectiveness_grand_prix"
+    },
+    {
+      "points": 40,
+      "label": "other_grand_prix_including_gp_for_good"
+    },
+    {
+      "points": 40,
+      "label": "titanium_lion_non_grand_prix"
+    },
+    {
+      "points": 20,
+      "label": "gold_lion"
+    },
+    {
+      "points": 10,
+      "label": "silver_lion"
+    },
+    {
+      "points": 5,
+      "label": "bronze_lion"
+    },
+    {
+      "points": 1,
+      "label": "shortlist"
+    }
+  ],
+  "special_cases": {
+    "note": "Innovation Lion, Product Design Lion, and Glass Lion are scored as 20 points (Gold equivalent) in award-points.mjs; adjust if your scoring model differs."
+  }
+}

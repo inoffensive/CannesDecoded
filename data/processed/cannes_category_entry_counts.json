@@ -1,0 +1,2338 @@
+{
+  "manifest": {
+    "generated_at": "2026-04-10T00:43:39.226Z",
+    "source": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions",
+    "script": "scripts/scrape-cannes-category-entry-counts.mjs",
+    "years": [
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "categories": 30,
+    "totals": {
+      "ok": 330,
+      "missing_count": 0,
+      "fetch_error": 0
+    }
+  },
+  "rows": [
+    {
+      "year": 2015,
+      "category_slug": "audio-radio",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/audio-radio?tag=publication+dates%40%40year%40%402015",
+      "entries": 1700,
+      "status": "ok"
+    },
+    {
+      "year": 2015,
+      "category_slug": "film",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/film?tag=publication+dates%40%40year%40%402015",
+      "entries": 3041,
+      "status": "ok"
+    },
+    {
+      "year": 2015,
+      "category_slug": "outdoor",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/outdoor?tag=publication+dates%40%40year%40%402015",
+      "entries": 4990,
+      "status": "ok"
+    },
+    {
+      "year": 2015,
+      "category_slug": "print-publishing",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/print-publishing?tag=publication+dates%40%40year%40%402015",
+      "entries": 4428,
+      "status": "ok"
+    },
+    {
+      "year": 2015,
+      "category_slug": "design",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/design?tag=publication+dates%40%40year%40%402015",
+      "entries": 2400,
+      "status": "ok"
+    },
+    {
+      "year": 2015,
+      "category_slug": "digital-craft",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/digital-craft?tag=publication+dates%40%40year%40%402015",
+      "entries": 0,
+      "status": "ok"
+    },
+    {
+      "year": 2015,
+      "category_slug": "film-craft",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/film-craft?tag=publication+dates%40%40year%40%402015",
+      "entries": 2187,
+      "status": "ok"
+    },
+    {
+      "year": 2015,
+      "category_slug": "industry-craft",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/industry-craft?tag=publication+dates%40%40year%40%402015",
+      "entries": 0,
+      "status": "ok"
+    },
+    {
+      "year": 2015,
+      "category_slug": "creative-b2b",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/creative-b2b?tag=publication+dates%40%40year%40%402015",
+      "entries": 0,
+      "status": "ok"
+    },
+    {
+      "year": 2015,
+      "category_slug": "creative-data",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/creative-data?tag=publication+dates%40%40year%40%402015",
+      "entries": 613,
+      "status": "ok"
+    },
+    {
+      "year": 2015,
+      "category_slug": "direct",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/direct?tag=publication+dates%40%40year%40%402015",
+      "entries": 2793,
+      "status": "ok"
+    },
+    {
+      "year": 2015,
+      "category_slug": "media",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/media?tag=publication+dates%40%40year%40%402015",
+      "entries": 3166,
+      "status": "ok"
+    },
+    {
+      "year": 2015,
+      "category_slug": "pr",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/pr?tag=publication+dates%40%40year%40%402015",
+      "entries": 1964,
+      "status": "ok"
+    },
+    {
+      "year": 2015,
+      "category_slug": "social-creator",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/social-creator?tag=publication+dates%40%40year%40%402015",
+      "entries": 3726,
+      "status": "ok"
+    },
+    {
+      "year": 2015,
+      "category_slug": "entertainment",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/entertainment?tag=publication+dates%40%40year%40%402015",
+      "entries": 1385,
+      "status": "ok"
+    },
+    {
+      "year": 2015,
+      "category_slug": "entertainment-lions-for-gaming",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/entertainment-lions-for-gaming?tag=publication+dates%40%40year%40%402015",
+      "entries": 0,
+      "status": "ok"
+    },
+    {
+      "year": 2015,
+      "category_slug": "entertainment-lions-for-music",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/entertainment-lions-for-music?tag=publication+dates%40%40year%40%402015",
+      "entries": 0,
+      "status": "ok"
+    },
+    {
+      "year": 2015,
+      "category_slug": "entertainment-lions-for-sport",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/entertainment-lions-for-sport?tag=publication+dates%40%40year%40%402015",
+      "entries": 0,
+      "status": "ok"
+    },
+    {
+      "year": 2015,
+      "category_slug": "brand-experience-activation",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/brand-experience-activation?tag=publication+dates%40%40year%40%402015",
+      "entries": 3183,
+      "status": "ok"
+    },
+    {
+      "year": 2015,
+      "category_slug": "creative-business-transformation",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/creative-business-transformation?tag=publication+dates%40%40year%40%402015",
+      "entries": 0,
+      "status": "ok"
+    },
+    {
+      "year": 2015,
+      "category_slug": "creative-commerce",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/creative-commerce?tag=publication+dates%40%40year%40%402015",
+      "entries": 0,
+      "status": "ok"
+    },
+    {
+      "year": 2015,
+      "category_slug": "innovation",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/innovation?tag=publication+dates%40%40year%40%402015",
+      "entries": 226,
+      "status": "ok"
+    },
+    {
+      "year": 2015,
+      "category_slug": "luxury",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/luxury?tag=publication+dates%40%40year%40%402015",
+      "entries": 0,
+      "status": "ok"
+    },
+    {
+      "year": 2015,
+      "category_slug": "glass-the-lion-for-change",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/glass-the-lion-for-change?tag=publication+dates%40%40year%40%402015",
+      "entries": 165,
+      "status": "ok"
+    },
+    {
+      "year": 2015,
+      "category_slug": "sustainable-development-goals",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/sustainable-development-goals?tag=publication+dates%40%40year%40%402015",
+      "entries": 0,
+      "status": "ok"
+    },
+    {
+      "year": 2015,
+      "category_slug": "health-wellness",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/health-wellness?tag=publication+dates%40%40year%40%402015",
+      "entries": 1429,
+      "status": "ok"
+    },
+    {
+      "year": 2015,
+      "category_slug": "pharma",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/pharma?tag=publication+dates%40%40year%40%402015",
+      "entries": 432,
+      "status": "ok"
+    },
+    {
+      "year": 2015,
+      "category_slug": "creative-effectiveness",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/creative-effectiveness?tag=publication+dates%40%40year%40%402015",
+      "entries": 160,
+      "status": "ok"
+    },
+    {
+      "year": 2015,
+      "category_slug": "creative-strategy",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/creative-strategy?tag=publication+dates%40%40year%40%402015",
+      "entries": 0,
+      "status": "ok"
+    },
+    {
+      "year": 2015,
+      "category_slug": "titanium",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/titanium?tag=publication+dates%40%40year%40%402015",
+      "entries": 373,
+      "status": "ok"
+    },
+    {
+      "year": 2016,
+      "category_slug": "audio-radio",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/audio-radio?tag=publication+dates%40%40year%40%402016",
+      "entries": 1401,
+      "status": "ok"
+    },
+    {
+      "year": 2016,
+      "category_slug": "film",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/film?tag=publication+dates%40%40year%40%402016",
+      "entries": 2787,
+      "status": "ok"
+    },
+    {
+      "year": 2016,
+      "category_slug": "outdoor",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/outdoor?tag=publication+dates%40%40year%40%402016",
+      "entries": 5314,
+      "status": "ok"
+    },
+    {
+      "year": 2016,
+      "category_slug": "print-publishing",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/print-publishing?tag=publication+dates%40%40year%40%402016",
+      "entries": 3739,
+      "status": "ok"
+    },
+    {
+      "year": 2016,
+      "category_slug": "design",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/design?tag=publication+dates%40%40year%40%402016",
+      "entries": 2830,
+      "status": "ok"
+    },
+    {
+      "year": 2016,
+      "category_slug": "digital-craft",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/digital-craft?tag=publication+dates%40%40year%40%402016",
+      "entries": 1142,
+      "status": "ok"
+    },
+    {
+      "year": 2016,
+      "category_slug": "film-craft",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/film-craft?tag=publication+dates%40%40year%40%402016",
+      "entries": 2311,
+      "status": "ok"
+    },
+    {
+      "year": 2016,
+      "category_slug": "industry-craft",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/industry-craft?tag=publication+dates%40%40year%40%402016",
+      "entries": 276,
+      "status": "ok"
+    },
+    {
+      "year": 2016,
+      "category_slug": "creative-b2b",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/creative-b2b?tag=publication+dates%40%40year%40%402016",
+      "entries": 0,
+      "status": "ok"
+    },
+    {
+      "year": 2016,
+      "category_slug": "creative-data",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/creative-data?tag=publication+dates%40%40year%40%402016",
+      "entries": 713,
+      "status": "ok"
+    },
+    {
+      "year": 2016,
+      "category_slug": "direct",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/direct?tag=publication+dates%40%40year%40%402016",
+      "entries": 3069,
+      "status": "ok"
+    },
+    {
+      "year": 2016,
+      "category_slug": "media",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/media?tag=publication+dates%40%40year%40%402016",
+      "entries": 2964,
+      "status": "ok"
+    },
+    {
+      "year": 2016,
+      "category_slug": "pr",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/pr?tag=publication+dates%40%40year%40%402016",
+      "entries": 2209,
+      "status": "ok"
+    },
+    {
+      "year": 2016,
+      "category_slug": "social-creator",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/social-creator?tag=publication+dates%40%40year%40%402016",
+      "entries": 2868,
+      "status": "ok"
+    },
+    {
+      "year": 2016,
+      "category_slug": "entertainment",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/entertainment?tag=publication+dates%40%40year%40%402016",
+      "entries": 1835,
+      "status": "ok"
+    },
+    {
+      "year": 2016,
+      "category_slug": "entertainment-lions-for-gaming",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/entertainment-lions-for-gaming?tag=publication+dates%40%40year%40%402016",
+      "entries": 0,
+      "status": "ok"
+    },
+    {
+      "year": 2016,
+      "category_slug": "entertainment-lions-for-music",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/entertainment-lions-for-music?tag=publication+dates%40%40year%40%402016",
+      "entries": 636,
+      "status": "ok"
+    },
+    {
+      "year": 2016,
+      "category_slug": "entertainment-lions-for-sport",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/entertainment-lions-for-sport?tag=publication+dates%40%40year%40%402016",
+      "entries": 0,
+      "status": "ok"
+    },
+    {
+      "year": 2016,
+      "category_slug": "brand-experience-activation",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/brand-experience-activation?tag=publication+dates%40%40year%40%402016",
+      "entries": 3435,
+      "status": "ok"
+    },
+    {
+      "year": 2016,
+      "category_slug": "creative-business-transformation",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/creative-business-transformation?tag=publication+dates%40%40year%40%402016",
+      "entries": 0,
+      "status": "ok"
+    },
+    {
+      "year": 2016,
+      "category_slug": "creative-commerce",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/creative-commerce?tag=publication+dates%40%40year%40%402016",
+      "entries": 0,
+      "status": "ok"
+    },
+    {
+      "year": 2016,
+      "category_slug": "innovation",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/innovation?tag=publication+dates%40%40year%40%402016",
+      "entries": 378,
+      "status": "ok"
+    },
+    {
+      "year": 2016,
+      "category_slug": "luxury",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/luxury?tag=publication+dates%40%40year%40%402016",
+      "entries": 0,
+      "status": "ok"
+    },
+    {
+      "year": 2016,
+      "category_slug": "glass-the-lion-for-change",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/glass-the-lion-for-change?tag=publication+dates%40%40year%40%402016",
+      "entries": 155,
+      "status": "ok"
+    },
+    {
+      "year": 2016,
+      "category_slug": "sustainable-development-goals",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/sustainable-development-goals?tag=publication+dates%40%40year%40%402016",
+      "entries": 0,
+      "status": "ok"
+    },
+    {
+      "year": 2016,
+      "category_slug": "health-wellness",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/health-wellness?tag=publication+dates%40%40year%40%402016",
+      "entries": 2001,
+      "status": "ok"
+    },
+    {
+      "year": 2016,
+      "category_slug": "pharma",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/pharma?tag=publication+dates%40%40year%40%402016",
+      "entries": 579,
+      "status": "ok"
+    },
+    {
+      "year": 2016,
+      "category_slug": "creative-effectiveness",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/creative-effectiveness?tag=publication+dates%40%40year%40%402016",
+      "entries": 107,
+      "status": "ok"
+    },
+    {
+      "year": 2016,
+      "category_slug": "creative-strategy",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/creative-strategy?tag=publication+dates%40%40year%40%402016",
+      "entries": 0,
+      "status": "ok"
+    },
+    {
+      "year": 2016,
+      "category_slug": "titanium",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/titanium?tag=publication+dates%40%40year%40%402016",
+      "entries": 252,
+      "status": "ok"
+    },
+    {
+      "year": 2017,
+      "category_slug": "audio-radio",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/audio-radio?tag=publication+dates%40%40year%40%402017",
+      "entries": 1463,
+      "status": "ok"
+    },
+    {
+      "year": 2017,
+      "category_slug": "film",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/film?tag=publication+dates%40%40year%40%402017",
+      "entries": 2569,
+      "status": "ok"
+    },
+    {
+      "year": 2017,
+      "category_slug": "outdoor",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/outdoor?tag=publication+dates%40%40year%40%402017",
+      "entries": 4625,
+      "status": "ok"
+    },
+    {
+      "year": 2017,
+      "category_slug": "print-publishing",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/print-publishing?tag=publication+dates%40%40year%40%402017",
+      "entries": 3210,
+      "status": "ok"
+    },
+    {
+      "year": 2017,
+      "category_slug": "design",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/design?tag=publication+dates%40%40year%40%402017",
+      "entries": 2752,
+      "status": "ok"
+    },
+    {
+      "year": 2017,
+      "category_slug": "digital-craft",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/digital-craft?tag=publication+dates%40%40year%40%402017",
+      "entries": 920,
+      "status": "ok"
+    },
+    {
+      "year": 2017,
+      "category_slug": "film-craft",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/film-craft?tag=publication+dates%40%40year%40%402017",
+      "entries": 2468,
+      "status": "ok"
+    },
+    {
+      "year": 2017,
+      "category_slug": "industry-craft",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/industry-craft?tag=publication+dates%40%40year%40%402017",
+      "entries": 236,
+      "status": "ok"
+    },
+    {
+      "year": 2017,
+      "category_slug": "creative-b2b",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/creative-b2b?tag=publication+dates%40%40year%40%402017",
+      "entries": 0,
+      "status": "ok"
+    },
+    {
+      "year": 2017,
+      "category_slug": "creative-data",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/creative-data?tag=publication+dates%40%40year%40%402017",
+      "entries": 690,
+      "status": "ok"
+    },
+    {
+      "year": 2017,
+      "category_slug": "direct",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/direct?tag=publication+dates%40%40year%40%402017",
+      "entries": 2687,
+      "status": "ok"
+    },
+    {
+      "year": 2017,
+      "category_slug": "media",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/media?tag=publication+dates%40%40year%40%402017",
+      "entries": 2924,
+      "status": "ok"
+    },
+    {
+      "year": 2017,
+      "category_slug": "pr",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/pr?tag=publication+dates%40%40year%40%402017",
+      "entries": 2194,
+      "status": "ok"
+    },
+    {
+      "year": 2017,
+      "category_slug": "social-creator",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/social-creator?tag=publication+dates%40%40year%40%402017",
+      "entries": 2867,
+      "status": "ok"
+    },
+    {
+      "year": 2017,
+      "category_slug": "entertainment",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/entertainment?tag=publication+dates%40%40year%40%402017",
+      "entries": 1784,
+      "status": "ok"
+    },
+    {
+      "year": 2017,
+      "category_slug": "entertainment-lions-for-gaming",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/entertainment-lions-for-gaming?tag=publication+dates%40%40year%40%402017",
+      "entries": 0,
+      "status": "ok"
+    },
+    {
+      "year": 2017,
+      "category_slug": "entertainment-lions-for-music",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/entertainment-lions-for-music?tag=publication+dates%40%40year%40%402017",
+      "entries": 509,
+      "status": "ok"
+    },
+    {
+      "year": 2017,
+      "category_slug": "entertainment-lions-for-sport",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/entertainment-lions-for-sport?tag=publication+dates%40%40year%40%402017",
+      "entries": 0,
+      "status": "ok"
+    },
+    {
+      "year": 2017,
+      "category_slug": "brand-experience-activation",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/brand-experience-activation?tag=publication+dates%40%40year%40%402017",
+      "entries": 3405,
+      "status": "ok"
+    },
+    {
+      "year": 2017,
+      "category_slug": "creative-business-transformation",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/creative-business-transformation?tag=publication+dates%40%40year%40%402017",
+      "entries": 0,
+      "status": "ok"
+    },
+    {
+      "year": 2017,
+      "category_slug": "creative-commerce",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/creative-commerce?tag=publication+dates%40%40year%40%402017",
+      "entries": 0,
+      "status": "ok"
+    },
+    {
+      "year": 2017,
+      "category_slug": "innovation",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/innovation?tag=publication+dates%40%40year%40%402017",
+      "entries": 295,
+      "status": "ok"
+    },
+    {
+      "year": 2017,
+      "category_slug": "luxury",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/luxury?tag=publication+dates%40%40year%40%402017",
+      "entries": 0,
+      "status": "ok"
+    },
+    {
+      "year": 2017,
+      "category_slug": "glass-the-lion-for-change",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/glass-the-lion-for-change?tag=publication+dates%40%40year%40%402017",
+      "entries": 203,
+      "status": "ok"
+    },
+    {
+      "year": 2017,
+      "category_slug": "sustainable-development-goals",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/sustainable-development-goals?tag=publication+dates%40%40year%40%402017",
+      "entries": 0,
+      "status": "ok"
+    },
+    {
+      "year": 2017,
+      "category_slug": "health-wellness",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/health-wellness?tag=publication+dates%40%40year%40%402017",
+      "entries": 2208,
+      "status": "ok"
+    },
+    {
+      "year": 2017,
+      "category_slug": "pharma",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/pharma?tag=publication+dates%40%40year%40%402017",
+      "entries": 583,
+      "status": "ok"
+    },
+    {
+      "year": 2017,
+      "category_slug": "creative-effectiveness",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/creative-effectiveness?tag=publication+dates%40%40year%40%402017",
+      "entries": 169,
+      "status": "ok"
+    },
+    {
+      "year": 2017,
+      "category_slug": "creative-strategy",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/creative-strategy?tag=publication+dates%40%40year%40%402017",
+      "entries": 0,
+      "status": "ok"
+    },
+    {
+      "year": 2017,
+      "category_slug": "titanium",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/titanium?tag=publication+dates%40%40year%40%402017",
+      "entries": 216,
+      "status": "ok"
+    },
+    {
+      "year": 2018,
+      "category_slug": "audio-radio",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/audio-radio?tag=publication+dates%40%40year%40%402018",
+      "entries": 1079,
+      "status": "ok"
+    },
+    {
+      "year": 2018,
+      "category_slug": "film",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/film?tag=publication+dates%40%40year%40%402018",
+      "entries": 2125,
+      "status": "ok"
+    },
+    {
+      "year": 2018,
+      "category_slug": "outdoor",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/outdoor?tag=publication+dates%40%40year%40%402018",
+      "entries": 2604,
+      "status": "ok"
+    },
+    {
+      "year": 2018,
+      "category_slug": "print-publishing",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/print-publishing?tag=publication+dates%40%40year%40%402018",
+      "entries": 1403,
+      "status": "ok"
+    },
+    {
+      "year": 2018,
+      "category_slug": "design",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/design?tag=publication+dates%40%40year%40%402018",
+      "entries": 1238,
+      "status": "ok"
+    },
+    {
+      "year": 2018,
+      "category_slug": "digital-craft",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/digital-craft?tag=publication+dates%40%40year%40%402018",
+      "entries": 717,
+      "status": "ok"
+    },
+    {
+      "year": 2018,
+      "category_slug": "film-craft",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/film-craft?tag=publication+dates%40%40year%40%402018",
+      "entries": 2478,
+      "status": "ok"
+    },
+    {
+      "year": 2018,
+      "category_slug": "industry-craft",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/industry-craft?tag=publication+dates%40%40year%40%402018",
+      "entries": 1699,
+      "status": "ok"
+    },
+    {
+      "year": 2018,
+      "category_slug": "creative-b2b",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/creative-b2b?tag=publication+dates%40%40year%40%402018",
+      "entries": 0,
+      "status": "ok"
+    },
+    {
+      "year": 2018,
+      "category_slug": "creative-data",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/creative-data?tag=publication+dates%40%40year%40%402018",
+      "entries": 516,
+      "status": "ok"
+    },
+    {
+      "year": 2018,
+      "category_slug": "direct",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/direct?tag=publication+dates%40%40year%40%402018",
+      "entries": 2459,
+      "status": "ok"
+    },
+    {
+      "year": 2018,
+      "category_slug": "media",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/media?tag=publication+dates%40%40year%40%402018",
+      "entries": 2551,
+      "status": "ok"
+    },
+    {
+      "year": 2018,
+      "category_slug": "pr",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/pr?tag=publication+dates%40%40year%40%402018",
+      "entries": 2087,
+      "status": "ok"
+    },
+    {
+      "year": 2018,
+      "category_slug": "social-creator",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/social-creator?tag=publication+dates%40%40year%40%402018",
+      "entries": 2011,
+      "status": "ok"
+    },
+    {
+      "year": 2018,
+      "category_slug": "entertainment",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/entertainment?tag=publication+dates%40%40year%40%402018",
+      "entries": 1239,
+      "status": "ok"
+    },
+    {
+      "year": 2018,
+      "category_slug": "entertainment-lions-for-gaming",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/entertainment-lions-for-gaming?tag=publication+dates%40%40year%40%402018",
+      "entries": 0,
+      "status": "ok"
+    },
+    {
+      "year": 2018,
+      "category_slug": "entertainment-lions-for-music",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/entertainment-lions-for-music?tag=publication+dates%40%40year%40%402018",
+      "entries": 479,
+      "status": "ok"
+    },
+    {
+      "year": 2018,
+      "category_slug": "entertainment-lions-for-sport",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/entertainment-lions-for-sport?tag=publication+dates%40%40year%40%402018",
+      "entries": 0,
+      "status": "ok"
+    },
+    {
+      "year": 2018,
+      "category_slug": "brand-experience-activation",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/brand-experience-activation?tag=publication+dates%40%40year%40%402018",
+      "entries": 2315,
+      "status": "ok"
+    },
+    {
+      "year": 2018,
+      "category_slug": "creative-business-transformation",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/creative-business-transformation?tag=publication+dates%40%40year%40%402018",
+      "entries": 0,
+      "status": "ok"
+    },
+    {
+      "year": 2018,
+      "category_slug": "creative-commerce",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/creative-commerce?tag=publication+dates%40%40year%40%402018",
+      "entries": 263,
+      "status": "ok"
+    },
+    {
+      "year": 2018,
+      "category_slug": "innovation",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/innovation?tag=publication+dates%40%40year%40%402018",
+      "entries": 190,
+      "status": "ok"
+    },
+    {
+      "year": 2018,
+      "category_slug": "luxury",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/luxury?tag=publication+dates%40%40year%40%402018",
+      "entries": 0,
+      "status": "ok"
+    },
+    {
+      "year": 2018,
+      "category_slug": "glass-the-lion-for-change",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/glass-the-lion-for-change?tag=publication+dates%40%40year%40%402018",
+      "entries": 214,
+      "status": "ok"
+    },
+    {
+      "year": 2018,
+      "category_slug": "sustainable-development-goals",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/sustainable-development-goals?tag=publication+dates%40%40year%40%402018",
+      "entries": 895,
+      "status": "ok"
+    },
+    {
+      "year": 2018,
+      "category_slug": "health-wellness",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/health-wellness?tag=publication+dates%40%40year%40%402018",
+      "entries": 1459,
+      "status": "ok"
+    },
+    {
+      "year": 2018,
+      "category_slug": "pharma",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/pharma?tag=publication+dates%40%40year%40%402018",
+      "entries": 368,
+      "status": "ok"
+    },
+    {
+      "year": 2018,
+      "category_slug": "creative-effectiveness",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/creative-effectiveness?tag=publication+dates%40%40year%40%402018",
+      "entries": 161,
+      "status": "ok"
+    },
+    {
+      "year": 2018,
+      "category_slug": "creative-strategy",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/creative-strategy?tag=publication+dates%40%40year%40%402018",
+      "entries": 0,
+      "status": "ok"
+    },
+    {
+      "year": 2018,
+      "category_slug": "titanium",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/titanium?tag=publication+dates%40%40year%40%402018",
+      "entries": 148,
+      "status": "ok"
+    },
+    {
+      "year": 2019,
+      "category_slug": "audio-radio",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/audio-radio?tag=publication+dates%40%40year%40%402019",
+      "entries": 974,
+      "status": "ok"
+    },
+    {
+      "year": 2019,
+      "category_slug": "film",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/film?tag=publication+dates%40%40year%40%402019",
+      "entries": 2780,
+      "status": "ok"
+    },
+    {
+      "year": 2019,
+      "category_slug": "outdoor",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/outdoor?tag=publication+dates%40%40year%40%402019",
+      "entries": 2357,
+      "status": "ok"
+    },
+    {
+      "year": 2019,
+      "category_slug": "print-publishing",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/print-publishing?tag=publication+dates%40%40year%40%402019",
+      "entries": 1235,
+      "status": "ok"
+    },
+    {
+      "year": 2019,
+      "category_slug": "design",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/design?tag=publication+dates%40%40year%40%402019",
+      "entries": 1449,
+      "status": "ok"
+    },
+    {
+      "year": 2019,
+      "category_slug": "digital-craft",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/digital-craft?tag=publication+dates%40%40year%40%402019",
+      "entries": 795,
+      "status": "ok"
+    },
+    {
+      "year": 2019,
+      "category_slug": "film-craft",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/film-craft?tag=publication+dates%40%40year%40%402019",
+      "entries": 1913,
+      "status": "ok"
+    },
+    {
+      "year": 2019,
+      "category_slug": "industry-craft",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/industry-craft?tag=publication+dates%40%40year%40%402019",
+      "entries": 1651,
+      "status": "ok"
+    },
+    {
+      "year": 2019,
+      "category_slug": "creative-b2b",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/creative-b2b?tag=publication+dates%40%40year%40%402019",
+      "entries": 0,
+      "status": "ok"
+    },
+    {
+      "year": 2019,
+      "category_slug": "creative-data",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/creative-data?tag=publication+dates%40%40year%40%402019",
+      "entries": 424,
+      "status": "ok"
+    },
+    {
+      "year": 2019,
+      "category_slug": "direct",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/direct?tag=publication+dates%40%40year%40%402019",
+      "entries": 1985,
+      "status": "ok"
+    },
+    {
+      "year": 2019,
+      "category_slug": "media",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/media?tag=publication+dates%40%40year%40%402019",
+      "entries": 2177,
+      "status": "ok"
+    },
+    {
+      "year": 2019,
+      "category_slug": "pr",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/pr?tag=publication+dates%40%40year%40%402019",
+      "entries": 1840,
+      "status": "ok"
+    },
+    {
+      "year": 2019,
+      "category_slug": "social-creator",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/social-creator?tag=publication+dates%40%40year%40%402019",
+      "entries": 1507,
+      "status": "ok"
+    },
+    {
+      "year": 2019,
+      "category_slug": "entertainment",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/entertainment?tag=publication+dates%40%40year%40%402019",
+      "entries": 826,
+      "status": "ok"
+    },
+    {
+      "year": 2019,
+      "category_slug": "entertainment-lions-for-gaming",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/entertainment-lions-for-gaming?tag=publication+dates%40%40year%40%402019",
+      "entries": 0,
+      "status": "ok"
+    },
+    {
+      "year": 2019,
+      "category_slug": "entertainment-lions-for-music",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/entertainment-lions-for-music?tag=publication+dates%40%40year%40%402019",
+      "entries": 388,
+      "status": "ok"
+    },
+    {
+      "year": 2019,
+      "category_slug": "entertainment-lions-for-sport",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/entertainment-lions-for-sport?tag=publication+dates%40%40year%40%402019",
+      "entries": 697,
+      "status": "ok"
+    },
+    {
+      "year": 2019,
+      "category_slug": "brand-experience-activation",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/brand-experience-activation?tag=publication+dates%40%40year%40%402019",
+      "entries": 2500,
+      "status": "ok"
+    },
+    {
+      "year": 2019,
+      "category_slug": "creative-business-transformation",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/creative-business-transformation?tag=publication+dates%40%40year%40%402019",
+      "entries": 0,
+      "status": "ok"
+    },
+    {
+      "year": 2019,
+      "category_slug": "creative-commerce",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/creative-commerce?tag=publication+dates%40%40year%40%402019",
+      "entries": 299,
+      "status": "ok"
+    },
+    {
+      "year": 2019,
+      "category_slug": "innovation",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/innovation?tag=publication+dates%40%40year%40%402019",
+      "entries": 186,
+      "status": "ok"
+    },
+    {
+      "year": 2019,
+      "category_slug": "luxury",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/luxury?tag=publication+dates%40%40year%40%402019",
+      "entries": 0,
+      "status": "ok"
+    },
+    {
+      "year": 2019,
+      "category_slug": "glass-the-lion-for-change",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/glass-the-lion-for-change?tag=publication+dates%40%40year%40%402019",
+      "entries": 192,
+      "status": "ok"
+    },
+    {
+      "year": 2019,
+      "category_slug": "sustainable-development-goals",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/sustainable-development-goals?tag=publication+dates%40%40year%40%402019",
+      "entries": 828,
+      "status": "ok"
+    },
+    {
+      "year": 2019,
+      "category_slug": "health-wellness",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/health-wellness?tag=publication+dates%40%40year%40%402019",
+      "entries": 1170,
+      "status": "ok"
+    },
+    {
+      "year": 2019,
+      "category_slug": "pharma",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/pharma?tag=publication+dates%40%40year%40%402019",
+      "entries": 349,
+      "status": "ok"
+    },
+    {
+      "year": 2019,
+      "category_slug": "creative-effectiveness",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/creative-effectiveness?tag=publication+dates%40%40year%40%402019",
+      "entries": 226,
+      "status": "ok"
+    },
+    {
+      "year": 2019,
+      "category_slug": "creative-strategy",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/creative-strategy?tag=publication+dates%40%40year%40%402019",
+      "entries": 837,
+      "status": "ok"
+    },
+    {
+      "year": 2019,
+      "category_slug": "titanium",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/titanium?tag=publication+dates%40%40year%40%402019",
+      "entries": 170,
+      "status": "ok"
+    },
+    {
+      "year": 2020,
+      "category_slug": "audio-radio",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/audio-radio?tag=publication+dates%40%40year%40%402020",
+      "entries": 344,
+      "status": "ok"
+    },
+    {
+      "year": 2020,
+      "category_slug": "film",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/film?tag=publication+dates%40%40year%40%402020",
+      "entries": 1118,
+      "status": "ok"
+    },
+    {
+      "year": 2020,
+      "category_slug": "outdoor",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/outdoor?tag=publication+dates%40%40year%40%402020",
+      "entries": 987,
+      "status": "ok"
+    },
+    {
+      "year": 2020,
+      "category_slug": "print-publishing",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/print-publishing?tag=publication+dates%40%40year%40%402020",
+      "entries": 399,
+      "status": "ok"
+    },
+    {
+      "year": 2020,
+      "category_slug": "design",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/design?tag=publication+dates%40%40year%40%402020",
+      "entries": 628,
+      "status": "ok"
+    },
+    {
+      "year": 2020,
+      "category_slug": "digital-craft",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/digital-craft?tag=publication+dates%40%40year%40%402020",
+      "entries": 301,
+      "status": "ok"
+    },
+    {
+      "year": 2020,
+      "category_slug": "film-craft",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/film-craft?tag=publication+dates%40%40year%40%402020",
+      "entries": 779,
+      "status": "ok"
+    },
+    {
+      "year": 2020,
+      "category_slug": "industry-craft",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/industry-craft?tag=publication+dates%40%40year%40%402020",
+      "entries": 503,
+      "status": "ok"
+    },
+    {
+      "year": 2020,
+      "category_slug": "creative-b2b",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/creative-b2b?tag=publication+dates%40%40year%40%402020",
+      "entries": 0,
+      "status": "ok"
+    },
+    {
+      "year": 2020,
+      "category_slug": "creative-data",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/creative-data?tag=publication+dates%40%40year%40%402020",
+      "entries": 216,
+      "status": "ok"
+    },
+    {
+      "year": 2020,
+      "category_slug": "direct",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/direct?tag=publication+dates%40%40year%40%402020",
+      "entries": 962,
+      "status": "ok"
+    },
+    {
+      "year": 2020,
+      "category_slug": "media",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/media?tag=publication+dates%40%40year%40%402020",
+      "entries": 1023,
+      "status": "ok"
+    },
+    {
+      "year": 2020,
+      "category_slug": "pr",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/pr?tag=publication+dates%40%40year%40%402020",
+      "entries": 883,
+      "status": "ok"
+    },
+    {
+      "year": 2020,
+      "category_slug": "social-creator",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/social-creator?tag=publication+dates%40%40year%40%402020",
+      "entries": 859,
+      "status": "ok"
+    },
+    {
+      "year": 2020,
+      "category_slug": "entertainment",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/entertainment?tag=publication+dates%40%40year%40%402020",
+      "entries": 356,
+      "status": "ok"
+    },
+    {
+      "year": 2020,
+      "category_slug": "entertainment-lions-for-gaming",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/entertainment-lions-for-gaming?tag=publication+dates%40%40year%40%402020",
+      "entries": 0,
+      "status": "ok"
+    },
+    {
+      "year": 2020,
+      "category_slug": "entertainment-lions-for-music",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/entertainment-lions-for-music?tag=publication+dates%40%40year%40%402020",
+      "entries": 163,
+      "status": "ok"
+    },
+    {
+      "year": 2020,
+      "category_slug": "entertainment-lions-for-sport",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/entertainment-lions-for-sport?tag=publication+dates%40%40year%40%402020",
+      "entries": 296,
+      "status": "ok"
+    },
+    {
+      "year": 2020,
+      "category_slug": "brand-experience-activation",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/brand-experience-activation?tag=publication+dates%40%40year%40%402020",
+      "entries": 1160,
+      "status": "ok"
+    },
+    {
+      "year": 2020,
+      "category_slug": "creative-business-transformation",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/creative-business-transformation?tag=publication+dates%40%40year%40%402020",
+      "entries": 99,
+      "status": "ok"
+    },
+    {
+      "year": 2020,
+      "category_slug": "creative-commerce",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/creative-commerce?tag=publication+dates%40%40year%40%402020",
+      "entries": 158,
+      "status": "ok"
+    },
+    {
+      "year": 2020,
+      "category_slug": "innovation",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/innovation?tag=publication+dates%40%40year%40%402020",
+      "entries": 71,
+      "status": "ok"
+    },
+    {
+      "year": 2020,
+      "category_slug": "luxury",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/luxury?tag=publication+dates%40%40year%40%402020",
+      "entries": 0,
+      "status": "ok"
+    },
+    {
+      "year": 2020,
+      "category_slug": "glass-the-lion-for-change",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/glass-the-lion-for-change?tag=publication+dates%40%40year%40%402020",
+      "entries": 87,
+      "status": "ok"
+    },
+    {
+      "year": 2020,
+      "category_slug": "sustainable-development-goals",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/sustainable-development-goals?tag=publication+dates%40%40year%40%402020",
+      "entries": 380,
+      "status": "ok"
+    },
+    {
+      "year": 2020,
+      "category_slug": "health-wellness",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/health-wellness?tag=publication+dates%40%40year%40%402020",
+      "entries": 577,
+      "status": "ok"
+    },
+    {
+      "year": 2020,
+      "category_slug": "pharma",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/pharma?tag=publication+dates%40%40year%40%402020",
+      "entries": 171,
+      "status": "ok"
+    },
+    {
+      "year": 2020,
+      "category_slug": "creative-effectiveness",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/creative-effectiveness?tag=publication+dates%40%40year%40%402020",
+      "entries": 0,
+      "status": "ok"
+    },
+    {
+      "year": 2020,
+      "category_slug": "creative-strategy",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/creative-strategy?tag=publication+dates%40%40year%40%402020",
+      "entries": 371,
+      "status": "ok"
+    },
+    {
+      "year": 2020,
+      "category_slug": "titanium",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/titanium?tag=publication+dates%40%40year%40%402020",
+      "entries": 80,
+      "status": "ok"
+    },
+    {
+      "year": 2021,
+      "category_slug": "audio-radio",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/audio-radio?tag=publication+dates%40%40year%40%402021",
+      "entries": 542,
+      "status": "ok"
+    },
+    {
+      "year": 2021,
+      "category_slug": "film",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/film?tag=publication+dates%40%40year%40%402021",
+      "entries": 1605,
+      "status": "ok"
+    },
+    {
+      "year": 2021,
+      "category_slug": "outdoor",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/outdoor?tag=publication+dates%40%40year%40%402021",
+      "entries": 1039,
+      "status": "ok"
+    },
+    {
+      "year": 2021,
+      "category_slug": "print-publishing",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/print-publishing?tag=publication+dates%40%40year%40%402021",
+      "entries": 600,
+      "status": "ok"
+    },
+    {
+      "year": 2021,
+      "category_slug": "design",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/design?tag=publication+dates%40%40year%40%402021",
+      "entries": 626,
+      "status": "ok"
+    },
+    {
+      "year": 2021,
+      "category_slug": "digital-craft",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/digital-craft?tag=publication+dates%40%40year%40%402021",
+      "entries": 399,
+      "status": "ok"
+    },
+    {
+      "year": 2021,
+      "category_slug": "film-craft",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/film-craft?tag=publication+dates%40%40year%40%402021",
+      "entries": 1205,
+      "status": "ok"
+    },
+    {
+      "year": 2021,
+      "category_slug": "industry-craft",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/industry-craft?tag=publication+dates%40%40year%40%402021",
+      "entries": 638,
+      "status": "ok"
+    },
+    {
+      "year": 2021,
+      "category_slug": "creative-b2b",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/creative-b2b?tag=publication+dates%40%40year%40%402021",
+      "entries": 0,
+      "status": "ok"
+    },
+    {
+      "year": 2021,
+      "category_slug": "creative-data",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/creative-data?tag=publication+dates%40%40year%40%402021",
+      "entries": 148,
+      "status": "ok"
+    },
+    {
+      "year": 2021,
+      "category_slug": "direct",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/direct?tag=publication+dates%40%40year%40%402021",
+      "entries": 1016,
+      "status": "ok"
+    },
+    {
+      "year": 2021,
+      "category_slug": "media",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/media?tag=publication+dates%40%40year%40%402021",
+      "entries": 945,
+      "status": "ok"
+    },
+    {
+      "year": 2021,
+      "category_slug": "pr",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/pr?tag=publication+dates%40%40year%40%402021",
+      "entries": 838,
+      "status": "ok"
+    },
+    {
+      "year": 2021,
+      "category_slug": "social-creator",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/social-creator?tag=publication+dates%40%40year%40%402021",
+      "entries": 867,
+      "status": "ok"
+    },
+    {
+      "year": 2021,
+      "category_slug": "entertainment",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/entertainment?tag=publication+dates%40%40year%40%402021",
+      "entries": 498,
+      "status": "ok"
+    },
+    {
+      "year": 2021,
+      "category_slug": "entertainment-lions-for-gaming",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/entertainment-lions-for-gaming?tag=publication+dates%40%40year%40%402021",
+      "entries": 0,
+      "status": "ok"
+    },
+    {
+      "year": 2021,
+      "category_slug": "entertainment-lions-for-music",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/entertainment-lions-for-music?tag=publication+dates%40%40year%40%402021",
+      "entries": 243,
+      "status": "ok"
+    },
+    {
+      "year": 2021,
+      "category_slug": "entertainment-lions-for-sport",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/entertainment-lions-for-sport?tag=publication+dates%40%40year%40%402021",
+      "entries": 256,
+      "status": "ok"
+    },
+    {
+      "year": 2021,
+      "category_slug": "brand-experience-activation",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/brand-experience-activation?tag=publication+dates%40%40year%40%402021",
+      "entries": 1186,
+      "status": "ok"
+    },
+    {
+      "year": 2021,
+      "category_slug": "creative-business-transformation",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/creative-business-transformation?tag=publication+dates%40%40year%40%402021",
+      "entries": 102,
+      "status": "ok"
+    },
+    {
+      "year": 2021,
+      "category_slug": "creative-commerce",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/creative-commerce?tag=publication+dates%40%40year%40%402021",
+      "entries": 178,
+      "status": "ok"
+    },
+    {
+      "year": 2021,
+      "category_slug": "innovation",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/innovation?tag=publication+dates%40%40year%40%402021",
+      "entries": 89,
+      "status": "ok"
+    },
+    {
+      "year": 2021,
+      "category_slug": "luxury",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/luxury?tag=publication+dates%40%40year%40%402021",
+      "entries": 0,
+      "status": "ok"
+    },
+    {
+      "year": 2021,
+      "category_slug": "glass-the-lion-for-change",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/glass-the-lion-for-change?tag=publication+dates%40%40year%40%402021",
+      "entries": 98,
+      "status": "ok"
+    },
+    {
+      "year": 2021,
+      "category_slug": "sustainable-development-goals",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/sustainable-development-goals?tag=publication+dates%40%40year%40%402021",
+      "entries": 353,
+      "status": "ok"
+    },
+    {
+      "year": 2021,
+      "category_slug": "health-wellness",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/health-wellness?tag=publication+dates%40%40year%40%402021",
+      "entries": 714,
+      "status": "ok"
+    },
+    {
+      "year": 2021,
+      "category_slug": "pharma",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/pharma?tag=publication+dates%40%40year%40%402021",
+      "entries": 333,
+      "status": "ok"
+    },
+    {
+      "year": 2021,
+      "category_slug": "creative-effectiveness",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/creative-effectiveness?tag=publication+dates%40%40year%40%402021",
+      "entries": 141,
+      "status": "ok"
+    },
+    {
+      "year": 2021,
+      "category_slug": "creative-strategy",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/creative-strategy?tag=publication+dates%40%40year%40%402021",
+      "entries": 306,
+      "status": "ok"
+    },
+    {
+      "year": 2021,
+      "category_slug": "titanium",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/titanium?tag=publication+dates%40%40year%40%402021",
+      "entries": 116,
+      "status": "ok"
+    },
+    {
+      "year": 2022,
+      "category_slug": "audio-radio",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/audio-radio?tag=publication+dates%40%40year%40%402022",
+      "entries": 690,
+      "status": "ok"
+    },
+    {
+      "year": 2022,
+      "category_slug": "film",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/film?tag=publication+dates%40%40year%40%402022",
+      "entries": 2026,
+      "status": "ok"
+    },
+    {
+      "year": 2022,
+      "category_slug": "outdoor",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/outdoor?tag=publication+dates%40%40year%40%402022",
+      "entries": 1801,
+      "status": "ok"
+    },
+    {
+      "year": 2022,
+      "category_slug": "print-publishing",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/print-publishing?tag=publication+dates%40%40year%40%402022",
+      "entries": 792,
+      "status": "ok"
+    },
+    {
+      "year": 2022,
+      "category_slug": "design",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/design?tag=publication+dates%40%40year%40%402022",
+      "entries": 1056,
+      "status": "ok"
+    },
+    {
+      "year": 2022,
+      "category_slug": "digital-craft",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/digital-craft?tag=publication+dates%40%40year%40%402022",
+      "entries": 664,
+      "status": "ok"
+    },
+    {
+      "year": 2022,
+      "category_slug": "film-craft",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/film-craft?tag=publication+dates%40%40year%40%402022",
+      "entries": 1704,
+      "status": "ok"
+    },
+    {
+      "year": 2022,
+      "category_slug": "industry-craft",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/industry-craft?tag=publication+dates%40%40year%40%402022",
+      "entries": 1110,
+      "status": "ok"
+    },
+    {
+      "year": 2022,
+      "category_slug": "creative-b2b",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/creative-b2b?tag=publication+dates%40%40year%40%402022",
+      "entries": 415,
+      "status": "ok"
+    },
+    {
+      "year": 2022,
+      "category_slug": "creative-data",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/creative-data?tag=publication+dates%40%40year%40%402022",
+      "entries": 329,
+      "status": "ok"
+    },
+    {
+      "year": 2022,
+      "category_slug": "direct",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/direct?tag=publication+dates%40%40year%40%402022",
+      "entries": 1922,
+      "status": "ok"
+    },
+    {
+      "year": 2022,
+      "category_slug": "media",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/media?tag=publication+dates%40%40year%40%402022",
+      "entries": 1739,
+      "status": "ok"
+    },
+    {
+      "year": 2022,
+      "category_slug": "pr",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/pr?tag=publication+dates%40%40year%40%402022",
+      "entries": 1481,
+      "status": "ok"
+    },
+    {
+      "year": 2022,
+      "category_slug": "social-creator",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/social-creator?tag=publication+dates%40%40year%40%402022",
+      "entries": 1629,
+      "status": "ok"
+    },
+    {
+      "year": 2022,
+      "category_slug": "entertainment",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/entertainment?tag=publication+dates%40%40year%40%402022",
+      "entries": 653,
+      "status": "ok"
+    },
+    {
+      "year": 2022,
+      "category_slug": "entertainment-lions-for-gaming",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/entertainment-lions-for-gaming?tag=publication+dates%40%40year%40%402022",
+      "entries": 0,
+      "status": "ok"
+    },
+    {
+      "year": 2022,
+      "category_slug": "entertainment-lions-for-music",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/entertainment-lions-for-music?tag=publication+dates%40%40year%40%402022",
+      "entries": 390,
+      "status": "ok"
+    },
+    {
+      "year": 2022,
+      "category_slug": "entertainment-lions-for-sport",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/entertainment-lions-for-sport?tag=publication+dates%40%40year%40%402022",
+      "entries": 558,
+      "status": "ok"
+    },
+    {
+      "year": 2022,
+      "category_slug": "brand-experience-activation",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/brand-experience-activation?tag=publication+dates%40%40year%40%402022",
+      "entries": 1914,
+      "status": "ok"
+    },
+    {
+      "year": 2022,
+      "category_slug": "creative-business-transformation",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/creative-business-transformation?tag=publication+dates%40%40year%40%402022",
+      "entries": 158,
+      "status": "ok"
+    },
+    {
+      "year": 2022,
+      "category_slug": "creative-commerce",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/creative-commerce?tag=publication+dates%40%40year%40%402022",
+      "entries": 370,
+      "status": "ok"
+    },
+    {
+      "year": 2022,
+      "category_slug": "innovation",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/innovation?tag=publication+dates%40%40year%40%402022",
+      "entries": 114,
+      "status": "ok"
+    },
+    {
+      "year": 2022,
+      "category_slug": "luxury",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/luxury?tag=publication+dates%40%40year%40%402022",
+      "entries": 0,
+      "status": "ok"
+    },
+    {
+      "year": 2022,
+      "category_slug": "glass-the-lion-for-change",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/glass-the-lion-for-change?tag=publication+dates%40%40year%40%402022",
+      "entries": 139,
+      "status": "ok"
+    },
+    {
+      "year": 2022,
+      "category_slug": "sustainable-development-goals",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/sustainable-development-goals?tag=publication+dates%40%40year%40%402022",
+      "entries": 614,
+      "status": "ok"
+    },
+    {
+      "year": 2022,
+      "category_slug": "health-wellness",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/health-wellness?tag=publication+dates%40%40year%40%402022",
+      "entries": 1209,
+      "status": "ok"
+    },
+    {
+      "year": 2022,
+      "category_slug": "pharma",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/pharma?tag=publication+dates%40%40year%40%402022",
+      "entries": 290,
+      "status": "ok"
+    },
+    {
+      "year": 2022,
+      "category_slug": "creative-effectiveness",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/creative-effectiveness?tag=publication+dates%40%40year%40%402022",
+      "entries": 255,
+      "status": "ok"
+    },
+    {
+      "year": 2022,
+      "category_slug": "creative-strategy",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/creative-strategy?tag=publication+dates%40%40year%40%402022",
+      "entries": 556,
+      "status": "ok"
+    },
+    {
+      "year": 2022,
+      "category_slug": "titanium",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/titanium?tag=publication+dates%40%40year%40%402022",
+      "entries": 198,
+      "status": "ok"
+    },
+    {
+      "year": 2023,
+      "category_slug": "audio-radio",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/audio-radio?tag=publication+dates%40%40year%40%402023",
+      "entries": 707,
+      "status": "ok"
+    },
+    {
+      "year": 2023,
+      "category_slug": "film",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/film?tag=publication+dates%40%40year%40%402023",
+      "entries": 1859,
+      "status": "ok"
+    },
+    {
+      "year": 2023,
+      "category_slug": "outdoor",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/outdoor?tag=publication+dates%40%40year%40%402023",
+      "entries": 1925,
+      "status": "ok"
+    },
+    {
+      "year": 2023,
+      "category_slug": "print-publishing",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/print-publishing?tag=publication+dates%40%40year%40%402023",
+      "entries": 814,
+      "status": "ok"
+    },
+    {
+      "year": 2023,
+      "category_slug": "design",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/design?tag=publication+dates%40%40year%40%402023",
+      "entries": 977,
+      "status": "ok"
+    },
+    {
+      "year": 2023,
+      "category_slug": "digital-craft",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/digital-craft?tag=publication+dates%40%40year%40%402023",
+      "entries": 615,
+      "status": "ok"
+    },
+    {
+      "year": 2023,
+      "category_slug": "film-craft",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/film-craft?tag=publication+dates%40%40year%40%402023",
+      "entries": 1714,
+      "status": "ok"
+    },
+    {
+      "year": 2023,
+      "category_slug": "industry-craft",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/industry-craft?tag=publication+dates%40%40year%40%402023",
+      "entries": 964,
+      "status": "ok"
+    },
+    {
+      "year": 2023,
+      "category_slug": "creative-b2b",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/creative-b2b?tag=publication+dates%40%40year%40%402023",
+      "entries": 446,
+      "status": "ok"
+    },
+    {
+      "year": 2023,
+      "category_slug": "creative-data",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/creative-data?tag=publication+dates%40%40year%40%402023",
+      "entries": 416,
+      "status": "ok"
+    },
+    {
+      "year": 2023,
+      "category_slug": "direct",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/direct?tag=publication+dates%40%40year%40%402023",
+      "entries": 1931,
+      "status": "ok"
+    },
+    {
+      "year": 2023,
+      "category_slug": "media",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/media?tag=publication+dates%40%40year%40%402023",
+      "entries": 1849,
+      "status": "ok"
+    },
+    {
+      "year": 2023,
+      "category_slug": "pr",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/pr?tag=publication+dates%40%40year%40%402023",
+      "entries": 1595,
+      "status": "ok"
+    },
+    {
+      "year": 2023,
+      "category_slug": "social-creator",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/social-creator?tag=publication+dates%40%40year%40%402023",
+      "entries": 1460,
+      "status": "ok"
+    },
+    {
+      "year": 2023,
+      "category_slug": "entertainment",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/entertainment?tag=publication+dates%40%40year%40%402023",
+      "entries": 769,
+      "status": "ok"
+    },
+    {
+      "year": 2023,
+      "category_slug": "entertainment-lions-for-gaming",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/entertainment-lions-for-gaming?tag=publication+dates%40%40year%40%402023",
+      "entries": 607,
+      "status": "ok"
+    },
+    {
+      "year": 2023,
+      "category_slug": "entertainment-lions-for-music",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/entertainment-lions-for-music?tag=publication+dates%40%40year%40%402023",
+      "entries": 432,
+      "status": "ok"
+    },
+    {
+      "year": 2023,
+      "category_slug": "entertainment-lions-for-sport",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/entertainment-lions-for-sport?tag=publication+dates%40%40year%40%402023",
+      "entries": 600,
+      "status": "ok"
+    },
+    {
+      "year": 2023,
+      "category_slug": "brand-experience-activation",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/brand-experience-activation?tag=publication+dates%40%40year%40%402023",
+      "entries": 2218,
+      "status": "ok"
+    },
+    {
+      "year": 2023,
+      "category_slug": "creative-business-transformation",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/creative-business-transformation?tag=publication+dates%40%40year%40%402023",
+      "entries": 248,
+      "status": "ok"
+    },
+    {
+      "year": 2023,
+      "category_slug": "creative-commerce",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/creative-commerce?tag=publication+dates%40%40year%40%402023",
+      "entries": 466,
+      "status": "ok"
+    },
+    {
+      "year": 2023,
+      "category_slug": "innovation",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/innovation?tag=publication+dates%40%40year%40%402023",
+      "entries": 150,
+      "status": "ok"
+    },
+    {
+      "year": 2023,
+      "category_slug": "luxury",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/luxury?tag=publication+dates%40%40year%40%402023",
+      "entries": 0,
+      "status": "ok"
+    },
+    {
+      "year": 2023,
+      "category_slug": "glass-the-lion-for-change",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/glass-the-lion-for-change?tag=publication+dates%40%40year%40%402023",
+      "entries": 183,
+      "status": "ok"
+    },
+    {
+      "year": 2023,
+      "category_slug": "sustainable-development-goals",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/sustainable-development-goals?tag=publication+dates%40%40year%40%402023",
+      "entries": 688,
+      "status": "ok"
+    },
+    {
+      "year": 2023,
+      "category_slug": "health-wellness",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/health-wellness?tag=publication+dates%40%40year%40%402023",
+      "entries": 1286,
+      "status": "ok"
+    },
+    {
+      "year": 2023,
+      "category_slug": "pharma",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/pharma?tag=publication+dates%40%40year%40%402023",
+      "entries": 353,
+      "status": "ok"
+    },
+    {
+      "year": 2023,
+      "category_slug": "creative-effectiveness",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/creative-effectiveness?tag=publication+dates%40%40year%40%402023",
+      "entries": 289,
+      "status": "ok"
+    },
+    {
+      "year": 2023,
+      "category_slug": "creative-strategy",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/creative-strategy?tag=publication+dates%40%40year%40%402023",
+      "entries": 772,
+      "status": "ok"
+    },
+    {
+      "year": 2023,
+      "category_slug": "titanium",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/titanium?tag=publication+dates%40%40year%40%402023",
+      "entries": 174,
+      "status": "ok"
+    },
+    {
+      "year": 2024,
+      "category_slug": "audio-radio",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/audio-radio?tag=publication+dates%40%40year%40%402024",
+      "entries": 756,
+      "status": "ok"
+    },
+    {
+      "year": 2024,
+      "category_slug": "film",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/film?tag=publication+dates%40%40year%40%402024",
+      "entries": 1885,
+      "status": "ok"
+    },
+    {
+      "year": 2024,
+      "category_slug": "outdoor",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/outdoor?tag=publication+dates%40%40year%40%402024",
+      "entries": 2053,
+      "status": "ok"
+    },
+    {
+      "year": 2024,
+      "category_slug": "print-publishing",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/print-publishing?tag=publication+dates%40%40year%40%402024",
+      "entries": 730,
+      "status": "ok"
+    },
+    {
+      "year": 2024,
+      "category_slug": "design",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/design?tag=publication+dates%40%40year%40%402024",
+      "entries": 926,
+      "status": "ok"
+    },
+    {
+      "year": 2024,
+      "category_slug": "digital-craft",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/digital-craft?tag=publication+dates%40%40year%40%402024",
+      "entries": 552,
+      "status": "ok"
+    },
+    {
+      "year": 2024,
+      "category_slug": "film-craft",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/film-craft?tag=publication+dates%40%40year%40%402024",
+      "entries": 1548,
+      "status": "ok"
+    },
+    {
+      "year": 2024,
+      "category_slug": "industry-craft",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/industry-craft?tag=publication+dates%40%40year%40%402024",
+      "entries": 1000,
+      "status": "ok"
+    },
+    {
+      "year": 2024,
+      "category_slug": "creative-b2b",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/creative-b2b?tag=publication+dates%40%40year%40%402024",
+      "entries": 371,
+      "status": "ok"
+    },
+    {
+      "year": 2024,
+      "category_slug": "creative-data",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/creative-data?tag=publication+dates%40%40year%40%402024",
+      "entries": 366,
+      "status": "ok"
+    },
+    {
+      "year": 2024,
+      "category_slug": "direct",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/direct?tag=publication+dates%40%40year%40%402024",
+      "entries": 2025,
+      "status": "ok"
+    },
+    {
+      "year": 2024,
+      "category_slug": "media",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/media?tag=publication+dates%40%40year%40%402024",
+      "entries": 1885,
+      "status": "ok"
+    },
+    {
+      "year": 2024,
+      "category_slug": "pr",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/pr?tag=publication+dates%40%40year%40%402024",
+      "entries": 1522,
+      "status": "ok"
+    },
+    {
+      "year": 2024,
+      "category_slug": "social-creator",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/social-creator?tag=publication+dates%40%40year%40%402024",
+      "entries": 1761,
+      "status": "ok"
+    },
+    {
+      "year": 2024,
+      "category_slug": "entertainment",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/entertainment?tag=publication+dates%40%40year%40%402024",
+      "entries": 762,
+      "status": "ok"
+    },
+    {
+      "year": 2024,
+      "category_slug": "entertainment-lions-for-gaming",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/entertainment-lions-for-gaming?tag=publication+dates%40%40year%40%402024",
+      "entries": 407,
+      "status": "ok"
+    },
+    {
+      "year": 2024,
+      "category_slug": "entertainment-lions-for-music",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/entertainment-lions-for-music?tag=publication+dates%40%40year%40%402024",
+      "entries": 440,
+      "status": "ok"
+    },
+    {
+      "year": 2024,
+      "category_slug": "entertainment-lions-for-sport",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/entertainment-lions-for-sport?tag=publication+dates%40%40year%40%402024",
+      "entries": 661,
+      "status": "ok"
+    },
+    {
+      "year": 2024,
+      "category_slug": "brand-experience-activation",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/brand-experience-activation?tag=publication+dates%40%40year%40%402024",
+      "entries": 2259,
+      "status": "ok"
+    },
+    {
+      "year": 2024,
+      "category_slug": "creative-business-transformation",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/creative-business-transformation?tag=publication+dates%40%40year%40%402024",
+      "entries": 271,
+      "status": "ok"
+    },
+    {
+      "year": 2024,
+      "category_slug": "creative-commerce",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/creative-commerce?tag=publication+dates%40%40year%40%402024",
+      "entries": 551,
+      "status": "ok"
+    },
+    {
+      "year": 2024,
+      "category_slug": "innovation",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/innovation?tag=publication+dates%40%40year%40%402024",
+      "entries": 231,
+      "status": "ok"
+    },
+    {
+      "year": 2024,
+      "category_slug": "luxury",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/luxury?tag=publication+dates%40%40year%40%402024",
+      "entries": 188,
+      "status": "ok"
+    },
+    {
+      "year": 2024,
+      "category_slug": "glass-the-lion-for-change",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/glass-the-lion-for-change?tag=publication+dates%40%40year%40%402024",
+      "entries": 165,
+      "status": "ok"
+    },
+    {
+      "year": 2024,
+      "category_slug": "sustainable-development-goals",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/sustainable-development-goals?tag=publication+dates%40%40year%40%402024",
+      "entries": 588,
+      "status": "ok"
+    },
+    {
+      "year": 2024,
+      "category_slug": "health-wellness",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/health-wellness?tag=publication+dates%40%40year%40%402024",
+      "entries": 1250,
+      "status": "ok"
+    },
+    {
+      "year": 2024,
+      "category_slug": "pharma",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/pharma?tag=publication+dates%40%40year%40%402024",
+      "entries": 224,
+      "status": "ok"
+    },
+    {
+      "year": 2024,
+      "category_slug": "creative-effectiveness",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/creative-effectiveness?tag=publication+dates%40%40year%40%402024",
+      "entries": 302,
+      "status": "ok"
+    },
+    {
+      "year": 2024,
+      "category_slug": "creative-strategy",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/creative-strategy?tag=publication+dates%40%40year%40%402024",
+      "entries": 809,
+      "status": "ok"
+    },
+    {
+      "year": 2024,
+      "category_slug": "titanium",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/titanium?tag=publication+dates%40%40year%40%402024",
+      "entries": 200,
+      "status": "ok"
+    },
+    {
+      "year": 2025,
+      "category_slug": "audio-radio",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/audio-radio?tag=publication+dates%40%40year%40%402025",
+      "entries": 704,
+      "status": "ok"
+    },
+    {
+      "year": 2025,
+      "category_slug": "film",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/film?tag=publication+dates%40%40year%40%402025",
+      "entries": 1635,
+      "status": "ok"
+    },
+    {
+      "year": 2025,
+      "category_slug": "outdoor",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/outdoor?tag=publication+dates%40%40year%40%402025",
+      "entries": 1987,
+      "status": "ok"
+    },
+    {
+      "year": 2025,
+      "category_slug": "print-publishing",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/print-publishing?tag=publication+dates%40%40year%40%402025",
+      "entries": 761,
+      "status": "ok"
+    },
+    {
+      "year": 2025,
+      "category_slug": "design",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/design?tag=publication+dates%40%40year%40%402025",
+      "entries": 1075,
+      "status": "ok"
+    },
+    {
+      "year": 2025,
+      "category_slug": "digital-craft",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/digital-craft?tag=publication+dates%40%40year%40%402025",
+      "entries": 553,
+      "status": "ok"
+    },
+    {
+      "year": 2025,
+      "category_slug": "film-craft",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/film-craft?tag=publication+dates%40%40year%40%402025",
+      "entries": 1450,
+      "status": "ok"
+    },
+    {
+      "year": 2025,
+      "category_slug": "industry-craft",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/industry-craft?tag=publication+dates%40%40year%40%402025",
+      "entries": 770,
+      "status": "ok"
+    },
+    {
+      "year": 2025,
+      "category_slug": "creative-b2b",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/creative-b2b?tag=publication+dates%40%40year%40%402025",
+      "entries": 415,
+      "status": "ok"
+    },
+    {
+      "year": 2025,
+      "category_slug": "creative-data",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/creative-data?tag=publication+dates%40%40year%40%402025",
+      "entries": 593,
+      "status": "ok"
+    },
+    {
+      "year": 2025,
+      "category_slug": "direct",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/direct?tag=publication+dates%40%40year%40%402025",
+      "entries": 2019,
+      "status": "ok"
+    },
+    {
+      "year": 2025,
+      "category_slug": "media",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/media?tag=publication+dates%40%40year%40%402025",
+      "entries": 2049,
+      "status": "ok"
+    },
+    {
+      "year": 2025,
+      "category_slug": "pr",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/pr?tag=publication+dates%40%40year%40%402025",
+      "entries": 1531,
+      "status": "ok"
+    },
+    {
+      "year": 2025,
+      "category_slug": "social-creator",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/social-creator?tag=publication+dates%40%40year%40%402025",
+      "entries": 1665,
+      "status": "ok"
+    },
+    {
+      "year": 2025,
+      "category_slug": "entertainment",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/entertainment?tag=publication+dates%40%40year%40%402025",
+      "entries": 735,
+      "status": "ok"
+    },
+    {
+      "year": 2025,
+      "category_slug": "entertainment-lions-for-gaming",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/entertainment-lions-for-gaming?tag=publication+dates%40%40year%40%402025",
+      "entries": 327,
+      "status": "ok"
+    },
+    {
+      "year": 2025,
+      "category_slug": "entertainment-lions-for-music",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/entertainment-lions-for-music?tag=publication+dates%40%40year%40%402025",
+      "entries": 464,
+      "status": "ok"
+    },
+    {
+      "year": 2025,
+      "category_slug": "entertainment-lions-for-sport",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/entertainment-lions-for-sport?tag=publication+dates%40%40year%40%402025",
+      "entries": 762,
+      "status": "ok"
+    },
+    {
+      "year": 2025,
+      "category_slug": "brand-experience-activation",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/brand-experience-activation?tag=publication+dates%40%40year%40%402025",
+      "entries": 2323,
+      "status": "ok"
+    },
+    {
+      "year": 2025,
+      "category_slug": "creative-business-transformation",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/creative-business-transformation?tag=publication+dates%40%40year%40%402025",
+      "entries": 261,
+      "status": "ok"
+    },
+    {
+      "year": 2025,
+      "category_slug": "creative-commerce",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/creative-commerce?tag=publication+dates%40%40year%40%402025",
+      "entries": 639,
+      "status": "ok"
+    },
+    {
+      "year": 2025,
+      "category_slug": "innovation",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/innovation?tag=publication+dates%40%40year%40%402025",
+      "entries": 229,
+      "status": "ok"
+    },
+    {
+      "year": 2025,
+      "category_slug": "luxury",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/luxury?tag=publication+dates%40%40year%40%402025",
+      "entries": 181,
+      "status": "ok"
+    },
+    {
+      "year": 2025,
+      "category_slug": "glass-the-lion-for-change",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/glass-the-lion-for-change?tag=publication+dates%40%40year%40%402025",
+      "entries": 251,
+      "status": "ok"
+    },
+    {
+      "year": 2025,
+      "category_slug": "sustainable-development-goals",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/sustainable-development-goals?tag=publication+dates%40%40year%40%402025",
+      "entries": 480,
+      "status": "ok"
+    },
+    {
+      "year": 2025,
+      "category_slug": "health-wellness",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/health-wellness?tag=publication+dates%40%40year%40%402025",
+      "entries": 1165,
+      "status": "ok"
+    },
+    {
+      "year": 2025,
+      "category_slug": "pharma",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/pharma?tag=publication+dates%40%40year%40%402025",
+      "entries": 298,
+      "status": "ok"
+    },
+    {
+      "year": 2025,
+      "category_slug": "creative-effectiveness",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/creative-effectiveness?tag=publication+dates%40%40year%40%402025",
+      "entries": 324,
+      "status": "ok"
+    },
+    {
+      "year": 2025,
+      "category_slug": "creative-strategy",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/creative-strategy?tag=publication+dates%40%40year%40%402025",
+      "entries": 900,
+      "status": "ok"
+    },
+    {
+      "year": 2025,
+      "category_slug": "titanium",
+      "url": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions/titanium?tag=publication+dates%40%40year%40%402025",
+      "entries": 184,
+      "status": "ok"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Instrument Serif", ui-serif, Georgia, serif;
+  --font-sans: "DM Sans", system-ui, sans-serif;
+  --color-cannes-ink: #0f1419;
+  --color-cannes-muted: #5c6570;
+  --color-cannes-line: #e8eaed;
+  --color-cannes-gold: #c9a227;
+  --color-cannes-silver: #8b939e;
+  --color-cannes-bronze: #a67c52;
+  --color-cannes-gp: #1a1a2e;
+  /* Charts / bar: shortlist — lighter gray than silver metal */
+  --color-cannes-shortlist: #b9c2d0;
+  --color-cannes-total: #e4e4e7;
+  --color-cannes-award-black: #0a0a0a;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: var(--font-sans);
+  color: var(--color-cannes-ink);
+  background: linear-gradient(165deg, #faf9f7 0%, #f0ede8 45%, #e8e4dc 100%);
+}

@@ -1,0 +1,7332 @@
+{
+  "generated_at": "2026-04-10T12:36:43.226Z",
+  "years": [
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "categories": [
+    "audio-radio",
+    "brand-experience-activation",
+    "creative-b2b",
+    "creative-business-transformation",
+    "creative-commerce",
+    "creative-data",
+    "creative-effectiveness",
+    "creative-strategy",
+    "design",
+    "digital-craft",
+    "direct",
+    "entertainment",
+    "entertainment-lions-for-gaming",
+    "entertainment-lions-for-music",
+    "entertainment-lions-for-sport",
+    "film",
+    "film-craft",
+    "glass-the-lion-for-change",
+    "health-wellness",
+    "industry-craft",
+    "innovation",
+    "luxury",
+    "media",
+    "outdoor",
+    "pharma",
+    "pr",
+    "print-publishing",
+    "social-creator",
+    "sustainable-development-goals",
+    "titanium"
+  ],
+  "byYear": {
+    "2015": [
+      {
+        "slug": "audio-radio",
+        "entries": 1700,
+        "counts": {
+          "shortlist": 176,
+          "bronze": 54,
+          "silver": 36,
+          "gold": 16,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 107
+        },
+        "pct": {
+          "shortlist": 10.4,
+          "bronze": 3.2,
+          "silver": 2.1,
+          "gold": 0.9,
+          "grandPrix": 0.1,
+          "titaniumLion": 0,
+          "metal": 6.3
+        }
+      },
+      {
+        "slug": "brand-experience-activation",
+        "entries": 3183,
+        "counts": {
+          "shortlist": 300,
+          "bronze": 54,
+          "silver": 38,
+          "gold": 24,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 117
+        },
+        "pct": {
+          "shortlist": 9.4,
+          "bronze": 1.7,
+          "silver": 1.2,
+          "gold": 0.8,
+          "grandPrix": 0,
+          "titaniumLion": 0,
+          "metal": 3.7
+        }
+      },
+      {
+        "slug": "creative-b2b",
+        "entries": 0,
+        "counts": {
+          "shortlist": 0,
+          "bronze": 0,
+          "silver": 0,
+          "gold": 0,
+          "grandPrix": 0,
+          "titaniumLion": 0,
+          "metalPieces": 0
+        },
+        "pct": {
+          "shortlist": null,
+          "bronze": null,
+          "silver": null,
+          "gold": null,
+          "grandPrix": null,
+          "titaniumLion": null,
+          "metal": null
+        }
+      },
+      {
+        "slug": "creative-business-transformation",
+        "entries": 0,
+        "counts": {
+          "shortlist": 0,
+          "bronze": 0,
+          "silver": 0,
+          "gold": 0,
+          "grandPrix": 0,
+          "titaniumLion": 0,
+          "metalPieces": 0
+        },
+        "pct": {
+          "shortlist": null,
+          "bronze": null,
+          "silver": null,
+          "gold": null,
+          "grandPrix": null,
+          "titaniumLion": null,
+          "metal": null
+        }
+      },
+      {
+        "slug": "creative-commerce",
+        "entries": 0,
+        "counts": {
+          "shortlist": 0,
+          "bronze": 0,
+          "silver": 0,
+          "gold": 0,
+          "grandPrix": 0,
+          "titaniumLion": 0,
+          "metalPieces": 0
+        },
+        "pct": {
+          "shortlist": null,
+          "bronze": null,
+          "silver": null,
+          "gold": null,
+          "grandPrix": null,
+          "titaniumLion": null,
+          "metal": null
+        }
+      },
+      {
+        "slug": "creative-data",
+        "entries": 613,
+        "counts": {
+          "shortlist": 27,
+          "bronze": 12,
+          "silver": 10,
+          "gold": 6,
+          "grandPrix": 0,
+          "titaniumLion": 0,
+          "metalPieces": 28
+        },
+        "pct": {
+          "shortlist": 4.4,
+          "bronze": 2,
+          "silver": 1.6,
+          "gold": 1,
+          "grandPrix": 0,
+          "titaniumLion": 0,
+          "metal": 4.6
+        }
+      },
+      {
+        "slug": "creative-effectiveness",
+        "entries": 160,
+        "counts": {
+          "shortlist": 27,
+          "bronze": 10,
+          "silver": 4,
+          "gold": 2,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 17
+        },
+        "pct": {
+          "shortlist": 16.9,
+          "bronze": 6.3,
+          "silver": 2.5,
+          "gold": 1.3,
+          "grandPrix": 0.6,
+          "titaniumLion": 0,
+          "metal": 10.6
+        }
+      },
+      {
+        "slug": "creative-strategy",
+        "entries": 0,
+        "counts": {
+          "shortlist": 0,
+          "bronze": 0,
+          "silver": 0,
+          "gold": 0,
+          "grandPrix": 0,
+          "titaniumLion": 0,
+          "metalPieces": 0
+        },
+        "pct": {
+          "shortlist": null,
+          "bronze": null,
+          "silver": null,
+          "gold": null,
+          "grandPrix": null,
+          "titaniumLion": null,
+          "metal": null
+        }
+      },
+      {
+        "slug": "design",
+        "entries": 2400,
+        "counts": {
+          "shortlist": 263,
+          "bronze": 40,
+          "silver": 26,
+          "gold": 19,
+          "grandPrix": 2,
+          "titaniumLion": 0,
+          "metalPieces": 87
+        },
+        "pct": {
+          "shortlist": 11,
+          "bronze": 1.7,
+          "silver": 1.1,
+          "gold": 0.8,
+          "grandPrix": 0.1,
+          "titaniumLion": 0,
+          "metal": 3.6
+        }
+      },
+      {
+        "slug": "digital-craft",
+        "entries": 0,
+        "counts": {
+          "shortlist": 0,
+          "bronze": 0,
+          "silver": 0,
+          "gold": 0,
+          "grandPrix": 0,
+          "titaniumLion": 0,
+          "metalPieces": 0
+        },
+        "pct": {
+          "shortlist": null,
+          "bronze": null,
+          "silver": null,
+          "gold": null,
+          "grandPrix": null,
+          "titaniumLion": null,
+          "metal": null
+        }
+      },
+      {
+        "slug": "direct",
+        "entries": 2793,
+        "counts": {
+          "shortlist": 277,
+          "bronze": 38,
+          "silver": 24,
+          "gold": 20,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 83
+        },
+        "pct": {
+          "shortlist": 9.9,
+          "bronze": 1.4,
+          "silver": 0.9,
+          "gold": 0.7,
+          "grandPrix": 0,
+          "titaniumLion": 0,
+          "metal": 3
+        }
+      },
+      {
+        "slug": "entertainment",
+        "entries": 1385,
+        "counts": {
+          "shortlist": 143,
+          "bronze": 24,
+          "silver": 23,
+          "gold": 16,
+          "grandPrix": 0,
+          "titaniumLion": 0,
+          "metalPieces": 63
+        },
+        "pct": {
+          "shortlist": 10.3,
+          "bronze": 1.7,
+          "silver": 1.7,
+          "gold": 1.2,
+          "grandPrix": 0,
+          "titaniumLion": 0,
+          "metal": 4.5
+        }
+      },
+      {
+        "slug": "entertainment-lions-for-gaming",
+        "entries": 0,
+        "counts": {
+          "shortlist": 0,
+          "bronze": 0,
+          "silver": 0,
+          "gold": 0,
+          "grandPrix": 0,
+          "titaniumLion": 0,
+          "metalPieces": 0
+        },
+        "pct": {
+          "shortlist": null,
+          "bronze": null,
+          "silver": null,
+          "gold": null,
+          "grandPrix": null,
+          "titaniumLion": null,
+          "metal": null
+        }
+      },
+      {
+        "slug": "entertainment-lions-for-music",
+        "entries": 0,
+        "counts": {
+          "shortlist": 0,
+          "bronze": 0,
+          "silver": 0,
+          "gold": 0,
+          "grandPrix": 0,
+          "titaniumLion": 0,
+          "metalPieces": 0
+        },
+        "pct": {
+          "shortlist": null,
+          "bronze": null,
+          "silver": null,
+          "gold": null,
+          "grandPrix": null,
+          "titaniumLion": null,
+          "metal": null
+        }
+      },
+      {
+        "slug": "entertainment-lions-for-sport",
+        "entries": 0,
+        "counts": {
+          "shortlist": 0,
+          "bronze": 0,
+          "silver": 0,
+          "gold": 0,
+          "grandPrix": 0,
+          "titaniumLion": 0,
+          "metalPieces": 0
+        },
+        "pct": {
+          "shortlist": null,
+          "bronze": null,
+          "silver": null,
+          "gold": null,
+          "grandPrix": null,
+          "titaniumLion": null,
+          "metal": null
+        }
+      },
+      {
+        "slug": "film",
+        "entries": 3041,
+        "counts": {
+          "shortlist": 276,
+          "bronze": 62,
+          "silver": 45,
+          "gold": 10,
+          "grandPrix": 2,
+          "titaniumLion": 0,
+          "metalPieces": 119
+        },
+        "pct": {
+          "shortlist": 9.1,
+          "bronze": 2,
+          "silver": 1.5,
+          "gold": 0.3,
+          "grandPrix": 0.1,
+          "titaniumLion": 0,
+          "metal": 3.9
+        }
+      },
+      {
+        "slug": "film-craft",
+        "entries": 2187,
+        "counts": {
+          "shortlist": 176,
+          "bronze": 34,
+          "silver": 22,
+          "gold": 16,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 73
+        },
+        "pct": {
+          "shortlist": 8,
+          "bronze": 1.6,
+          "silver": 1,
+          "gold": 0.7,
+          "grandPrix": 0,
+          "titaniumLion": 0,
+          "metal": 3.3
+        }
+      },
+      {
+        "slug": "glass-the-lion-for-change",
+        "entries": 165,
+        "counts": {
+          "shortlist": 18,
+          "bronze": 0,
+          "silver": 0,
+          "gold": 7,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 8
+        },
+        "pct": {
+          "shortlist": 10.9,
+          "bronze": 0,
+          "silver": 0,
+          "gold": 4.2,
+          "grandPrix": 0.6,
+          "titaniumLion": 0,
+          "metal": 4.8
+        }
+      },
+      {
+        "slug": "health-wellness",
+        "entries": 1429,
+        "counts": {
+          "shortlist": 180,
+          "bronze": 31,
+          "silver": 23,
+          "gold": 12,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 67
+        },
+        "pct": {
+          "shortlist": 12.6,
+          "bronze": 2.2,
+          "silver": 1.6,
+          "gold": 0.8,
+          "grandPrix": 0.1,
+          "titaniumLion": 0,
+          "metal": 4.7
+        }
+      },
+      {
+        "slug": "industry-craft",
+        "entries": 0,
+        "counts": {
+          "shortlist": 0,
+          "bronze": 0,
+          "silver": 0,
+          "gold": 0,
+          "grandPrix": 0,
+          "titaniumLion": 0,
+          "metalPieces": 0
+        },
+        "pct": {
+          "shortlist": null,
+          "bronze": null,
+          "silver": null,
+          "gold": null,
+          "grandPrix": null,
+          "titaniumLion": null,
+          "metal": null
+        }
+      },
+      {
+        "slug": "innovation",
+        "entries": 226,
+        "counts": {
+          "shortlist": 34,
+          "bronze": 0,
+          "silver": 0,
+          "gold": 7,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 8
+        },
+        "pct": {
+          "shortlist": 15,
+          "bronze": 0,
+          "silver": 0,
+          "gold": 3.1,
+          "grandPrix": 0.4,
+          "titaniumLion": 0,
+          "metal": 3.5
+        }
+      },
+      {
+        "slug": "luxury",
+        "entries": 0,
+        "counts": {
+          "shortlist": 0,
+          "bronze": 0,
+          "silver": 0,
+          "gold": 0,
+          "grandPrix": 0,
+          "titaniumLion": 0,
+          "metalPieces": 0
+        },
+        "pct": {
+          "shortlist": null,
+          "bronze": null,
+          "silver": null,
+          "gold": null,
+          "grandPrix": null,
+          "titaniumLion": null,
+          "metal": null
+        }
+      },
+      {
+        "slug": "media",
+        "entries": 3166,
+        "counts": {
+          "shortlist": 402,
+          "bronze": 76,
+          "silver": 41,
+          "gold": 18,
+          "grandPrix": 2,
+          "titaniumLion": 0,
+          "metalPieces": 137
+        },
+        "pct": {
+          "shortlist": 12.7,
+          "bronze": 2.4,
+          "silver": 1.3,
+          "gold": 0.6,
+          "grandPrix": 0.1,
+          "titaniumLion": 0,
+          "metal": 4.3
+        }
+      },
+      {
+        "slug": "outdoor",
+        "entries": 4990,
+        "counts": {
+          "shortlist": 469,
+          "bronze": 143,
+          "silver": 81,
+          "gold": 46,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 271
+        },
+        "pct": {
+          "shortlist": 9.4,
+          "bronze": 2.9,
+          "silver": 1.6,
+          "gold": 0.9,
+          "grandPrix": 0,
+          "titaniumLion": 0,
+          "metal": 5.4
+        }
+      },
+      {
+        "slug": "pharma",
+        "entries": 432,
+        "counts": {
+          "shortlist": 78,
+          "bronze": 20,
+          "silver": 6,
+          "gold": 3,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 30
+        },
+        "pct": {
+          "shortlist": 18.1,
+          "bronze": 4.6,
+          "silver": 1.4,
+          "gold": 0.7,
+          "grandPrix": 0.2,
+          "titaniumLion": 0,
+          "metal": 6.9
+        }
+      },
+      {
+        "slug": "pr",
+        "entries": 1964,
+        "counts": {
+          "shortlist": 200,
+          "bronze": 38,
+          "silver": 23,
+          "gold": 17,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 79
+        },
+        "pct": {
+          "shortlist": 10.2,
+          "bronze": 1.9,
+          "silver": 1.2,
+          "gold": 0.9,
+          "grandPrix": 0.1,
+          "titaniumLion": 0,
+          "metal": 4
+        }
+      },
+      {
+        "slug": "print-publishing",
+        "entries": 4428,
+        "counts": {
+          "shortlist": 515,
+          "bronze": 128,
+          "silver": 70,
+          "gold": 37,
+          "grandPrix": 4,
+          "titaniumLion": 0,
+          "metalPieces": 239
+        },
+        "pct": {
+          "shortlist": 11.6,
+          "bronze": 2.9,
+          "silver": 1.6,
+          "gold": 0.8,
+          "grandPrix": 0.1,
+          "titaniumLion": 0,
+          "metal": 5.4
+        }
+      },
+      {
+        "slug": "social-creator",
+        "entries": 3726,
+        "counts": {
+          "shortlist": 330,
+          "bronze": 72,
+          "silver": 44,
+          "gold": 21,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 138
+        },
+        "pct": {
+          "shortlist": 8.9,
+          "bronze": 1.9,
+          "silver": 1.2,
+          "gold": 0.6,
+          "grandPrix": 0,
+          "titaniumLion": 0,
+          "metal": 3.7
+        }
+      },
+      {
+        "slug": "sustainable-development-goals",
+        "entries": 0,
+        "counts": {
+          "shortlist": 0,
+          "bronze": 0,
+          "silver": 0,
+          "gold": 0,
+          "grandPrix": 0,
+          "titaniumLion": 0,
+          "metalPieces": 0
+        },
+        "pct": {
+          "shortlist": null,
+          "bronze": null,
+          "silver": null,
+          "gold": null,
+          "grandPrix": null,
+          "titaniumLion": null,
+          "metal": null
+        }
+      },
+      {
+        "slug": "titanium",
+        "entries": 373,
+        "counts": {
+          "shortlist": 37,
+          "bronze": 5,
+          "silver": 3,
+          "gold": 1,
+          "grandPrix": 2,
+          "titaniumLion": 5,
+          "metalPieces": 16
+        },
+        "pct": {
+          "shortlist": 9.9,
+          "bronze": 1.3,
+          "silver": 0.8,
+          "gold": 0.3,
+          "grandPrix": 0.5,
+          "titaniumLion": 1.3,
+          "metal": 4.3
+        }
+      }
+    ],
+    "2016": [
+      {
+        "slug": "audio-radio",
+        "entries": 1401,
+        "counts": {
+          "shortlist": 155,
+          "bronze": 41,
+          "silver": 34,
+          "gold": 13,
+          "grandPrix": 3,
+          "titaniumLion": 0,
+          "metalPieces": 91
+        },
+        "pct": {
+          "shortlist": 11.1,
+          "bronze": 2.9,
+          "silver": 2.4,
+          "gold": 0.9,
+          "grandPrix": 0.2,
+          "titaniumLion": 0,
+          "metal": 6.5
+        }
+      },
+      {
+        "slug": "brand-experience-activation",
+        "entries": 3435,
+        "counts": {
+          "shortlist": 306,
+          "bronze": 49,
+          "silver": 33,
+          "gold": 23,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 106
+        },
+        "pct": {
+          "shortlist": 8.9,
+          "bronze": 1.4,
+          "silver": 1,
+          "gold": 0.7,
+          "grandPrix": 0,
+          "titaniumLion": 0,
+          "metal": 3.1
+        }
+      },
+      {
+        "slug": "creative-b2b",
+        "entries": 0,
+        "counts": {
+          "shortlist": 0,
+          "bronze": 0,
+          "silver": 0,
+          "gold": 0,
+          "grandPrix": 0,
+          "titaniumLion": 0,
+          "metalPieces": 0
+        },
+        "pct": {
+          "shortlist": null,
+          "bronze": null,
+          "silver": null,
+          "gold": null,
+          "grandPrix": null,
+          "titaniumLion": null,
+          "metal": null
+        }
+      },
+      {
+        "slug": "creative-business-transformation",
+        "entries": 0,
+        "counts": {
+          "shortlist": 0,
+          "bronze": 0,
+          "silver": 0,
+          "gold": 0,
+          "grandPrix": 0,
+          "titaniumLion": 0,
+          "metalPieces": 0
+        },
+        "pct": {
+          "shortlist": null,
+          "bronze": null,
+          "silver": null,
+          "gold": null,
+          "grandPrix": null,
+          "titaniumLion": null,
+          "metal": null
+        }
+      },
+      {
+        "slug": "creative-commerce",
+        "entries": 0,
+        "counts": {
+          "shortlist": 0,
+          "bronze": 0,
+          "silver": 0,
+          "gold": 0,
+          "grandPrix": 0,
+          "titaniumLion": 0,
+          "metalPieces": 0
+        },
+        "pct": {
+          "shortlist": null,
+          "bronze": null,
+          "silver": null,
+          "gold": null,
+          "grandPrix": null,
+          "titaniumLion": null,
+          "metal": null
+        }
+      },
+      {
+        "slug": "creative-data",
+        "entries": 713,
+        "counts": {
+          "shortlist": 33,
+          "bronze": 21,
+          "silver": 13,
+          "gold": 5,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 40
+        },
+        "pct": {
+          "shortlist": 4.6,
+          "bronze": 2.9,
+          "silver": 1.8,
+          "gold": 0.7,
+          "grandPrix": 0.1,
+          "titaniumLion": 0,
+          "metal": 5.6
+        }
+      },
+      {
+        "slug": "creative-effectiveness",
+        "entries": 107,
+        "counts": {
+          "shortlist": 26,
+          "bronze": 6,
+          "silver": 4,
+          "gold": 2,
+          "grandPrix": 4,
+          "titaniumLion": 0,
+          "metalPieces": 16
+        },
+        "pct": {
+          "shortlist": 24.3,
+          "bronze": 5.6,
+          "silver": 3.7,
+          "gold": 1.9,
+          "grandPrix": 3.7,
+          "titaniumLion": 0,
+          "metal": 15
+        }
+      },
+      {
+        "slug": "creative-strategy",
+        "entries": 0,
+        "counts": {
+          "shortlist": 0,
+          "bronze": 0,
+          "silver": 0,
+          "gold": 0,
+          "grandPrix": 0,
+          "titaniumLion": 0,
+          "metalPieces": 0
+        },
+        "pct": {
+          "shortlist": null,
+          "bronze": null,
+          "silver": null,
+          "gold": null,
+          "grandPrix": null,
+          "titaniumLion": null,
+          "metal": null
+        }
+      },
+      {
+        "slug": "design",
+        "entries": 2830,
+        "counts": {
+          "shortlist": 284,
+          "bronze": 47,
+          "silver": 37,
+          "gold": 36,
+          "grandPrix": 2,
+          "titaniumLion": 0,
+          "metalPieces": 122
+        },
+        "pct": {
+          "shortlist": 10,
+          "bronze": 1.7,
+          "silver": 1.3,
+          "gold": 1.3,
+          "grandPrix": 0.1,
+          "titaniumLion": 0,
+          "metal": 4.3
+        }
+      },
+      {
+        "slug": "digital-craft",
+        "entries": 1142,
+        "counts": {
+          "shortlist": 97,
+          "bronze": 26,
+          "silver": 14,
+          "gold": 9,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 50
+        },
+        "pct": {
+          "shortlist": 8.5,
+          "bronze": 2.3,
+          "silver": 1.2,
+          "gold": 0.8,
+          "grandPrix": 0.1,
+          "titaniumLion": 0,
+          "metal": 4.4
+        }
+      },
+      {
+        "slug": "direct",
+        "entries": 3069,
+        "counts": {
+          "shortlist": 293,
+          "bronze": 35,
+          "silver": 24,
+          "gold": 14,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 74
+        },
+        "pct": {
+          "shortlist": 9.5,
+          "bronze": 1.1,
+          "silver": 0.8,
+          "gold": 0.5,
+          "grandPrix": 0,
+          "titaniumLion": 0,
+          "metal": 2.4
+        }
+      },
+      {
+        "slug": "entertainment",
+        "entries": 1835,
+        "counts": {
+          "shortlist": 202,
+          "bronze": 31,
+          "silver": 20,
+          "gold": 9,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 61
+        },
+        "pct": {
+          "shortlist": 11,
+          "bronze": 1.7,
+          "silver": 1.1,
+          "gold": 0.5,
+          "grandPrix": 0.1,
+          "titaniumLion": 0,
+          "metal": 3.3
+        }
+      },
+      {
+        "slug": "entertainment-lions-for-gaming",
+        "entries": 0,
+        "counts": {
+          "shortlist": 0,
+          "bronze": 0,
+          "silver": 0,
+          "gold": 0,
+          "grandPrix": 0,
+          "titaniumLion": 0,
+          "metalPieces": 0
+        },
+        "pct": {
+          "shortlist": null,
+          "bronze": null,
+          "silver": null,
+          "gold": null,
+          "grandPrix": null,
+          "titaniumLion": null,
+          "metal": null
+        }
+      },
+      {
+        "slug": "entertainment-lions-for-music",
+        "entries": 636,
+        "counts": {
+          "shortlist": 94,
+          "bronze": 15,
+          "silver": 10,
+          "gold": 5,
+          "grandPrix": 2,
+          "titaniumLion": 0,
+          "metalPieces": 32
+        },
+        "pct": {
+          "shortlist": 14.8,
+          "bronze": 2.4,
+          "silver": 1.6,
+          "gold": 0.8,
+          "grandPrix": 0.3,
+          "titaniumLion": 0,
+          "metal": 5
+        }
+      },
+      {
+        "slug": "entertainment-lions-for-sport",
+        "entries": 0,
+        "counts": {
+          "shortlist": 0,
+          "bronze": 0,
+          "silver": 0,
+          "gold": 0,
+          "grandPrix": 0,
+          "titaniumLion": 0,
+          "metalPieces": 0
+        },
+        "pct": {
+          "shortlist": null,
+          "bronze": null,
+          "silver": null,
+          "gold": null,
+          "grandPrix": null,
+          "titaniumLion": null,
+          "metal": null
+        }
+      },
+      {
+        "slug": "film",
+        "entries": 2787,
+        "counts": {
+          "shortlist": 246,
+          "bronze": 40,
+          "silver": 31,
+          "gold": 15,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 87
+        },
+        "pct": {
+          "shortlist": 8.8,
+          "bronze": 1.4,
+          "silver": 1.1,
+          "gold": 0.5,
+          "grandPrix": 0,
+          "titaniumLion": 0,
+          "metal": 3.1
+        }
+      },
+      {
+        "slug": "film-craft",
+        "entries": 2311,
+        "counts": {
+          "shortlist": 216,
+          "bronze": 46,
+          "silver": 13,
+          "gold": 17,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 77
+        },
+        "pct": {
+          "shortlist": 9.3,
+          "bronze": 2,
+          "silver": 0.6,
+          "gold": 0.7,
+          "grandPrix": 0,
+          "titaniumLion": 0,
+          "metal": 3.3
+        }
+      },
+      {
+        "slug": "glass-the-lion-for-change",
+        "entries": 155,
+        "counts": {
+          "shortlist": 18,
+          "bronze": 0,
+          "silver": 0,
+          "gold": 5,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 6
+        },
+        "pct": {
+          "shortlist": 11.6,
+          "bronze": 0,
+          "silver": 0,
+          "gold": 3.2,
+          "grandPrix": 0.6,
+          "titaniumLion": 0,
+          "metal": 3.9
+        }
+      },
+      {
+        "slug": "health-wellness",
+        "entries": 2001,
+        "counts": {
+          "shortlist": 201,
+          "bronze": 25,
+          "silver": 16,
+          "gold": 10,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 52
+        },
+        "pct": {
+          "shortlist": 10,
+          "bronze": 1.2,
+          "silver": 0.8,
+          "gold": 0.5,
+          "grandPrix": 0,
+          "titaniumLion": 0,
+          "metal": 2.6
+        }
+      },
+      {
+        "slug": "industry-craft",
+        "entries": 276,
+        "counts": {
+          "shortlist": 26,
+          "bronze": 8,
+          "silver": 2,
+          "gold": 2,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 13
+        },
+        "pct": {
+          "shortlist": 9.4,
+          "bronze": 2.9,
+          "silver": 0.7,
+          "gold": 0.7,
+          "grandPrix": 0.4,
+          "titaniumLion": 0,
+          "metal": 4.7
+        }
+      },
+      {
+        "slug": "innovation",
+        "entries": 378,
+        "counts": {
+          "shortlist": 39,
+          "bronze": 0,
+          "silver": 0,
+          "gold": 8,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 9
+        },
+        "pct": {
+          "shortlist": 10.3,
+          "bronze": 0,
+          "silver": 0,
+          "gold": 2.1,
+          "grandPrix": 0.3,
+          "titaniumLion": 0,
+          "metal": 2.4
+        }
+      },
+      {
+        "slug": "luxury",
+        "entries": 0,
+        "counts": {
+          "shortlist": 0,
+          "bronze": 0,
+          "silver": 0,
+          "gold": 0,
+          "grandPrix": 0,
+          "titaniumLion": 0,
+          "metalPieces": 0
+        },
+        "pct": {
+          "shortlist": null,
+          "bronze": null,
+          "silver": null,
+          "gold": null,
+          "grandPrix": null,
+          "titaniumLion": null,
+          "metal": null
+        }
+      },
+      {
+        "slug": "media",
+        "entries": 2964,
+        "counts": {
+          "shortlist": 390,
+          "bronze": 80,
+          "silver": 57,
+          "gold": 20,
+          "grandPrix": 2,
+          "titaniumLion": 0,
+          "metalPieces": 159
+        },
+        "pct": {
+          "shortlist": 13.2,
+          "bronze": 2.7,
+          "silver": 1.9,
+          "gold": 0.7,
+          "grandPrix": 0.1,
+          "titaniumLion": 0,
+          "metal": 5.4
+        }
+      },
+      {
+        "slug": "outdoor",
+        "entries": 5314,
+        "counts": {
+          "shortlist": 489,
+          "bronze": 155,
+          "silver": 83,
+          "gold": 44,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 283
+        },
+        "pct": {
+          "shortlist": 9.2,
+          "bronze": 2.9,
+          "silver": 1.6,
+          "gold": 0.8,
+          "grandPrix": 0,
+          "titaniumLion": 0,
+          "metal": 5.3
+        }
+      },
+      {
+        "slug": "pharma",
+        "entries": 579,
+        "counts": {
+          "shortlist": 103,
+          "bronze": 29,
+          "silver": 21,
+          "gold": 7,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 58
+        },
+        "pct": {
+          "shortlist": 17.8,
+          "bronze": 5,
+          "silver": 3.6,
+          "gold": 1.2,
+          "grandPrix": 0.2,
+          "titaniumLion": 0,
+          "metal": 10
+        }
+      },
+      {
+        "slug": "pr",
+        "entries": 2209,
+        "counts": {
+          "shortlist": 239,
+          "bronze": 33,
+          "silver": 30,
+          "gold": 19,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 83
+        },
+        "pct": {
+          "shortlist": 10.8,
+          "bronze": 1.5,
+          "silver": 1.4,
+          "gold": 0.9,
+          "grandPrix": 0,
+          "titaniumLion": 0,
+          "metal": 3.8
+        }
+      },
+      {
+        "slug": "print-publishing",
+        "entries": 3739,
+        "counts": {
+          "shortlist": 426,
+          "bronze": 89,
+          "silver": 95,
+          "gold": 30,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 215
+        },
+        "pct": {
+          "shortlist": 11.4,
+          "bronze": 2.4,
+          "silver": 2.5,
+          "gold": 0.8,
+          "grandPrix": 0,
+          "titaniumLion": 0,
+          "metal": 5.8
+        }
+      },
+      {
+        "slug": "social-creator",
+        "entries": 2868,
+        "counts": {
+          "shortlist": 309,
+          "bronze": 40,
+          "silver": 31,
+          "gold": 23,
+          "grandPrix": 2,
+          "titaniumLion": 0,
+          "metalPieces": 96
+        },
+        "pct": {
+          "shortlist": 10.8,
+          "bronze": 1.4,
+          "silver": 1.1,
+          "gold": 0.8,
+          "grandPrix": 0.1,
+          "titaniumLion": 0,
+          "metal": 3.3
+        }
+      },
+      {
+        "slug": "sustainable-development-goals",
+        "entries": 0,
+        "counts": {
+          "shortlist": 0,
+          "bronze": 0,
+          "silver": 0,
+          "gold": 0,
+          "grandPrix": 0,
+          "titaniumLion": 0,
+          "metalPieces": 0
+        },
+        "pct": {
+          "shortlist": null,
+          "bronze": null,
+          "silver": null,
+          "gold": null,
+          "grandPrix": null,
+          "titaniumLion": null,
+          "metal": null
+        }
+      },
+      {
+        "slug": "titanium",
+        "entries": 252,
+        "counts": {
+          "shortlist": 22,
+          "bronze": 0,
+          "silver": 0,
+          "gold": 0,
+          "grandPrix": 1,
+          "titaniumLion": 4,
+          "metalPieces": 5
+        },
+        "pct": {
+          "shortlist": 8.7,
+          "bronze": 0,
+          "silver": 0,
+          "gold": 0,
+          "grandPrix": 0.4,
+          "titaniumLion": 1.6,
+          "metal": 2
+        }
+      }
+    ],
+    "2017": [
+      {
+        "slug": "audio-radio",
+        "entries": 1463,
+        "counts": {
+          "shortlist": 177,
+          "bronze": 48,
+          "silver": 29,
+          "gold": 15,
+          "grandPrix": 3,
+          "titaniumLion": 0,
+          "metalPieces": 95
+        },
+        "pct": {
+          "shortlist": 12.1,
+          "bronze": 3.3,
+          "silver": 2,
+          "gold": 1,
+          "grandPrix": 0.2,
+          "titaniumLion": 0,
+          "metal": 6.5
+        }
+      },
+      {
+        "slug": "brand-experience-activation",
+        "entries": 3405,
+        "counts": {
+          "shortlist": 321,
+          "bronze": 49,
+          "silver": 37,
+          "gold": 15,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 102
+        },
+        "pct": {
+          "shortlist": 9.4,
+          "bronze": 1.4,
+          "silver": 1.1,
+          "gold": 0.4,
+          "grandPrix": 0,
+          "titaniumLion": 0,
+          "metal": 3
+        }
+      },
+      {
+        "slug": "creative-b2b",
+        "entries": 0,
+        "counts": {
+          "shortlist": 0,
+          "bronze": 0,
+          "silver": 0,
+          "gold": 0,
+          "grandPrix": 0,
+          "titaniumLion": 0,
+          "metalPieces": 0
+        },
+        "pct": {
+          "shortlist": null,
+          "bronze": null,
+          "silver": null,
+          "gold": null,
+          "grandPrix": null,
+          "titaniumLion": null,
+          "metal": null
+        }
+      },
+      {
+        "slug": "creative-business-transformation",
+        "entries": 0,
+        "counts": {
+          "shortlist": 0,
+          "bronze": 0,
+          "silver": 0,
+          "gold": 0,
+          "grandPrix": 0,
+          "titaniumLion": 0,
+          "metalPieces": 0
+        },
+        "pct": {
+          "shortlist": null,
+          "bronze": null,
+          "silver": null,
+          "gold": null,
+          "grandPrix": null,
+          "titaniumLion": null,
+          "metal": null
+        }
+      },
+      {
+        "slug": "creative-commerce",
+        "entries": 0,
+        "counts": {
+          "shortlist": 0,
+          "bronze": 0,
+          "silver": 0,
+          "gold": 0,
+          "grandPrix": 0,
+          "titaniumLion": 0,
+          "metalPieces": 0
+        },
+        "pct": {
+          "shortlist": null,
+          "bronze": null,
+          "silver": null,
+          "gold": null,
+          "grandPrix": null,
+          "titaniumLion": null,
+          "metal": null
+        }
+      },
+      {
+        "slug": "creative-data",
+        "entries": 690,
+        "counts": {
+          "shortlist": 39,
+          "bronze": 21,
+          "silver": 11,
+          "gold": 5,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 38
+        },
+        "pct": {
+          "shortlist": 5.7,
+          "bronze": 3,
+          "silver": 1.6,
+          "gold": 0.7,
+          "grandPrix": 0.1,
+          "titaniumLion": 0,
+          "metal": 5.5
+        }
+      },
+      {
+        "slug": "creative-effectiveness",
+        "entries": 169,
+        "counts": {
+          "shortlist": 35,
+          "bronze": 8,
+          "silver": 7,
+          "gold": 5,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 21
+        },
+        "pct": {
+          "shortlist": 20.7,
+          "bronze": 4.7,
+          "silver": 4.1,
+          "gold": 3,
+          "grandPrix": 0.6,
+          "titaniumLion": 0,
+          "metal": 12.4
+        }
+      },
+      {
+        "slug": "creative-strategy",
+        "entries": 0,
+        "counts": {
+          "shortlist": 0,
+          "bronze": 0,
+          "silver": 0,
+          "gold": 0,
+          "grandPrix": 0,
+          "titaniumLion": 0,
+          "metalPieces": 0
+        },
+        "pct": {
+          "shortlist": null,
+          "bronze": null,
+          "silver": null,
+          "gold": null,
+          "grandPrix": null,
+          "titaniumLion": null,
+          "metal": null
+        }
+      },
+      {
+        "slug": "design",
+        "entries": 2752,
+        "counts": {
+          "shortlist": 338,
+          "bronze": 70,
+          "silver": 39,
+          "gold": 24,
+          "grandPrix": 2,
+          "titaniumLion": 0,
+          "metalPieces": 135
+        },
+        "pct": {
+          "shortlist": 12.3,
+          "bronze": 2.5,
+          "silver": 1.4,
+          "gold": 0.9,
+          "grandPrix": 0.1,
+          "titaniumLion": 0,
+          "metal": 4.9
+        }
+      },
+      {
+        "slug": "digital-craft",
+        "entries": 920,
+        "counts": {
+          "shortlist": 93,
+          "bronze": 19,
+          "silver": 11,
+          "gold": 6,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 37
+        },
+        "pct": {
+          "shortlist": 10.1,
+          "bronze": 2.1,
+          "silver": 1.2,
+          "gold": 0.7,
+          "grandPrix": 0.1,
+          "titaniumLion": 0,
+          "metal": 4
+        }
+      },
+      {
+        "slug": "direct",
+        "entries": 2687,
+        "counts": {
+          "shortlist": 214,
+          "bronze": 41,
+          "silver": 21,
+          "gold": 13,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 76
+        },
+        "pct": {
+          "shortlist": 8,
+          "bronze": 1.5,
+          "silver": 0.8,
+          "gold": 0.5,
+          "grandPrix": 0,
+          "titaniumLion": 0,
+          "metal": 2.8
+        }
+      },
+      {
+        "slug": "entertainment",
+        "entries": 1784,
+        "counts": {
+          "shortlist": 191,
+          "bronze": 43,
+          "silver": 22,
+          "gold": 12,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 78
+        },
+        "pct": {
+          "shortlist": 10.7,
+          "bronze": 2.4,
+          "silver": 1.2,
+          "gold": 0.7,
+          "grandPrix": 0.1,
+          "titaniumLion": 0,
+          "metal": 4.4
+        }
+      },
+      {
+        "slug": "entertainment-lions-for-gaming",
+        "entries": 0,
+        "counts": {
+          "shortlist": 0,
+          "bronze": 0,
+          "silver": 0,
+          "gold": 0,
+          "grandPrix": 0,
+          "titaniumLion": 0,
+          "metalPieces": 0
+        },
+        "pct": {
+          "shortlist": null,
+          "bronze": null,
+          "silver": null,
+          "gold": null,
+          "grandPrix": null,
+          "titaniumLion": null,
+          "metal": null
+        }
+      },
+      {
+        "slug": "entertainment-lions-for-music",
+        "entries": 509,
+        "counts": {
+          "shortlist": 75,
+          "bronze": 16,
+          "silver": 11,
+          "gold": 5,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 33
+        },
+        "pct": {
+          "shortlist": 14.7,
+          "bronze": 3.1,
+          "silver": 2.2,
+          "gold": 1,
+          "grandPrix": 0.2,
+          "titaniumLion": 0,
+          "metal": 6.5
+        }
+      },
+      {
+        "slug": "entertainment-lions-for-sport",
+        "entries": 0,
+        "counts": {
+          "shortlist": 0,
+          "bronze": 0,
+          "silver": 0,
+          "gold": 0,
+          "grandPrix": 0,
+          "titaniumLion": 0,
+          "metalPieces": 0
+        },
+        "pct": {
+          "shortlist": null,
+          "bronze": null,
+          "silver": null,
+          "gold": null,
+          "grandPrix": null,
+          "titaniumLion": null,
+          "metal": null
+        }
+      },
+      {
+        "slug": "film",
+        "entries": 2569,
+        "counts": {
+          "shortlist": 271,
+          "bronze": 45,
+          "silver": 35,
+          "gold": 17,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 98
+        },
+        "pct": {
+          "shortlist": 10.5,
+          "bronze": 1.8,
+          "silver": 1.4,
+          "gold": 0.7,
+          "grandPrix": 0,
+          "titaniumLion": 0,
+          "metal": 3.8
+        }
+      },
+      {
+        "slug": "film-craft",
+        "entries": 2468,
+        "counts": {
+          "shortlist": 257,
+          "bronze": 51,
+          "silver": 35,
+          "gold": 19,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 106
+        },
+        "pct": {
+          "shortlist": 10.4,
+          "bronze": 2.1,
+          "silver": 1.4,
+          "gold": 0.8,
+          "grandPrix": 0,
+          "titaniumLion": 0,
+          "metal": 4.3
+        }
+      },
+      {
+        "slug": "glass-the-lion-for-change",
+        "entries": 203,
+        "counts": {
+          "shortlist": 27,
+          "bronze": 5,
+          "silver": 3,
+          "gold": 2,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 11
+        },
+        "pct": {
+          "shortlist": 13.3,
+          "bronze": 2.5,
+          "silver": 1.5,
+          "gold": 1,
+          "grandPrix": 0.5,
+          "titaniumLion": 0,
+          "metal": 5.4
+        }
+      },
+      {
+        "slug": "health-wellness",
+        "entries": 2208,
+        "counts": {
+          "shortlist": 243,
+          "bronze": 38,
+          "silver": 22,
+          "gold": 19,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 80
+        },
+        "pct": {
+          "shortlist": 11,
+          "bronze": 1.7,
+          "silver": 1,
+          "gold": 0.9,
+          "grandPrix": 0,
+          "titaniumLion": 0,
+          "metal": 3.6
+        }
+      },
+      {
+        "slug": "industry-craft",
+        "entries": 236,
+        "counts": {
+          "shortlist": 26,
+          "bronze": 3,
+          "silver": 5,
+          "gold": 2,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 11
+        },
+        "pct": {
+          "shortlist": 11,
+          "bronze": 1.3,
+          "silver": 2.1,
+          "gold": 0.8,
+          "grandPrix": 0.4,
+          "titaniumLion": 0,
+          "metal": 4.7
+        }
+      },
+      {
+        "slug": "innovation",
+        "entries": 295,
+        "counts": {
+          "shortlist": 35,
+          "bronze": 5,
+          "silver": 4,
+          "gold": 2,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 12
+        },
+        "pct": {
+          "shortlist": 11.9,
+          "bronze": 1.7,
+          "silver": 1.4,
+          "gold": 0.7,
+          "grandPrix": 0.3,
+          "titaniumLion": 0,
+          "metal": 4.1
+        }
+      },
+      {
+        "slug": "luxury",
+        "entries": 0,
+        "counts": {
+          "shortlist": 0,
+          "bronze": 0,
+          "silver": 0,
+          "gold": 0,
+          "grandPrix": 0,
+          "titaniumLion": 0,
+          "metalPieces": 0
+        },
+        "pct": {
+          "shortlist": null,
+          "bronze": null,
+          "silver": null,
+          "gold": null,
+          "grandPrix": null,
+          "titaniumLion": null,
+          "metal": null
+        }
+      },
+      {
+        "slug": "media",
+        "entries": 2924,
+        "counts": {
+          "shortlist": 440,
+          "bronze": 92,
+          "silver": 52,
+          "gold": 17,
+          "grandPrix": 2,
+          "titaniumLion": 0,
+          "metalPieces": 163
+        },
+        "pct": {
+          "shortlist": 15,
+          "bronze": 3.1,
+          "silver": 1.8,
+          "gold": 0.6,
+          "grandPrix": 0.1,
+          "titaniumLion": 0,
+          "metal": 5.6
+        }
+      },
+      {
+        "slug": "outdoor",
+        "entries": 4625,
+        "counts": {
+          "shortlist": 485,
+          "bronze": 118,
+          "silver": 68,
+          "gold": 29,
+          "grandPrix": 11,
+          "titaniumLion": 0,
+          "metalPieces": 226
+        },
+        "pct": {
+          "shortlist": 10.5,
+          "bronze": 2.6,
+          "silver": 1.5,
+          "gold": 0.6,
+          "grandPrix": 0.2,
+          "titaniumLion": 0,
+          "metal": 4.9
+        }
+      },
+      {
+        "slug": "pharma",
+        "entries": 583,
+        "counts": {
+          "shortlist": 59,
+          "bronze": 13,
+          "silver": 9,
+          "gold": 6,
+          "grandPrix": 0,
+          "titaniumLion": 0,
+          "metalPieces": 28
+        },
+        "pct": {
+          "shortlist": 10.1,
+          "bronze": 2.2,
+          "silver": 1.5,
+          "gold": 1,
+          "grandPrix": 0,
+          "titaniumLion": 0,
+          "metal": 4.8
+        }
+      },
+      {
+        "slug": "pr",
+        "entries": 2194,
+        "counts": {
+          "shortlist": 228,
+          "bronze": 50,
+          "silver": 32,
+          "gold": 17,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 100
+        },
+        "pct": {
+          "shortlist": 10.4,
+          "bronze": 2.3,
+          "silver": 1.5,
+          "gold": 0.8,
+          "grandPrix": 0,
+          "titaniumLion": 0,
+          "metal": 4.6
+        }
+      },
+      {
+        "slug": "print-publishing",
+        "entries": 3210,
+        "counts": {
+          "shortlist": 361,
+          "bronze": 89,
+          "silver": 81,
+          "gold": 38,
+          "grandPrix": 3,
+          "titaniumLion": 0,
+          "metalPieces": 211
+        },
+        "pct": {
+          "shortlist": 11.2,
+          "bronze": 2.8,
+          "silver": 2.5,
+          "gold": 1.2,
+          "grandPrix": 0.1,
+          "titaniumLion": 0,
+          "metal": 6.6
+        }
+      },
+      {
+        "slug": "social-creator",
+        "entries": 2867,
+        "counts": {
+          "shortlist": 260,
+          "bronze": 58,
+          "silver": 35,
+          "gold": 19,
+          "grandPrix": 3,
+          "titaniumLion": 0,
+          "metalPieces": 115
+        },
+        "pct": {
+          "shortlist": 9.1,
+          "bronze": 2,
+          "silver": 1.2,
+          "gold": 0.7,
+          "grandPrix": 0.1,
+          "titaniumLion": 0,
+          "metal": 4
+        }
+      },
+      {
+        "slug": "sustainable-development-goals",
+        "entries": 0,
+        "counts": {
+          "shortlist": 0,
+          "bronze": 0,
+          "silver": 0,
+          "gold": 0,
+          "grandPrix": 0,
+          "titaniumLion": 0,
+          "metalPieces": 0
+        },
+        "pct": {
+          "shortlist": null,
+          "bronze": null,
+          "silver": null,
+          "gold": null,
+          "grandPrix": null,
+          "titaniumLion": null,
+          "metal": null
+        }
+      },
+      {
+        "slug": "titanium",
+        "entries": 216,
+        "counts": {
+          "shortlist": 21,
+          "bronze": 0,
+          "silver": 0,
+          "gold": 0,
+          "grandPrix": 1,
+          "titaniumLion": 3,
+          "metalPieces": 4
+        },
+        "pct": {
+          "shortlist": 9.7,
+          "bronze": 0,
+          "silver": 0,
+          "gold": 0,
+          "grandPrix": 0.5,
+          "titaniumLion": 1.4,
+          "metal": 1.9
+        }
+      }
+    ],
+    "2018": [
+      {
+        "slug": "audio-radio",
+        "entries": 1079,
+        "counts": {
+          "shortlist": 131,
+          "bronze": 41,
+          "silver": 40,
+          "gold": 13,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 95
+        },
+        "pct": {
+          "shortlist": 12.1,
+          "bronze": 3.8,
+          "silver": 3.7,
+          "gold": 1.2,
+          "grandPrix": 0.1,
+          "titaniumLion": 0,
+          "metal": 8.8
+        }
+      },
+      {
+        "slug": "brand-experience-activation",
+        "entries": 2315,
+        "counts": {
+          "shortlist": 218,
+          "bronze": 38,
+          "silver": 21,
+          "gold": 11,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 71
+        },
+        "pct": {
+          "shortlist": 9.4,
+          "bronze": 1.6,
+          "silver": 0.9,
+          "gold": 0.5,
+          "grandPrix": 0,
+          "titaniumLion": 0,
+          "metal": 3.1
+        }
+      },
+      {
+        "slug": "creative-b2b",
+        "entries": 0,
+        "counts": {
+          "shortlist": 0,
+          "bronze": 0,
+          "silver": 0,
+          "gold": 0,
+          "grandPrix": 0,
+          "titaniumLion": 0,
+          "metalPieces": 0
+        },
+        "pct": {
+          "shortlist": null,
+          "bronze": null,
+          "silver": null,
+          "gold": null,
+          "grandPrix": null,
+          "titaniumLion": null,
+          "metal": null
+        }
+      },
+      {
+        "slug": "creative-business-transformation",
+        "entries": 0,
+        "counts": {
+          "shortlist": 0,
+          "bronze": 0,
+          "silver": 0,
+          "gold": 0,
+          "grandPrix": 0,
+          "titaniumLion": 0,
+          "metalPieces": 0
+        },
+        "pct": {
+          "shortlist": null,
+          "bronze": null,
+          "silver": null,
+          "gold": null,
+          "grandPrix": null,
+          "titaniumLion": null,
+          "metal": null
+        }
+      },
+      {
+        "slug": "creative-commerce",
+        "entries": 263,
+        "counts": {
+          "shortlist": 36,
+          "bronze": 7,
+          "silver": 4,
+          "gold": 4,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 16
+        },
+        "pct": {
+          "shortlist": 13.7,
+          "bronze": 2.7,
+          "silver": 1.5,
+          "gold": 1.5,
+          "grandPrix": 0.4,
+          "titaniumLion": 0,
+          "metal": 6.1
+        }
+      },
+      {
+        "slug": "creative-data",
+        "entries": 516,
+        "counts": {
+          "shortlist": 33,
+          "bronze": 12,
+          "silver": 7,
+          "gold": 4,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 24
+        },
+        "pct": {
+          "shortlist": 6.4,
+          "bronze": 2.3,
+          "silver": 1.4,
+          "gold": 0.8,
+          "grandPrix": 0.2,
+          "titaniumLion": 0,
+          "metal": 4.7
+        }
+      },
+      {
+        "slug": "creative-effectiveness",
+        "entries": 161,
+        "counts": {
+          "shortlist": 27,
+          "bronze": 9,
+          "silver": 4,
+          "gold": 2,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 16
+        },
+        "pct": {
+          "shortlist": 16.8,
+          "bronze": 5.6,
+          "silver": 2.5,
+          "gold": 1.2,
+          "grandPrix": 0.6,
+          "titaniumLion": 0,
+          "metal": 9.9
+        }
+      },
+      {
+        "slug": "creative-strategy",
+        "entries": 0,
+        "counts": {
+          "shortlist": 0,
+          "bronze": 0,
+          "silver": 0,
+          "gold": 0,
+          "grandPrix": 0,
+          "titaniumLion": 0,
+          "metalPieces": 0
+        },
+        "pct": {
+          "shortlist": null,
+          "bronze": null,
+          "silver": null,
+          "gold": null,
+          "grandPrix": null,
+          "titaniumLion": null,
+          "metal": null
+        }
+      },
+      {
+        "slug": "design",
+        "entries": 1238,
+        "counts": {
+          "shortlist": 192,
+          "bronze": 43,
+          "silver": 30,
+          "gold": 8,
+          "grandPrix": 2,
+          "titaniumLion": 0,
+          "metalPieces": 83
+        },
+        "pct": {
+          "shortlist": 15.5,
+          "bronze": 3.5,
+          "silver": 2.4,
+          "gold": 0.6,
+          "grandPrix": 0.2,
+          "titaniumLion": 0,
+          "metal": 6.7
+        }
+      },
+      {
+        "slug": "digital-craft",
+        "entries": 717,
+        "counts": {
+          "shortlist": 69,
+          "bronze": 15,
+          "silver": 8,
+          "gold": 3,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 27
+        },
+        "pct": {
+          "shortlist": 9.6,
+          "bronze": 2.1,
+          "silver": 1.1,
+          "gold": 0.4,
+          "grandPrix": 0.1,
+          "titaniumLion": 0,
+          "metal": 3.8
+        }
+      },
+      {
+        "slug": "direct",
+        "entries": 2459,
+        "counts": {
+          "shortlist": 233,
+          "bronze": 38,
+          "silver": 27,
+          "gold": 10,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 76
+        },
+        "pct": {
+          "shortlist": 9.5,
+          "bronze": 1.5,
+          "silver": 1.1,
+          "gold": 0.4,
+          "grandPrix": 0,
+          "titaniumLion": 0,
+          "metal": 3.1
+        }
+      },
+      {
+        "slug": "entertainment",
+        "entries": 1239,
+        "counts": {
+          "shortlist": 147,
+          "bronze": 23,
+          "silver": 15,
+          "gold": 9,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 48
+        },
+        "pct": {
+          "shortlist": 11.9,
+          "bronze": 1.9,
+          "silver": 1.2,
+          "gold": 0.7,
+          "grandPrix": 0.1,
+          "titaniumLion": 0,
+          "metal": 3.9
+        }
+      },
+      {
+        "slug": "entertainment-lions-for-gaming",
+        "entries": 0,
+        "counts": {
+          "shortlist": 0,
+          "bronze": 0,
+          "silver": 0,
+          "gold": 0,
+          "grandPrix": 0,
+          "titaniumLion": 0,
+          "metalPieces": 0
+        },
+        "pct": {
+          "shortlist": null,
+          "bronze": null,
+          "silver": null,
+          "gold": null,
+          "grandPrix": null,
+          "titaniumLion": null,
+          "metal": null
+        }
+      },
+      {
+        "slug": "entertainment-lions-for-music",
+        "entries": 479,
+        "counts": {
+          "shortlist": 44,
+          "bronze": 6,
+          "silver": 7,
+          "gold": 3,
+          "grandPrix": 2,
+          "titaniumLion": 0,
+          "metalPieces": 18
+        },
+        "pct": {
+          "shortlist": 9.2,
+          "bronze": 1.3,
+          "silver": 1.5,
+          "gold": 0.6,
+          "grandPrix": 0.4,
+          "titaniumLion": 0,
+          "metal": 3.8
+        }
+      },
+      {
+        "slug": "entertainment-lions-for-sport",
+        "entries": 0,
+        "counts": {
+          "shortlist": 0,
+          "bronze": 0,
+          "silver": 0,
+          "gold": 0,
+          "grandPrix": 0,
+          "titaniumLion": 0,
+          "metalPieces": 0
+        },
+        "pct": {
+          "shortlist": null,
+          "bronze": null,
+          "silver": null,
+          "gold": null,
+          "grandPrix": null,
+          "titaniumLion": null,
+          "metal": null
+        }
+      },
+      {
+        "slug": "film",
+        "entries": 2125,
+        "counts": {
+          "shortlist": 205,
+          "bronze": 44,
+          "silver": 37,
+          "gold": 10,
+          "grandPrix": 5,
+          "titaniumLion": 0,
+          "metalPieces": 96
+        },
+        "pct": {
+          "shortlist": 9.6,
+          "bronze": 2.1,
+          "silver": 1.7,
+          "gold": 0.5,
+          "grandPrix": 0.2,
+          "titaniumLion": 0,
+          "metal": 4.5
+        }
+      },
+      {
+        "slug": "film-craft",
+        "entries": 2478,
+        "counts": {
+          "shortlist": 258,
+          "bronze": 49,
+          "silver": 29,
+          "gold": 13,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 92
+        },
+        "pct": {
+          "shortlist": 10.4,
+          "bronze": 2,
+          "silver": 1.2,
+          "gold": 0.5,
+          "grandPrix": 0,
+          "titaniumLion": 0,
+          "metal": 3.7
+        }
+      },
+      {
+        "slug": "glass-the-lion-for-change",
+        "entries": 214,
+        "counts": {
+          "shortlist": 27,
+          "bronze": 5,
+          "silver": 3,
+          "gold": 2,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 11
+        },
+        "pct": {
+          "shortlist": 12.6,
+          "bronze": 2.3,
+          "silver": 1.4,
+          "gold": 0.9,
+          "grandPrix": 0.5,
+          "titaniumLion": 0,
+          "metal": 5.1
+        }
+      },
+      {
+        "slug": "health-wellness",
+        "entries": 1459,
+        "counts": {
+          "shortlist": 158,
+          "bronze": 18,
+          "silver": 12,
+          "gold": 8,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 39
+        },
+        "pct": {
+          "shortlist": 10.8,
+          "bronze": 1.2,
+          "silver": 0.8,
+          "gold": 0.5,
+          "grandPrix": 0.1,
+          "titaniumLion": 0,
+          "metal": 2.7
+        }
+      },
+      {
+        "slug": "industry-craft",
+        "entries": 1699,
+        "counts": {
+          "shortlist": 202,
+          "bronze": 59,
+          "silver": 27,
+          "gold": 14,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 101
+        },
+        "pct": {
+          "shortlist": 11.9,
+          "bronze": 3.5,
+          "silver": 1.6,
+          "gold": 0.8,
+          "grandPrix": 0.1,
+          "titaniumLion": 0,
+          "metal": 5.9
+        }
+      },
+      {
+        "slug": "innovation",
+        "entries": 190,
+        "counts": {
+          "shortlist": 20,
+          "bronze": 3,
+          "silver": 1,
+          "gold": 1,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 6
+        },
+        "pct": {
+          "shortlist": 10.5,
+          "bronze": 1.6,
+          "silver": 0.5,
+          "gold": 0.5,
+          "grandPrix": 0.5,
+          "titaniumLion": 0,
+          "metal": 3.2
+        }
+      },
+      {
+        "slug": "luxury",
+        "entries": 0,
+        "counts": {
+          "shortlist": 0,
+          "bronze": 0,
+          "silver": 0,
+          "gold": 0,
+          "grandPrix": 0,
+          "titaniumLion": 0,
+          "metalPieces": 0
+        },
+        "pct": {
+          "shortlist": null,
+          "bronze": null,
+          "silver": null,
+          "gold": null,
+          "grandPrix": null,
+          "titaniumLion": null,
+          "metal": null
+        }
+      },
+      {
+        "slug": "media",
+        "entries": 2551,
+        "counts": {
+          "shortlist": 349,
+          "bronze": 70,
+          "silver": 38,
+          "gold": 18,
+          "grandPrix": 2,
+          "titaniumLion": 0,
+          "metalPieces": 128
+        },
+        "pct": {
+          "shortlist": 13.7,
+          "bronze": 2.7,
+          "silver": 1.5,
+          "gold": 0.7,
+          "grandPrix": 0.1,
+          "titaniumLion": 0,
+          "metal": 5
+        }
+      },
+      {
+        "slug": "outdoor",
+        "entries": 2604,
+        "counts": {
+          "shortlist": 295,
+          "bronze": 85,
+          "silver": 46,
+          "gold": 21,
+          "grandPrix": 5,
+          "titaniumLion": 0,
+          "metalPieces": 157
+        },
+        "pct": {
+          "shortlist": 11.3,
+          "bronze": 3.3,
+          "silver": 1.8,
+          "gold": 0.8,
+          "grandPrix": 0.2,
+          "titaniumLion": 0,
+          "metal": 6
+        }
+      },
+      {
+        "slug": "pharma",
+        "entries": 368,
+        "counts": {
+          "shortlist": 53,
+          "bronze": 11,
+          "silver": 15,
+          "gold": 3,
+          "grandPrix": 0,
+          "titaniumLion": 0,
+          "metalPieces": 29
+        },
+        "pct": {
+          "shortlist": 14.4,
+          "bronze": 3,
+          "silver": 4.1,
+          "gold": 0.8,
+          "grandPrix": 0,
+          "titaniumLion": 0,
+          "metal": 7.9
+        }
+      },
+      {
+        "slug": "pr",
+        "entries": 2087,
+        "counts": {
+          "shortlist": 213,
+          "bronze": 46,
+          "silver": 27,
+          "gold": 14,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 88
+        },
+        "pct": {
+          "shortlist": 10.2,
+          "bronze": 2.2,
+          "silver": 1.3,
+          "gold": 0.7,
+          "grandPrix": 0,
+          "titaniumLion": 0,
+          "metal": 4.2
+        }
+      },
+      {
+        "slug": "print-publishing",
+        "entries": 1403,
+        "counts": {
+          "shortlist": 172,
+          "bronze": 43,
+          "silver": 44,
+          "gold": 11,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 99
+        },
+        "pct": {
+          "shortlist": 12.3,
+          "bronze": 3.1,
+          "silver": 3.1,
+          "gold": 0.8,
+          "grandPrix": 0.1,
+          "titaniumLion": 0,
+          "metal": 7.1
+        }
+      },
+      {
+        "slug": "social-creator",
+        "entries": 2011,
+        "counts": {
+          "shortlist": 178,
+          "bronze": 38,
+          "silver": 15,
+          "gold": 13,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 67
+        },
+        "pct": {
+          "shortlist": 8.9,
+          "bronze": 1.9,
+          "silver": 0.7,
+          "gold": 0.6,
+          "grandPrix": 0,
+          "titaniumLion": 0,
+          "metal": 3.3
+        }
+      },
+      {
+        "slug": "sustainable-development-goals",
+        "entries": 895,
+        "counts": {
+          "shortlist": 86,
+          "bronze": 15,
+          "silver": 10,
+          "gold": 3,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 29
+        },
+        "pct": {
+          "shortlist": 9.6,
+          "bronze": 1.7,
+          "silver": 1.1,
+          "gold": 0.3,
+          "grandPrix": 0.1,
+          "titaniumLion": 0,
+          "metal": 3.2
+        }
+      },
+      {
+        "slug": "titanium",
+        "entries": 148,
+        "counts": {
+          "shortlist": 24,
+          "bronze": 0,
+          "silver": 0,
+          "gold": 0,
+          "grandPrix": 1,
+          "titaniumLion": 5,
+          "metalPieces": 6
+        },
+        "pct": {
+          "shortlist": 16.2,
+          "bronze": 0,
+          "silver": 0,
+          "gold": 0,
+          "grandPrix": 0.7,
+          "titaniumLion": 3.4,
+          "metal": 4.1
+        }
+      }
+    ],
+    "2019": [
+      {
+        "slug": "audio-radio",
+        "entries": 974,
+        "counts": {
+          "shortlist": 96,
+          "bronze": 24,
+          "silver": 18,
+          "gold": 11,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 54
+        },
+        "pct": {
+          "shortlist": 9.9,
+          "bronze": 2.5,
+          "silver": 1.8,
+          "gold": 1.1,
+          "grandPrix": 0.1,
+          "titaniumLion": 0,
+          "metal": 5.5
+        }
+      },
+      {
+        "slug": "brand-experience-activation",
+        "entries": 2500,
+        "counts": {
+          "shortlist": 273,
+          "bronze": 37,
+          "silver": 23,
+          "gold": 9,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 70
+        },
+        "pct": {
+          "shortlist": 10.9,
+          "bronze": 1.5,
+          "silver": 0.9,
+          "gold": 0.4,
+          "grandPrix": 0,
+          "titaniumLion": 0,
+          "metal": 2.8
+        }
+      },
+      {
+        "slug": "creative-b2b",
+        "entries": 0,
+        "counts": {
+          "shortlist": 0,
+          "bronze": 0,
+          "silver": 0,
+          "gold": 0,
+          "grandPrix": 0,
+          "titaniumLion": 0,
+          "metalPieces": 0
+        },
+        "pct": {
+          "shortlist": null,
+          "bronze": null,
+          "silver": null,
+          "gold": null,
+          "grandPrix": null,
+          "titaniumLion": null,
+          "metal": null
+        }
+      },
+      {
+        "slug": "creative-business-transformation",
+        "entries": 0,
+        "counts": {
+          "shortlist": 0,
+          "bronze": 0,
+          "silver": 0,
+          "gold": 0,
+          "grandPrix": 0,
+          "titaniumLion": 0,
+          "metalPieces": 0
+        },
+        "pct": {
+          "shortlist": null,
+          "bronze": null,
+          "silver": null,
+          "gold": null,
+          "grandPrix": null,
+          "titaniumLion": null,
+          "metal": null
+        }
+      },
+      {
+        "slug": "creative-commerce",
+        "entries": 299,
+        "counts": {
+          "shortlist": 33,
+          "bronze": 5,
+          "silver": 2,
+          "gold": 1,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 9
+        },
+        "pct": {
+          "shortlist": 11,
+          "bronze": 1.7,
+          "silver": 0.7,
+          "gold": 0.3,
+          "grandPrix": 0.3,
+          "titaniumLion": 0,
+          "metal": 3
+        }
+      },
+      {
+        "slug": "creative-data",
+        "entries": 424,
+        "counts": {
+          "shortlist": 48,
+          "bronze": 6,
+          "silver": 4,
+          "gold": 2,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 13
+        },
+        "pct": {
+          "shortlist": 11.3,
+          "bronze": 1.4,
+          "silver": 0.9,
+          "gold": 0.5,
+          "grandPrix": 0.2,
+          "titaniumLion": 0,
+          "metal": 3.1
+        }
+      },
+      {
+        "slug": "creative-effectiveness",
+        "entries": 226,
+        "counts": {
+          "shortlist": 23,
+          "bronze": 5,
+          "silver": 3,
+          "gold": 3,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 12
+        },
+        "pct": {
+          "shortlist": 10.2,
+          "bronze": 2.2,
+          "silver": 1.3,
+          "gold": 1.3,
+          "grandPrix": 0.4,
+          "titaniumLion": 0,
+          "metal": 5.3
+        }
+      },
+      {
+        "slug": "creative-strategy",
+        "entries": 837,
+        "counts": {
+          "shortlist": 80,
+          "bronze": 11,
+          "silver": 7,
+          "gold": 3,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 22
+        },
+        "pct": {
+          "shortlist": 9.6,
+          "bronze": 1.3,
+          "silver": 0.8,
+          "gold": 0.4,
+          "grandPrix": 0.1,
+          "titaniumLion": 0,
+          "metal": 2.6
+        }
+      },
+      {
+        "slug": "design",
+        "entries": 1449,
+        "counts": {
+          "shortlist": 153,
+          "bronze": 24,
+          "silver": 16,
+          "gold": 6,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 47
+        },
+        "pct": {
+          "shortlist": 10.6,
+          "bronze": 1.7,
+          "silver": 1.1,
+          "gold": 0.4,
+          "grandPrix": 0.1,
+          "titaniumLion": 0,
+          "metal": 3.2
+        }
+      },
+      {
+        "slug": "digital-craft",
+        "entries": 795,
+        "counts": {
+          "shortlist": 78,
+          "bronze": 11,
+          "silver": 7,
+          "gold": 4,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 23
+        },
+        "pct": {
+          "shortlist": 9.8,
+          "bronze": 1.4,
+          "silver": 0.9,
+          "gold": 0.5,
+          "grandPrix": 0.1,
+          "titaniumLion": 0,
+          "metal": 2.9
+        }
+      },
+      {
+        "slug": "direct",
+        "entries": 1985,
+        "counts": {
+          "shortlist": 217,
+          "bronze": 24,
+          "silver": 12,
+          "gold": 5,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 42
+        },
+        "pct": {
+          "shortlist": 10.9,
+          "bronze": 1.2,
+          "silver": 0.6,
+          "gold": 0.3,
+          "grandPrix": 0.1,
+          "titaniumLion": 0,
+          "metal": 2.1
+        }
+      },
+      {
+        "slug": "entertainment",
+        "entries": 826,
+        "counts": {
+          "shortlist": 82,
+          "bronze": 13,
+          "silver": 10,
+          "gold": 3,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 27
+        },
+        "pct": {
+          "shortlist": 9.9,
+          "bronze": 1.6,
+          "silver": 1.2,
+          "gold": 0.4,
+          "grandPrix": 0.1,
+          "titaniumLion": 0,
+          "metal": 3.3
+        }
+      },
+      {
+        "slug": "entertainment-lions-for-gaming",
+        "entries": 0,
+        "counts": {
+          "shortlist": 0,
+          "bronze": 0,
+          "silver": 0,
+          "gold": 0,
+          "grandPrix": 0,
+          "titaniumLion": 0,
+          "metalPieces": 0
+        },
+        "pct": {
+          "shortlist": null,
+          "bronze": null,
+          "silver": null,
+          "gold": null,
+          "grandPrix": null,
+          "titaniumLion": null,
+          "metal": null
+        }
+      },
+      {
+        "slug": "entertainment-lions-for-music",
+        "entries": 388,
+        "counts": {
+          "shortlist": 44,
+          "bronze": 7,
+          "silver": 3,
+          "gold": 2,
+          "grandPrix": 2,
+          "titaniumLion": 0,
+          "metalPieces": 14
+        },
+        "pct": {
+          "shortlist": 11.3,
+          "bronze": 1.8,
+          "silver": 0.8,
+          "gold": 0.5,
+          "grandPrix": 0.5,
+          "titaniumLion": 0,
+          "metal": 3.6
+        }
+      },
+      {
+        "slug": "entertainment-lions-for-sport",
+        "entries": 697,
+        "counts": {
+          "shortlist": 73,
+          "bronze": 14,
+          "silver": 10,
+          "gold": 4,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 29
+        },
+        "pct": {
+          "shortlist": 10.5,
+          "bronze": 2,
+          "silver": 1.4,
+          "gold": 0.6,
+          "grandPrix": 0.1,
+          "titaniumLion": 0,
+          "metal": 4.2
+        }
+      },
+      {
+        "slug": "film",
+        "entries": 2780,
+        "counts": {
+          "shortlist": 262,
+          "bronze": 49,
+          "silver": 36,
+          "gold": 19,
+          "grandPrix": 5,
+          "titaniumLion": 0,
+          "metalPieces": 109
+        },
+        "pct": {
+          "shortlist": 9.4,
+          "bronze": 1.8,
+          "silver": 1.3,
+          "gold": 0.7,
+          "grandPrix": 0.2,
+          "titaniumLion": 0,
+          "metal": 3.9
+        }
+      },
+      {
+        "slug": "film-craft",
+        "entries": 1913,
+        "counts": {
+          "shortlist": 230,
+          "bronze": 49,
+          "silver": 34,
+          "gold": 25,
+          "grandPrix": 5,
+          "titaniumLion": 0,
+          "metalPieces": 113
+        },
+        "pct": {
+          "shortlist": 12,
+          "bronze": 2.6,
+          "silver": 1.8,
+          "gold": 1.3,
+          "grandPrix": 0.3,
+          "titaniumLion": 0,
+          "metal": 5.9
+        }
+      },
+      {
+        "slug": "glass-the-lion-for-change",
+        "entries": 192,
+        "counts": {
+          "shortlist": 23,
+          "bronze": 4,
+          "silver": 2,
+          "gold": 1,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 8
+        },
+        "pct": {
+          "shortlist": 12,
+          "bronze": 2.1,
+          "silver": 1,
+          "gold": 0.5,
+          "grandPrix": 0.5,
+          "titaniumLion": 0,
+          "metal": 4.2
+        }
+      },
+      {
+        "slug": "health-wellness",
+        "entries": 1170,
+        "counts": {
+          "shortlist": 120,
+          "bronze": 19,
+          "silver": 10,
+          "gold": 5,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 35
+        },
+        "pct": {
+          "shortlist": 10.3,
+          "bronze": 1.6,
+          "silver": 0.9,
+          "gold": 0.4,
+          "grandPrix": 0.1,
+          "titaniumLion": 0,
+          "metal": 3
+        }
+      },
+      {
+        "slug": "industry-craft",
+        "entries": 1651,
+        "counts": {
+          "shortlist": 181,
+          "bronze": 47,
+          "silver": 29,
+          "gold": 8,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 85
+        },
+        "pct": {
+          "shortlist": 11,
+          "bronze": 2.8,
+          "silver": 1.8,
+          "gold": 0.5,
+          "grandPrix": 0.1,
+          "titaniumLion": 0,
+          "metal": 5.1
+        }
+      },
+      {
+        "slug": "innovation",
+        "entries": 186,
+        "counts": {
+          "shortlist": 25,
+          "bronze": 3,
+          "silver": 2,
+          "gold": 1,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 7
+        },
+        "pct": {
+          "shortlist": 13.4,
+          "bronze": 1.6,
+          "silver": 1.1,
+          "gold": 0.5,
+          "grandPrix": 0.5,
+          "titaniumLion": 0,
+          "metal": 3.8
+        }
+      },
+      {
+        "slug": "luxury",
+        "entries": 0,
+        "counts": {
+          "shortlist": 0,
+          "bronze": 0,
+          "silver": 0,
+          "gold": 0,
+          "grandPrix": 0,
+          "titaniumLion": 0,
+          "metalPieces": 0
+        },
+        "pct": {
+          "shortlist": null,
+          "bronze": null,
+          "silver": null,
+          "gold": null,
+          "grandPrix": null,
+          "titaniumLion": null,
+          "metal": null
+        }
+      },
+      {
+        "slug": "media",
+        "entries": 2177,
+        "counts": {
+          "shortlist": 339,
+          "bronze": 57,
+          "silver": 31,
+          "gold": 17,
+          "grandPrix": 2,
+          "titaniumLion": 0,
+          "metalPieces": 107
+        },
+        "pct": {
+          "shortlist": 15.6,
+          "bronze": 2.6,
+          "silver": 1.4,
+          "gold": 0.8,
+          "grandPrix": 0.1,
+          "titaniumLion": 0,
+          "metal": 4.9
+        }
+      },
+      {
+        "slug": "outdoor",
+        "entries": 2357,
+        "counts": {
+          "shortlist": 263,
+          "bronze": 55,
+          "silver": 35,
+          "gold": 13,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 104
+        },
+        "pct": {
+          "shortlist": 11.2,
+          "bronze": 2.3,
+          "silver": 1.5,
+          "gold": 0.6,
+          "grandPrix": 0,
+          "titaniumLion": 0,
+          "metal": 4.4
+        }
+      },
+      {
+        "slug": "pharma",
+        "entries": 349,
+        "counts": {
+          "shortlist": 31,
+          "bronze": 5,
+          "silver": 3,
+          "gold": 2,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 11
+        },
+        "pct": {
+          "shortlist": 8.9,
+          "bronze": 1.4,
+          "silver": 0.9,
+          "gold": 0.6,
+          "grandPrix": 0.3,
+          "titaniumLion": 0,
+          "metal": 3.2
+        }
+      },
+      {
+        "slug": "pr",
+        "entries": 1840,
+        "counts": {
+          "shortlist": 242,
+          "bronze": 26,
+          "silver": 22,
+          "gold": 6,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 55
+        },
+        "pct": {
+          "shortlist": 13.2,
+          "bronze": 1.4,
+          "silver": 1.2,
+          "gold": 0.3,
+          "grandPrix": 0.1,
+          "titaniumLion": 0,
+          "metal": 3
+        }
+      },
+      {
+        "slug": "print-publishing",
+        "entries": 1235,
+        "counts": {
+          "shortlist": 159,
+          "bronze": 47,
+          "silver": 11,
+          "gold": 14,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 73
+        },
+        "pct": {
+          "shortlist": 12.9,
+          "bronze": 3.8,
+          "silver": 0.9,
+          "gold": 1.1,
+          "grandPrix": 0.1,
+          "titaniumLion": 0,
+          "metal": 5.9
+        }
+      },
+      {
+        "slug": "social-creator",
+        "entries": 1507,
+        "counts": {
+          "shortlist": 162,
+          "bronze": 25,
+          "silver": 14,
+          "gold": 7,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 47
+        },
+        "pct": {
+          "shortlist": 10.7,
+          "bronze": 1.7,
+          "silver": 0.9,
+          "gold": 0.5,
+          "grandPrix": 0.1,
+          "titaniumLion": 0,
+          "metal": 3.1
+        }
+      },
+      {
+        "slug": "sustainable-development-goals",
+        "entries": 828,
+        "counts": {
+          "shortlist": 80,
+          "bronze": 11,
+          "silver": 7,
+          "gold": 3,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 22
+        },
+        "pct": {
+          "shortlist": 9.7,
+          "bronze": 1.3,
+          "silver": 0.8,
+          "gold": 0.4,
+          "grandPrix": 0.1,
+          "titaniumLion": 0,
+          "metal": 2.7
+        }
+      },
+      {
+        "slug": "titanium",
+        "entries": 170,
+        "counts": {
+          "shortlist": 20,
+          "bronze": 0,
+          "silver": 0,
+          "gold": 0,
+          "grandPrix": 1,
+          "titaniumLion": 5,
+          "metalPieces": 6
+        },
+        "pct": {
+          "shortlist": 11.8,
+          "bronze": 0,
+          "silver": 0,
+          "gold": 0,
+          "grandPrix": 0.6,
+          "titaniumLion": 2.9,
+          "metal": 3.5
+        }
+      }
+    ],
+    "2020": [
+      {
+        "slug": "audio-radio",
+        "entries": 344,
+        "counts": {
+          "shortlist": 33,
+          "bronze": 7,
+          "silver": 1,
+          "gold": 1,
+          "grandPrix": 0,
+          "titaniumLion": 0,
+          "metalPieces": 9
+        },
+        "pct": {
+          "shortlist": 9.6,
+          "bronze": 2,
+          "silver": 0.3,
+          "gold": 0.3,
+          "grandPrix": 0,
+          "titaniumLion": 0,
+          "metal": 2.6
+        }
+      },
+      {
+        "slug": "brand-experience-activation",
+        "entries": 1160,
+        "counts": {
+          "shortlist": 115,
+          "bronze": 24,
+          "silver": 10,
+          "gold": 6,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 41
+        },
+        "pct": {
+          "shortlist": 9.9,
+          "bronze": 2.1,
+          "silver": 0.9,
+          "gold": 0.5,
+          "grandPrix": 0.1,
+          "titaniumLion": 0,
+          "metal": 3.5
+        }
+      },
+      {
+        "slug": "creative-b2b",
+        "entries": 0,
+        "counts": {
+          "shortlist": 0,
+          "bronze": 0,
+          "silver": 0,
+          "gold": 0,
+          "grandPrix": 0,
+          "titaniumLion": 0,
+          "metalPieces": 0
+        },
+        "pct": {
+          "shortlist": null,
+          "bronze": null,
+          "silver": null,
+          "gold": null,
+          "grandPrix": null,
+          "titaniumLion": null,
+          "metal": null
+        }
+      },
+      {
+        "slug": "creative-business-transformation",
+        "entries": 99,
+        "counts": {
+          "shortlist": 11,
+          "bronze": 3,
+          "silver": 2,
+          "gold": 1,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 7
+        },
+        "pct": {
+          "shortlist": 11.1,
+          "bronze": 3,
+          "silver": 2,
+          "gold": 1,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metal": 7.1
+        }
+      },
+      {
+        "slug": "creative-commerce",
+        "entries": 158,
+        "counts": {
+          "shortlist": 15,
+          "bronze": 1,
+          "silver": 2,
+          "gold": 0,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 4
+        },
+        "pct": {
+          "shortlist": 9.5,
+          "bronze": 0.6,
+          "silver": 1.3,
+          "gold": 0,
+          "grandPrix": 0.6,
+          "titaniumLion": 0,
+          "metal": 2.5
+        }
+      },
+      {
+        "slug": "creative-data",
+        "entries": 216,
+        "counts": {
+          "shortlist": 24,
+          "bronze": 1,
+          "silver": 2,
+          "gold": 2,
+          "grandPrix": 0,
+          "titaniumLion": 0,
+          "metalPieces": 5
+        },
+        "pct": {
+          "shortlist": 11.1,
+          "bronze": 0.5,
+          "silver": 0.9,
+          "gold": 0.9,
+          "grandPrix": 0,
+          "titaniumLion": 0,
+          "metal": 2.3
+        }
+      },
+      {
+        "slug": "creative-effectiveness",
+        "entries": 0,
+        "counts": {
+          "shortlist": 0,
+          "bronze": 0,
+          "silver": 0,
+          "gold": 0,
+          "grandPrix": 0,
+          "titaniumLion": 0,
+          "metalPieces": 0
+        },
+        "pct": {
+          "shortlist": null,
+          "bronze": null,
+          "silver": null,
+          "gold": null,
+          "grandPrix": null,
+          "titaniumLion": null,
+          "metal": null
+        }
+      },
+      {
+        "slug": "creative-strategy",
+        "entries": 371,
+        "counts": {
+          "shortlist": 39,
+          "bronze": 3,
+          "silver": 3,
+          "gold": 3,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 10
+        },
+        "pct": {
+          "shortlist": 10.5,
+          "bronze": 0.8,
+          "silver": 0.8,
+          "gold": 0.8,
+          "grandPrix": 0.3,
+          "titaniumLion": 0,
+          "metal": 2.7
+        }
+      },
+      {
+        "slug": "design",
+        "entries": 628,
+        "counts": {
+          "shortlist": 63,
+          "bronze": 13,
+          "silver": 6,
+          "gold": 3,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 23
+        },
+        "pct": {
+          "shortlist": 10,
+          "bronze": 2.1,
+          "silver": 1,
+          "gold": 0.5,
+          "grandPrix": 0.2,
+          "titaniumLion": 0,
+          "metal": 3.7
+        }
+      },
+      {
+        "slug": "digital-craft",
+        "entries": 301,
+        "counts": {
+          "shortlist": 32,
+          "bronze": 3,
+          "silver": 4,
+          "gold": 2,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 10
+        },
+        "pct": {
+          "shortlist": 10.6,
+          "bronze": 1,
+          "silver": 1.3,
+          "gold": 0.7,
+          "grandPrix": 0.3,
+          "titaniumLion": 0,
+          "metal": 3.3
+        }
+      },
+      {
+        "slug": "direct",
+        "entries": 962,
+        "counts": {
+          "shortlist": 108,
+          "bronze": 13,
+          "silver": 14,
+          "gold": 9,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 37
+        },
+        "pct": {
+          "shortlist": 11.2,
+          "bronze": 1.4,
+          "silver": 1.5,
+          "gold": 0.9,
+          "grandPrix": 0.1,
+          "titaniumLion": 0,
+          "metal": 3.8
+        }
+      },
+      {
+        "slug": "entertainment",
+        "entries": 356,
+        "counts": {
+          "shortlist": 45,
+          "bronze": 8,
+          "silver": 7,
+          "gold": 3,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 19
+        },
+        "pct": {
+          "shortlist": 12.6,
+          "bronze": 2.2,
+          "silver": 2,
+          "gold": 0.8,
+          "grandPrix": 0.3,
+          "titaniumLion": 0,
+          "metal": 5.3
+        }
+      },
+      {
+        "slug": "entertainment-lions-for-gaming",
+        "entries": 0,
+        "counts": {
+          "shortlist": 0,
+          "bronze": 0,
+          "silver": 0,
+          "gold": 0,
+          "grandPrix": 0,
+          "titaniumLion": 0,
+          "metalPieces": 0
+        },
+        "pct": {
+          "shortlist": null,
+          "bronze": null,
+          "silver": null,
+          "gold": null,
+          "grandPrix": null,
+          "titaniumLion": null,
+          "metal": null
+        }
+      },
+      {
+        "slug": "entertainment-lions-for-music",
+        "entries": 163,
+        "counts": {
+          "shortlist": 23,
+          "bronze": 3,
+          "silver": 5,
+          "gold": 0,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 9
+        },
+        "pct": {
+          "shortlist": 14.1,
+          "bronze": 1.8,
+          "silver": 3.1,
+          "gold": 0,
+          "grandPrix": 0.6,
+          "titaniumLion": 0,
+          "metal": 5.5
+        }
+      },
+      {
+        "slug": "entertainment-lions-for-sport",
+        "entries": 296,
+        "counts": {
+          "shortlist": 36,
+          "bronze": 7,
+          "silver": 4,
+          "gold": 3,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 15
+        },
+        "pct": {
+          "shortlist": 12.2,
+          "bronze": 2.4,
+          "silver": 1.4,
+          "gold": 1,
+          "grandPrix": 0.3,
+          "titaniumLion": 0,
+          "metal": 5.1
+        }
+      },
+      {
+        "slug": "film",
+        "entries": 1118,
+        "counts": {
+          "shortlist": 110,
+          "bronze": 20,
+          "silver": 11,
+          "gold": 3,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 35
+        },
+        "pct": {
+          "shortlist": 9.8,
+          "bronze": 1.8,
+          "silver": 1,
+          "gold": 0.3,
+          "grandPrix": 0.1,
+          "titaniumLion": 0,
+          "metal": 3.1
+        }
+      },
+      {
+        "slug": "film-craft",
+        "entries": 779,
+        "counts": {
+          "shortlist": 70,
+          "bronze": 15,
+          "silver": 8,
+          "gold": 2,
+          "grandPrix": 0,
+          "titaniumLion": 0,
+          "metalPieces": 25
+        },
+        "pct": {
+          "shortlist": 9,
+          "bronze": 1.9,
+          "silver": 1,
+          "gold": 0.3,
+          "grandPrix": 0,
+          "titaniumLion": 0,
+          "metal": 3.2
+        }
+      },
+      {
+        "slug": "glass-the-lion-for-change",
+        "entries": 87,
+        "counts": {
+          "shortlist": 11,
+          "bronze": 2,
+          "silver": 1,
+          "gold": 1,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 5
+        },
+        "pct": {
+          "shortlist": 12.6,
+          "bronze": 2.3,
+          "silver": 1.1,
+          "gold": 1.1,
+          "grandPrix": 1.1,
+          "titaniumLion": 0,
+          "metal": 5.7
+        }
+      },
+      {
+        "slug": "health-wellness",
+        "entries": 577,
+        "counts": {
+          "shortlist": 62,
+          "bronze": 11,
+          "silver": 9,
+          "gold": 3,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 24
+        },
+        "pct": {
+          "shortlist": 10.7,
+          "bronze": 1.9,
+          "silver": 1.6,
+          "gold": 0.5,
+          "grandPrix": 0.2,
+          "titaniumLion": 0,
+          "metal": 4.2
+        }
+      },
+      {
+        "slug": "industry-craft",
+        "entries": 503,
+        "counts": {
+          "shortlist": 50,
+          "bronze": 14,
+          "silver": 4,
+          "gold": 5,
+          "grandPrix": 3,
+          "titaniumLion": 0,
+          "metalPieces": 26
+        },
+        "pct": {
+          "shortlist": 9.9,
+          "bronze": 2.8,
+          "silver": 0.8,
+          "gold": 1,
+          "grandPrix": 0.6,
+          "titaniumLion": 0,
+          "metal": 5.2
+        }
+      },
+      {
+        "slug": "innovation",
+        "entries": 71,
+        "counts": {
+          "shortlist": 9,
+          "bronze": 1,
+          "silver": 0,
+          "gold": 0,
+          "grandPrix": 0,
+          "titaniumLion": 0,
+          "metalPieces": 1
+        },
+        "pct": {
+          "shortlist": 12.7,
+          "bronze": 1.4,
+          "silver": 0,
+          "gold": 0,
+          "grandPrix": 0,
+          "titaniumLion": 0,
+          "metal": 1.4
+        }
+      },
+      {
+        "slug": "luxury",
+        "entries": 0,
+        "counts": {
+          "shortlist": 0,
+          "bronze": 0,
+          "silver": 0,
+          "gold": 0,
+          "grandPrix": 0,
+          "titaniumLion": 0,
+          "metalPieces": 0
+        },
+        "pct": {
+          "shortlist": null,
+          "bronze": null,
+          "silver": null,
+          "gold": null,
+          "grandPrix": null,
+          "titaniumLion": null,
+          "metal": null
+        }
+      },
+      {
+        "slug": "media",
+        "entries": 1023,
+        "counts": {
+          "shortlist": 147,
+          "bronze": 28,
+          "silver": 15,
+          "gold": 7,
+          "grandPrix": 2,
+          "titaniumLion": 0,
+          "metalPieces": 52
+        },
+        "pct": {
+          "shortlist": 14.4,
+          "bronze": 2.7,
+          "silver": 1.5,
+          "gold": 0.7,
+          "grandPrix": 0.2,
+          "titaniumLion": 0,
+          "metal": 5.1
+        }
+      },
+      {
+        "slug": "outdoor",
+        "entries": 987,
+        "counts": {
+          "shortlist": 109,
+          "bronze": 14,
+          "silver": 14,
+          "gold": 11,
+          "grandPrix": 4,
+          "titaniumLion": 0,
+          "metalPieces": 43
+        },
+        "pct": {
+          "shortlist": 11,
+          "bronze": 1.4,
+          "silver": 1.4,
+          "gold": 1.1,
+          "grandPrix": 0.4,
+          "titaniumLion": 0,
+          "metal": 4.4
+        }
+      },
+      {
+        "slug": "pharma",
+        "entries": 171,
+        "counts": {
+          "shortlist": 14,
+          "bronze": 5,
+          "silver": 2,
+          "gold": 1,
+          "grandPrix": 0,
+          "titaniumLion": 0,
+          "metalPieces": 8
+        },
+        "pct": {
+          "shortlist": 8.2,
+          "bronze": 2.9,
+          "silver": 1.2,
+          "gold": 0.6,
+          "grandPrix": 0,
+          "titaniumLion": 0,
+          "metal": 4.7
+        }
+      },
+      {
+        "slug": "pr",
+        "entries": 883,
+        "counts": {
+          "shortlist": 83,
+          "bronze": 16,
+          "silver": 12,
+          "gold": 5,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 34
+        },
+        "pct": {
+          "shortlist": 9.4,
+          "bronze": 1.8,
+          "silver": 1.4,
+          "gold": 0.6,
+          "grandPrix": 0.1,
+          "titaniumLion": 0,
+          "metal": 3.9
+        }
+      },
+      {
+        "slug": "print-publishing",
+        "entries": 399,
+        "counts": {
+          "shortlist": 50,
+          "bronze": 7,
+          "silver": 6,
+          "gold": 7,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 21
+        },
+        "pct": {
+          "shortlist": 12.5,
+          "bronze": 1.8,
+          "silver": 1.5,
+          "gold": 1.8,
+          "grandPrix": 0.3,
+          "titaniumLion": 0,
+          "metal": 5.3
+        }
+      },
+      {
+        "slug": "social-creator",
+        "entries": 859,
+        "counts": {
+          "shortlist": 84,
+          "bronze": 13,
+          "silver": 8,
+          "gold": 5,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 27
+        },
+        "pct": {
+          "shortlist": 9.8,
+          "bronze": 1.5,
+          "silver": 0.9,
+          "gold": 0.6,
+          "grandPrix": 0.1,
+          "titaniumLion": 0,
+          "metal": 3.1
+        }
+      },
+      {
+        "slug": "sustainable-development-goals",
+        "entries": 380,
+        "counts": {
+          "shortlist": 39,
+          "bronze": 7,
+          "silver": 3,
+          "gold": 2,
+          "grandPrix": 0,
+          "titaniumLion": 0,
+          "metalPieces": 12
+        },
+        "pct": {
+          "shortlist": 10.3,
+          "bronze": 1.8,
+          "silver": 0.8,
+          "gold": 0.5,
+          "grandPrix": 0,
+          "titaniumLion": 0,
+          "metal": 3.2
+        }
+      },
+      {
+        "slug": "titanium",
+        "entries": 80,
+        "counts": {
+          "shortlist": 12,
+          "bronze": 0,
+          "silver": 0,
+          "gold": 0,
+          "grandPrix": 0,
+          "titaniumLion": 3,
+          "metalPieces": 3
+        },
+        "pct": {
+          "shortlist": 15,
+          "bronze": 0,
+          "silver": 0,
+          "gold": 0,
+          "grandPrix": 0,
+          "titaniumLion": 3.8,
+          "metal": 3.8
+        }
+      }
+    ],
+    "2021": [
+      {
+        "slug": "audio-radio",
+        "entries": 542,
+        "counts": {
+          "shortlist": 56,
+          "bronze": 7,
+          "silver": 10,
+          "gold": 7,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 25
+        },
+        "pct": {
+          "shortlist": 10.3,
+          "bronze": 1.3,
+          "silver": 1.8,
+          "gold": 1.3,
+          "grandPrix": 0.2,
+          "titaniumLion": 0,
+          "metal": 4.6
+        }
+      },
+      {
+        "slug": "brand-experience-activation",
+        "entries": 1186,
+        "counts": {
+          "shortlist": 118,
+          "bronze": 19,
+          "silver": 9,
+          "gold": 5,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 34
+        },
+        "pct": {
+          "shortlist": 9.9,
+          "bronze": 1.6,
+          "silver": 0.8,
+          "gold": 0.4,
+          "grandPrix": 0.1,
+          "titaniumLion": 0,
+          "metal": 2.9
+        }
+      },
+      {
+        "slug": "creative-b2b",
+        "entries": 0,
+        "counts": {
+          "shortlist": 0,
+          "bronze": 0,
+          "silver": 0,
+          "gold": 0,
+          "grandPrix": 0,
+          "titaniumLion": 0,
+          "metalPieces": 0
+        },
+        "pct": {
+          "shortlist": null,
+          "bronze": null,
+          "silver": null,
+          "gold": null,
+          "grandPrix": null,
+          "titaniumLion": null,
+          "metal": null
+        }
+      },
+      {
+        "slug": "creative-business-transformation",
+        "entries": 102,
+        "counts": {
+          "shortlist": 10,
+          "bronze": 1,
+          "silver": 1,
+          "gold": 0,
+          "grandPrix": 0,
+          "titaniumLion": 0,
+          "metalPieces": 2
+        },
+        "pct": {
+          "shortlist": 9.8,
+          "bronze": 1,
+          "silver": 1,
+          "gold": 0,
+          "grandPrix": 0,
+          "titaniumLion": 0,
+          "metal": 2
+        }
+      },
+      {
+        "slug": "creative-commerce",
+        "entries": 178,
+        "counts": {
+          "shortlist": 18,
+          "bronze": 6,
+          "silver": 2,
+          "gold": 2,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 11
+        },
+        "pct": {
+          "shortlist": 10.1,
+          "bronze": 3.4,
+          "silver": 1.1,
+          "gold": 1.1,
+          "grandPrix": 0.6,
+          "titaniumLion": 0,
+          "metal": 6.2
+        }
+      },
+      {
+        "slug": "creative-data",
+        "entries": 148,
+        "counts": {
+          "shortlist": 18,
+          "bronze": 4,
+          "silver": 2,
+          "gold": 0,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 7
+        },
+        "pct": {
+          "shortlist": 12.2,
+          "bronze": 2.7,
+          "silver": 1.4,
+          "gold": 0,
+          "grandPrix": 0.7,
+          "titaniumLion": 0,
+          "metal": 4.7
+        }
+      },
+      {
+        "slug": "creative-effectiveness",
+        "entries": 141,
+        "counts": {
+          "shortlist": 20,
+          "bronze": 4,
+          "silver": 3,
+          "gold": 3,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 11
+        },
+        "pct": {
+          "shortlist": 14.2,
+          "bronze": 2.8,
+          "silver": 2.1,
+          "gold": 2.1,
+          "grandPrix": 0.7,
+          "titaniumLion": 0,
+          "metal": 7.8
+        }
+      },
+      {
+        "slug": "creative-strategy",
+        "entries": 306,
+        "counts": {
+          "shortlist": 30,
+          "bronze": 6,
+          "silver": 4,
+          "gold": 0,
+          "grandPrix": 0,
+          "titaniumLion": 0,
+          "metalPieces": 10
+        },
+        "pct": {
+          "shortlist": 9.8,
+          "bronze": 2,
+          "silver": 1.3,
+          "gold": 0,
+          "grandPrix": 0,
+          "titaniumLion": 0,
+          "metal": 3.3
+        }
+      },
+      {
+        "slug": "design",
+        "entries": 626,
+        "counts": {
+          "shortlist": 62,
+          "bronze": 9,
+          "silver": 7,
+          "gold": 5,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 22
+        },
+        "pct": {
+          "shortlist": 9.9,
+          "bronze": 1.4,
+          "silver": 1.1,
+          "gold": 0.8,
+          "grandPrix": 0.2,
+          "titaniumLion": 0,
+          "metal": 3.5
+        }
+      },
+      {
+        "slug": "digital-craft",
+        "entries": 399,
+        "counts": {
+          "shortlist": 46,
+          "bronze": 8,
+          "silver": 4,
+          "gold": 3,
+          "grandPrix": 0,
+          "titaniumLion": 0,
+          "metalPieces": 15
+        },
+        "pct": {
+          "shortlist": 11.5,
+          "bronze": 2,
+          "silver": 1,
+          "gold": 0.8,
+          "grandPrix": 0,
+          "titaniumLion": 0,
+          "metal": 3.8
+        }
+      },
+      {
+        "slug": "direct",
+        "entries": 1016,
+        "counts": {
+          "shortlist": 114,
+          "bronze": 17,
+          "silver": 6,
+          "gold": 4,
+          "grandPrix": 0,
+          "titaniumLion": 0,
+          "metalPieces": 27
+        },
+        "pct": {
+          "shortlist": 11.2,
+          "bronze": 1.7,
+          "silver": 0.6,
+          "gold": 0.4,
+          "grandPrix": 0,
+          "titaniumLion": 0,
+          "metal": 2.7
+        }
+      },
+      {
+        "slug": "entertainment",
+        "entries": 498,
+        "counts": {
+          "shortlist": 46,
+          "bronze": 10,
+          "silver": 4,
+          "gold": 2,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 17
+        },
+        "pct": {
+          "shortlist": 9.2,
+          "bronze": 2,
+          "silver": 0.8,
+          "gold": 0.4,
+          "grandPrix": 0.2,
+          "titaniumLion": 0,
+          "metal": 3.4
+        }
+      },
+      {
+        "slug": "entertainment-lions-for-gaming",
+        "entries": 0,
+        "counts": {
+          "shortlist": 0,
+          "bronze": 0,
+          "silver": 0,
+          "gold": 0,
+          "grandPrix": 0,
+          "titaniumLion": 0,
+          "metalPieces": 0
+        },
+        "pct": {
+          "shortlist": null,
+          "bronze": null,
+          "silver": null,
+          "gold": null,
+          "grandPrix": null,
+          "titaniumLion": null,
+          "metal": null
+        }
+      },
+      {
+        "slug": "entertainment-lions-for-music",
+        "entries": 243,
+        "counts": {
+          "shortlist": 30,
+          "bronze": 5,
+          "silver": 0,
+          "gold": 3,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 9
+        },
+        "pct": {
+          "shortlist": 12.3,
+          "bronze": 2.1,
+          "silver": 0,
+          "gold": 1.2,
+          "grandPrix": 0.4,
+          "titaniumLion": 0,
+          "metal": 3.7
+        }
+      },
+      {
+        "slug": "entertainment-lions-for-sport",
+        "entries": 256,
+        "counts": {
+          "shortlist": 28,
+          "bronze": 4,
+          "silver": 4,
+          "gold": 0,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 9
+        },
+        "pct": {
+          "shortlist": 10.9,
+          "bronze": 1.6,
+          "silver": 1.6,
+          "gold": 0,
+          "grandPrix": 0.4,
+          "titaniumLion": 0,
+          "metal": 3.5
+        }
+      },
+      {
+        "slug": "film",
+        "entries": 1605,
+        "counts": {
+          "shortlist": 152,
+          "bronze": 27,
+          "silver": 14,
+          "gold": 5,
+          "grandPrix": 2,
+          "titaniumLion": 0,
+          "metalPieces": 48
+        },
+        "pct": {
+          "shortlist": 9.5,
+          "bronze": 1.7,
+          "silver": 0.9,
+          "gold": 0.3,
+          "grandPrix": 0.1,
+          "titaniumLion": 0,
+          "metal": 3
+        }
+      },
+      {
+        "slug": "film-craft",
+        "entries": 1205,
+        "counts": {
+          "shortlist": 120,
+          "bronze": 16,
+          "silver": 16,
+          "gold": 7,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 40
+        },
+        "pct": {
+          "shortlist": 10,
+          "bronze": 1.3,
+          "silver": 1.3,
+          "gold": 0.6,
+          "grandPrix": 0.1,
+          "titaniumLion": 0,
+          "metal": 3.3
+        }
+      },
+      {
+        "slug": "glass-the-lion-for-change",
+        "entries": 98,
+        "counts": {
+          "shortlist": 9,
+          "bronze": 1,
+          "silver": 0,
+          "gold": 1,
+          "grandPrix": 0,
+          "titaniumLion": 0,
+          "metalPieces": 2
+        },
+        "pct": {
+          "shortlist": 9.2,
+          "bronze": 1,
+          "silver": 0,
+          "gold": 1,
+          "grandPrix": 0,
+          "titaniumLion": 0,
+          "metal": 2
+        }
+      },
+      {
+        "slug": "health-wellness",
+        "entries": 714,
+        "counts": {
+          "shortlist": 66,
+          "bronze": 13,
+          "silver": 6,
+          "gold": 5,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 25
+        },
+        "pct": {
+          "shortlist": 9.2,
+          "bronze": 1.8,
+          "silver": 0.8,
+          "gold": 0.7,
+          "grandPrix": 0.1,
+          "titaniumLion": 0,
+          "metal": 3.5
+        }
+      },
+      {
+        "slug": "industry-craft",
+        "entries": 638,
+        "counts": {
+          "shortlist": 56,
+          "bronze": 7,
+          "silver": 3,
+          "gold": 1,
+          "grandPrix": 0,
+          "titaniumLion": 0,
+          "metalPieces": 11
+        },
+        "pct": {
+          "shortlist": 8.8,
+          "bronze": 1.1,
+          "silver": 0.5,
+          "gold": 0.2,
+          "grandPrix": 0,
+          "titaniumLion": 0,
+          "metal": 1.7
+        }
+      },
+      {
+        "slug": "innovation",
+        "entries": 89,
+        "counts": {
+          "shortlist": 8,
+          "bronze": 2,
+          "silver": 1,
+          "gold": 0,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 4
+        },
+        "pct": {
+          "shortlist": 9,
+          "bronze": 2.2,
+          "silver": 1.1,
+          "gold": 0,
+          "grandPrix": 1.1,
+          "titaniumLion": 0,
+          "metal": 4.5
+        }
+      },
+      {
+        "slug": "luxury",
+        "entries": 0,
+        "counts": {
+          "shortlist": 0,
+          "bronze": 0,
+          "silver": 0,
+          "gold": 0,
+          "grandPrix": 0,
+          "titaniumLion": 0,
+          "metalPieces": 0
+        },
+        "pct": {
+          "shortlist": null,
+          "bronze": null,
+          "silver": null,
+          "gold": null,
+          "grandPrix": null,
+          "titaniumLion": null,
+          "metal": null
+        }
+      },
+      {
+        "slug": "media",
+        "entries": 945,
+        "counts": {
+          "shortlist": 143,
+          "bronze": 20,
+          "silver": 15,
+          "gold": 10,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 46
+        },
+        "pct": {
+          "shortlist": 15.1,
+          "bronze": 2.1,
+          "silver": 1.6,
+          "gold": 1.1,
+          "grandPrix": 0.1,
+          "titaniumLion": 0,
+          "metal": 4.9
+        }
+      },
+      {
+        "slug": "outdoor",
+        "entries": 1039,
+        "counts": {
+          "shortlist": 118,
+          "bronze": 17,
+          "silver": 16,
+          "gold": 11,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 45
+        },
+        "pct": {
+          "shortlist": 11.4,
+          "bronze": 1.6,
+          "silver": 1.5,
+          "gold": 1.1,
+          "grandPrix": 0.1,
+          "titaniumLion": 0,
+          "metal": 4.3
+        }
+      },
+      {
+        "slug": "pharma",
+        "entries": 333,
+        "counts": {
+          "shortlist": 35,
+          "bronze": 5,
+          "silver": 6,
+          "gold": 2,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 14
+        },
+        "pct": {
+          "shortlist": 10.5,
+          "bronze": 1.5,
+          "silver": 1.8,
+          "gold": 0.6,
+          "grandPrix": 0.3,
+          "titaniumLion": 0,
+          "metal": 4.2
+        }
+      },
+      {
+        "slug": "pr",
+        "entries": 838,
+        "counts": {
+          "shortlist": 82,
+          "bronze": 17,
+          "silver": 9,
+          "gold": 6,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 33
+        },
+        "pct": {
+          "shortlist": 9.8,
+          "bronze": 2,
+          "silver": 1.1,
+          "gold": 0.7,
+          "grandPrix": 0.1,
+          "titaniumLion": 0,
+          "metal": 3.9
+        }
+      },
+      {
+        "slug": "print-publishing",
+        "entries": 600,
+        "counts": {
+          "shortlist": 60,
+          "bronze": 17,
+          "silver": 12,
+          "gold": 1,
+          "grandPrix": 0,
+          "titaniumLion": 0,
+          "metalPieces": 30
+        },
+        "pct": {
+          "shortlist": 10,
+          "bronze": 2.8,
+          "silver": 2,
+          "gold": 0.2,
+          "grandPrix": 0,
+          "titaniumLion": 0,
+          "metal": 5
+        }
+      },
+      {
+        "slug": "social-creator",
+        "entries": 867,
+        "counts": {
+          "shortlist": 83,
+          "bronze": 16,
+          "silver": 8,
+          "gold": 3,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 28
+        },
+        "pct": {
+          "shortlist": 9.6,
+          "bronze": 1.8,
+          "silver": 0.9,
+          "gold": 0.3,
+          "grandPrix": 0.1,
+          "titaniumLion": 0,
+          "metal": 3.2
+        }
+      },
+      {
+        "slug": "sustainable-development-goals",
+        "entries": 353,
+        "counts": {
+          "shortlist": 30,
+          "bronze": 5,
+          "silver": 1,
+          "gold": 1,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 8
+        },
+        "pct": {
+          "shortlist": 8.5,
+          "bronze": 1.4,
+          "silver": 0.3,
+          "gold": 0.3,
+          "grandPrix": 0.3,
+          "titaniumLion": 0,
+          "metal": 2.3
+        }
+      },
+      {
+        "slug": "titanium",
+        "entries": 116,
+        "counts": {
+          "shortlist": 8,
+          "bronze": 0,
+          "silver": 0,
+          "gold": 0,
+          "grandPrix": 1,
+          "titaniumLion": 3,
+          "metalPieces": 4
+        },
+        "pct": {
+          "shortlist": 6.9,
+          "bronze": 0,
+          "silver": 0,
+          "gold": 0,
+          "grandPrix": 0.9,
+          "titaniumLion": 2.6,
+          "metal": 3.4
+        }
+      }
+    ],
+    "2022": [
+      {
+        "slug": "audio-radio",
+        "entries": 690,
+        "counts": {
+          "shortlist": 75,
+          "bronze": 14,
+          "silver": 8,
+          "gold": 4,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 27
+        },
+        "pct": {
+          "shortlist": 10.9,
+          "bronze": 2,
+          "silver": 1.2,
+          "gold": 0.6,
+          "grandPrix": 0.1,
+          "titaniumLion": 0,
+          "metal": 3.9
+        }
+      },
+      {
+        "slug": "brand-experience-activation",
+        "entries": 1914,
+        "counts": {
+          "shortlist": 188,
+          "bronze": 27,
+          "silver": 20,
+          "gold": 9,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 57
+        },
+        "pct": {
+          "shortlist": 9.8,
+          "bronze": 1.4,
+          "silver": 1,
+          "gold": 0.5,
+          "grandPrix": 0.1,
+          "titaniumLion": 0,
+          "metal": 3
+        }
+      },
+      {
+        "slug": "creative-b2b",
+        "entries": 415,
+        "counts": {
+          "shortlist": 36,
+          "bronze": 6,
+          "silver": 4,
+          "gold": 3,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 14
+        },
+        "pct": {
+          "shortlist": 8.7,
+          "bronze": 1.4,
+          "silver": 1,
+          "gold": 0.7,
+          "grandPrix": 0.2,
+          "titaniumLion": 0,
+          "metal": 3.4
+        }
+      },
+      {
+        "slug": "creative-business-transformation",
+        "entries": 158,
+        "counts": {
+          "shortlist": 23,
+          "bronze": 4,
+          "silver": 3,
+          "gold": 1,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 9
+        },
+        "pct": {
+          "shortlist": 14.6,
+          "bronze": 2.5,
+          "silver": 1.9,
+          "gold": 0.6,
+          "grandPrix": 0.6,
+          "titaniumLion": 0,
+          "metal": 5.7
+        }
+      },
+      {
+        "slug": "creative-commerce",
+        "entries": 370,
+        "counts": {
+          "shortlist": 42,
+          "bronze": 8,
+          "silver": 5,
+          "gold": 3,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 17
+        },
+        "pct": {
+          "shortlist": 11.4,
+          "bronze": 2.2,
+          "silver": 1.4,
+          "gold": 0.8,
+          "grandPrix": 0.3,
+          "titaniumLion": 0,
+          "metal": 4.6
+        }
+      },
+      {
+        "slug": "creative-data",
+        "entries": 329,
+        "counts": {
+          "shortlist": 40,
+          "bronze": 6,
+          "silver": 3,
+          "gold": 3,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 13
+        },
+        "pct": {
+          "shortlist": 12.2,
+          "bronze": 1.8,
+          "silver": 0.9,
+          "gold": 0.9,
+          "grandPrix": 0.3,
+          "titaniumLion": 0,
+          "metal": 4
+        }
+      },
+      {
+        "slug": "creative-effectiveness",
+        "entries": 255,
+        "counts": {
+          "shortlist": 33,
+          "bronze": 9,
+          "silver": 6,
+          "gold": 5,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 21
+        },
+        "pct": {
+          "shortlist": 12.9,
+          "bronze": 3.5,
+          "silver": 2.4,
+          "gold": 2,
+          "grandPrix": 0.4,
+          "titaniumLion": 0,
+          "metal": 8.2
+        }
+      },
+      {
+        "slug": "creative-strategy",
+        "entries": 556,
+        "counts": {
+          "shortlist": 54,
+          "bronze": 9,
+          "silver": 6,
+          "gold": 3,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 19
+        },
+        "pct": {
+          "shortlist": 9.7,
+          "bronze": 1.6,
+          "silver": 1.1,
+          "gold": 0.5,
+          "grandPrix": 0.2,
+          "titaniumLion": 0,
+          "metal": 3.4
+        }
+      },
+      {
+        "slug": "design",
+        "entries": 1056,
+        "counts": {
+          "shortlist": 109,
+          "bronze": 21,
+          "silver": 10,
+          "gold": 6,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 38
+        },
+        "pct": {
+          "shortlist": 10.3,
+          "bronze": 2,
+          "silver": 0.9,
+          "gold": 0.6,
+          "grandPrix": 0.1,
+          "titaniumLion": 0,
+          "metal": 3.6
+        }
+      },
+      {
+        "slug": "digital-craft",
+        "entries": 664,
+        "counts": {
+          "shortlist": 82,
+          "bronze": 10,
+          "silver": 7,
+          "gold": 3,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 21
+        },
+        "pct": {
+          "shortlist": 12.3,
+          "bronze": 1.5,
+          "silver": 1.1,
+          "gold": 0.5,
+          "grandPrix": 0.2,
+          "titaniumLion": 0,
+          "metal": 3.2
+        }
+      },
+      {
+        "slug": "direct",
+        "entries": 1922,
+        "counts": {
+          "shortlist": 173,
+          "bronze": 27,
+          "silver": 20,
+          "gold": 7,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 55
+        },
+        "pct": {
+          "shortlist": 9,
+          "bronze": 1.4,
+          "silver": 1,
+          "gold": 0.4,
+          "grandPrix": 0.1,
+          "titaniumLion": 0,
+          "metal": 2.9
+        }
+      },
+      {
+        "slug": "entertainment",
+        "entries": 653,
+        "counts": {
+          "shortlist": 64,
+          "bronze": 13,
+          "silver": 7,
+          "gold": 4,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 25
+        },
+        "pct": {
+          "shortlist": 9.8,
+          "bronze": 2,
+          "silver": 1.1,
+          "gold": 0.6,
+          "grandPrix": 0.2,
+          "titaniumLion": 0,
+          "metal": 3.8
+        }
+      },
+      {
+        "slug": "entertainment-lions-for-gaming",
+        "entries": 0,
+        "counts": {
+          "shortlist": 0,
+          "bronze": 0,
+          "silver": 0,
+          "gold": 0,
+          "grandPrix": 0,
+          "titaniumLion": 0,
+          "metalPieces": 0
+        },
+        "pct": {
+          "shortlist": null,
+          "bronze": null,
+          "silver": null,
+          "gold": null,
+          "grandPrix": null,
+          "titaniumLion": null,
+          "metal": null
+        }
+      },
+      {
+        "slug": "entertainment-lions-for-music",
+        "entries": 390,
+        "counts": {
+          "shortlist": 41,
+          "bronze": 7,
+          "silver": 5,
+          "gold": 4,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 17
+        },
+        "pct": {
+          "shortlist": 10.5,
+          "bronze": 1.8,
+          "silver": 1.3,
+          "gold": 1,
+          "grandPrix": 0.3,
+          "titaniumLion": 0,
+          "metal": 4.4
+        }
+      },
+      {
+        "slug": "entertainment-lions-for-sport",
+        "entries": 558,
+        "counts": {
+          "shortlist": 52,
+          "bronze": 11,
+          "silver": 7,
+          "gold": 3,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 22
+        },
+        "pct": {
+          "shortlist": 9.3,
+          "bronze": 2,
+          "silver": 1.3,
+          "gold": 0.5,
+          "grandPrix": 0.2,
+          "titaniumLion": 0,
+          "metal": 3.9
+        }
+      },
+      {
+        "slug": "film",
+        "entries": 2026,
+        "counts": {
+          "shortlist": 198,
+          "bronze": 32,
+          "silver": 20,
+          "gold": 8,
+          "grandPrix": 2,
+          "titaniumLion": 0,
+          "metalPieces": 62
+        },
+        "pct": {
+          "shortlist": 9.8,
+          "bronze": 1.6,
+          "silver": 1,
+          "gold": 0.4,
+          "grandPrix": 0.1,
+          "titaniumLion": 0,
+          "metal": 3.1
+        }
+      },
+      {
+        "slug": "film-craft",
+        "entries": 1704,
+        "counts": {
+          "shortlist": 165,
+          "bronze": 26,
+          "silver": 17,
+          "gold": 11,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 55
+        },
+        "pct": {
+          "shortlist": 9.7,
+          "bronze": 1.5,
+          "silver": 1,
+          "gold": 0.6,
+          "grandPrix": 0.1,
+          "titaniumLion": 0,
+          "metal": 3.2
+        }
+      },
+      {
+        "slug": "glass-the-lion-for-change",
+        "entries": 139,
+        "counts": {
+          "shortlist": 15,
+          "bronze": 3,
+          "silver": 1,
+          "gold": 3,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 8
+        },
+        "pct": {
+          "shortlist": 10.8,
+          "bronze": 2.2,
+          "silver": 0.7,
+          "gold": 2.2,
+          "grandPrix": 0.7,
+          "titaniumLion": 0,
+          "metal": 5.8
+        }
+      },
+      {
+        "slug": "health-wellness",
+        "entries": 1209,
+        "counts": {
+          "shortlist": 117,
+          "bronze": 19,
+          "silver": 11,
+          "gold": 7,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 38
+        },
+        "pct": {
+          "shortlist": 9.7,
+          "bronze": 1.6,
+          "silver": 0.9,
+          "gold": 0.6,
+          "grandPrix": 0.1,
+          "titaniumLion": 0,
+          "metal": 3.1
+        }
+      },
+      {
+        "slug": "industry-craft",
+        "entries": 1110,
+        "counts": {
+          "shortlist": 102,
+          "bronze": 12,
+          "silver": 17,
+          "gold": 5,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 35
+        },
+        "pct": {
+          "shortlist": 9.2,
+          "bronze": 1.1,
+          "silver": 1.5,
+          "gold": 0.5,
+          "grandPrix": 0.1,
+          "titaniumLion": 0,
+          "metal": 3.2
+        }
+      },
+      {
+        "slug": "innovation",
+        "entries": 114,
+        "counts": {
+          "shortlist": 14,
+          "bronze": 1,
+          "silver": 1,
+          "gold": 1,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 4
+        },
+        "pct": {
+          "shortlist": 12.3,
+          "bronze": 0.9,
+          "silver": 0.9,
+          "gold": 0.9,
+          "grandPrix": 0.9,
+          "titaniumLion": 0,
+          "metal": 3.5
+        }
+      },
+      {
+        "slug": "luxury",
+        "entries": 0,
+        "counts": {
+          "shortlist": 0,
+          "bronze": 0,
+          "silver": 0,
+          "gold": 0,
+          "grandPrix": 0,
+          "titaniumLion": 0,
+          "metalPieces": 0
+        },
+        "pct": {
+          "shortlist": null,
+          "bronze": null,
+          "silver": null,
+          "gold": null,
+          "grandPrix": null,
+          "titaniumLion": null,
+          "metal": null
+        }
+      },
+      {
+        "slug": "media",
+        "entries": 1739,
+        "counts": {
+          "shortlist": 229,
+          "bronze": 38,
+          "silver": 26,
+          "gold": 12,
+          "grandPrix": 2,
+          "titaniumLion": 0,
+          "metalPieces": 78
+        },
+        "pct": {
+          "shortlist": 13.2,
+          "bronze": 2.2,
+          "silver": 1.5,
+          "gold": 0.7,
+          "grandPrix": 0.1,
+          "titaniumLion": 0,
+          "metal": 4.5
+        }
+      },
+      {
+        "slug": "outdoor",
+        "entries": 1801,
+        "counts": {
+          "shortlist": 174,
+          "bronze": 29,
+          "silver": 18,
+          "gold": 12,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 60
+        },
+        "pct": {
+          "shortlist": 9.7,
+          "bronze": 1.6,
+          "silver": 1,
+          "gold": 0.7,
+          "grandPrix": 0.1,
+          "titaniumLion": 0,
+          "metal": 3.3
+        }
+      },
+      {
+        "slug": "pharma",
+        "entries": 290,
+        "counts": {
+          "shortlist": 31,
+          "bronze": 4,
+          "silver": 4,
+          "gold": 2,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 11
+        },
+        "pct": {
+          "shortlist": 10.7,
+          "bronze": 1.4,
+          "silver": 1.4,
+          "gold": 0.7,
+          "grandPrix": 0.3,
+          "titaniumLion": 0,
+          "metal": 3.8
+        }
+      },
+      {
+        "slug": "pr",
+        "entries": 1481,
+        "counts": {
+          "shortlist": 144,
+          "bronze": 24,
+          "silver": 17,
+          "gold": 7,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 49
+        },
+        "pct": {
+          "shortlist": 9.7,
+          "bronze": 1.6,
+          "silver": 1.1,
+          "gold": 0.5,
+          "grandPrix": 0.1,
+          "titaniumLion": 0,
+          "metal": 3.3
+        }
+      },
+      {
+        "slug": "print-publishing",
+        "entries": 792,
+        "counts": {
+          "shortlist": 76,
+          "bronze": 15,
+          "silver": 19,
+          "gold": 6,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 41
+        },
+        "pct": {
+          "shortlist": 9.6,
+          "bronze": 1.9,
+          "silver": 2.4,
+          "gold": 0.8,
+          "grandPrix": 0.1,
+          "titaniumLion": 0,
+          "metal": 5.2
+        }
+      },
+      {
+        "slug": "social-creator",
+        "entries": 1629,
+        "counts": {
+          "shortlist": 153,
+          "bronze": 26,
+          "silver": 17,
+          "gold": 6,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 50
+        },
+        "pct": {
+          "shortlist": 9.4,
+          "bronze": 1.6,
+          "silver": 1,
+          "gold": 0.4,
+          "grandPrix": 0.1,
+          "titaniumLion": 0,
+          "metal": 3.1
+        }
+      },
+      {
+        "slug": "sustainable-development-goals",
+        "entries": 614,
+        "counts": {
+          "shortlist": 59,
+          "bronze": 10,
+          "silver": 5,
+          "gold": 3,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 19
+        },
+        "pct": {
+          "shortlist": 9.6,
+          "bronze": 1.6,
+          "silver": 0.8,
+          "gold": 0.5,
+          "grandPrix": 0.2,
+          "titaniumLion": 0,
+          "metal": 3.1
+        }
+      },
+      {
+        "slug": "titanium",
+        "entries": 198,
+        "counts": {
+          "shortlist": 24,
+          "bronze": 0,
+          "silver": 0,
+          "gold": 0,
+          "grandPrix": 1,
+          "titaniumLion": 5,
+          "metalPieces": 6
+        },
+        "pct": {
+          "shortlist": 12.1,
+          "bronze": 0,
+          "silver": 0,
+          "gold": 0,
+          "grandPrix": 0.5,
+          "titaniumLion": 2.5,
+          "metal": 3
+        }
+      }
+    ],
+    "2023": [
+      {
+        "slug": "audio-radio",
+        "entries": 707,
+        "counts": {
+          "shortlist": 85,
+          "bronze": 11,
+          "silver": 7,
+          "gold": 3,
+          "grandPrix": 3,
+          "titaniumLion": 0,
+          "metalPieces": 24
+        },
+        "pct": {
+          "shortlist": 12,
+          "bronze": 1.6,
+          "silver": 1,
+          "gold": 0.4,
+          "grandPrix": 0.4,
+          "titaniumLion": 0,
+          "metal": 3.4
+        }
+      },
+      {
+        "slug": "brand-experience-activation",
+        "entries": 2218,
+        "counts": {
+          "shortlist": 226,
+          "bronze": 32,
+          "silver": 25,
+          "gold": 11,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 69
+        },
+        "pct": {
+          "shortlist": 10.2,
+          "bronze": 1.4,
+          "silver": 1.1,
+          "gold": 0.5,
+          "grandPrix": 0,
+          "titaniumLion": 0,
+          "metal": 3.1
+        }
+      },
+      {
+        "slug": "creative-b2b",
+        "entries": 446,
+        "counts": {
+          "shortlist": 46,
+          "bronze": 8,
+          "silver": 5,
+          "gold": 2,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 16
+        },
+        "pct": {
+          "shortlist": 10.3,
+          "bronze": 1.8,
+          "silver": 1.1,
+          "gold": 0.4,
+          "grandPrix": 0.2,
+          "titaniumLion": 0,
+          "metal": 3.6
+        }
+      },
+      {
+        "slug": "creative-business-transformation",
+        "entries": 248,
+        "counts": {
+          "shortlist": 33,
+          "bronze": 4,
+          "silver": 3,
+          "gold": 2,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 10
+        },
+        "pct": {
+          "shortlist": 13.3,
+          "bronze": 1.6,
+          "silver": 1.2,
+          "gold": 0.8,
+          "grandPrix": 0.4,
+          "titaniumLion": 0,
+          "metal": 4
+        }
+      },
+      {
+        "slug": "creative-commerce",
+        "entries": 466,
+        "counts": {
+          "shortlist": 47,
+          "bronze": 8,
+          "silver": 4,
+          "gold": 4,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 17
+        },
+        "pct": {
+          "shortlist": 10.1,
+          "bronze": 1.7,
+          "silver": 0.9,
+          "gold": 0.9,
+          "grandPrix": 0.2,
+          "titaniumLion": 0,
+          "metal": 3.6
+        }
+      },
+      {
+        "slug": "creative-data",
+        "entries": 416,
+        "counts": {
+          "shortlist": 43,
+          "bronze": 7,
+          "silver": 5,
+          "gold": 2,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 15
+        },
+        "pct": {
+          "shortlist": 10.3,
+          "bronze": 1.7,
+          "silver": 1.2,
+          "gold": 0.5,
+          "grandPrix": 0.2,
+          "titaniumLion": 0,
+          "metal": 3.6
+        }
+      },
+      {
+        "slug": "creative-effectiveness",
+        "entries": 289,
+        "counts": {
+          "shortlist": 33,
+          "bronze": 7,
+          "silver": 5,
+          "gold": 3,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 16
+        },
+        "pct": {
+          "shortlist": 11.4,
+          "bronze": 2.4,
+          "silver": 1.7,
+          "gold": 1,
+          "grandPrix": 0.3,
+          "titaniumLion": 0,
+          "metal": 5.5
+        }
+      },
+      {
+        "slug": "creative-strategy",
+        "entries": 772,
+        "counts": {
+          "shortlist": 73,
+          "bronze": 12,
+          "silver": 8,
+          "gold": 4,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 25
+        },
+        "pct": {
+          "shortlist": 9.5,
+          "bronze": 1.6,
+          "silver": 1,
+          "gold": 0.5,
+          "grandPrix": 0.1,
+          "titaniumLion": 0,
+          "metal": 3.2
+        }
+      },
+      {
+        "slug": "design",
+        "entries": 977,
+        "counts": {
+          "shortlist": 104,
+          "bronze": 18,
+          "silver": 10,
+          "gold": 5,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 34
+        },
+        "pct": {
+          "shortlist": 10.6,
+          "bronze": 1.8,
+          "silver": 1,
+          "gold": 0.5,
+          "grandPrix": 0.1,
+          "titaniumLion": 0,
+          "metal": 3.5
+        }
+      },
+      {
+        "slug": "digital-craft",
+        "entries": 615,
+        "counts": {
+          "shortlist": 71,
+          "bronze": 9,
+          "silver": 7,
+          "gold": 3,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 20
+        },
+        "pct": {
+          "shortlist": 11.5,
+          "bronze": 1.5,
+          "silver": 1.1,
+          "gold": 0.5,
+          "grandPrix": 0.2,
+          "titaniumLion": 0,
+          "metal": 3.3
+        }
+      },
+      {
+        "slug": "direct",
+        "entries": 1931,
+        "counts": {
+          "shortlist": 191,
+          "bronze": 30,
+          "silver": 19,
+          "gold": 10,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 60
+        },
+        "pct": {
+          "shortlist": 9.9,
+          "bronze": 1.6,
+          "silver": 1,
+          "gold": 0.5,
+          "grandPrix": 0.1,
+          "titaniumLion": 0,
+          "metal": 3.1
+        }
+      },
+      {
+        "slug": "entertainment",
+        "entries": 769,
+        "counts": {
+          "shortlist": 88,
+          "bronze": 10,
+          "silver": 12,
+          "gold": 5,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 28
+        },
+        "pct": {
+          "shortlist": 11.4,
+          "bronze": 1.3,
+          "silver": 1.6,
+          "gold": 0.7,
+          "grandPrix": 0.1,
+          "titaniumLion": 0,
+          "metal": 3.6
+        }
+      },
+      {
+        "slug": "entertainment-lions-for-gaming",
+        "entries": 607,
+        "counts": {
+          "shortlist": 69,
+          "bronze": 16,
+          "silver": 6,
+          "gold": 3,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 26
+        },
+        "pct": {
+          "shortlist": 11.4,
+          "bronze": 2.6,
+          "silver": 1,
+          "gold": 0.5,
+          "grandPrix": 0.2,
+          "titaniumLion": 0,
+          "metal": 4.3
+        }
+      },
+      {
+        "slug": "entertainment-lions-for-music",
+        "entries": 432,
+        "counts": {
+          "shortlist": 46,
+          "bronze": 8,
+          "silver": 5,
+          "gold": 3,
+          "grandPrix": 2,
+          "titaniumLion": 0,
+          "metalPieces": 18
+        },
+        "pct": {
+          "shortlist": 10.6,
+          "bronze": 1.9,
+          "silver": 1.2,
+          "gold": 0.7,
+          "grandPrix": 0.5,
+          "titaniumLion": 0,
+          "metal": 4.2
+        }
+      },
+      {
+        "slug": "entertainment-lions-for-sport",
+        "entries": 600,
+        "counts": {
+          "shortlist": 57,
+          "bronze": 8,
+          "silver": 7,
+          "gold": 3,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 19
+        },
+        "pct": {
+          "shortlist": 9.5,
+          "bronze": 1.3,
+          "silver": 1.2,
+          "gold": 0.5,
+          "grandPrix": 0.2,
+          "titaniumLion": 0,
+          "metal": 3.2
+        }
+      },
+      {
+        "slug": "film",
+        "entries": 1859,
+        "counts": {
+          "shortlist": 171,
+          "bronze": 25,
+          "silver": 16,
+          "gold": 10,
+          "grandPrix": 2,
+          "titaniumLion": 0,
+          "metalPieces": 53
+        },
+        "pct": {
+          "shortlist": 9.2,
+          "bronze": 1.3,
+          "silver": 0.9,
+          "gold": 0.5,
+          "grandPrix": 0.1,
+          "titaniumLion": 0,
+          "metal": 2.9
+        }
+      },
+      {
+        "slug": "film-craft",
+        "entries": 1714,
+        "counts": {
+          "shortlist": 177,
+          "bronze": 30,
+          "silver": 17,
+          "gold": 8,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 56
+        },
+        "pct": {
+          "shortlist": 10.3,
+          "bronze": 1.8,
+          "silver": 1,
+          "gold": 0.5,
+          "grandPrix": 0.1,
+          "titaniumLion": 0,
+          "metal": 3.3
+        }
+      },
+      {
+        "slug": "glass-the-lion-for-change",
+        "entries": 183,
+        "counts": {
+          "shortlist": 21,
+          "bronze": 3,
+          "silver": 2,
+          "gold": 1,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 7
+        },
+        "pct": {
+          "shortlist": 11.5,
+          "bronze": 1.6,
+          "silver": 1.1,
+          "gold": 0.5,
+          "grandPrix": 0.5,
+          "titaniumLion": 0,
+          "metal": 3.8
+        }
+      },
+      {
+        "slug": "health-wellness",
+        "entries": 1286,
+        "counts": {
+          "shortlist": 129,
+          "bronze": 17,
+          "silver": 13,
+          "gold": 6,
+          "grandPrix": 2,
+          "titaniumLion": 0,
+          "metalPieces": 38
+        },
+        "pct": {
+          "shortlist": 10,
+          "bronze": 1.3,
+          "silver": 1,
+          "gold": 0.5,
+          "grandPrix": 0.2,
+          "titaniumLion": 0,
+          "metal": 3
+        }
+      },
+      {
+        "slug": "industry-craft",
+        "entries": 964,
+        "counts": {
+          "shortlist": 104,
+          "bronze": 22,
+          "silver": 16,
+          "gold": 11,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 50
+        },
+        "pct": {
+          "shortlist": 10.8,
+          "bronze": 2.3,
+          "silver": 1.7,
+          "gold": 1.1,
+          "grandPrix": 0.1,
+          "titaniumLion": 0,
+          "metal": 5.2
+        }
+      },
+      {
+        "slug": "innovation",
+        "entries": 150,
+        "counts": {
+          "shortlist": 19,
+          "bronze": 3,
+          "silver": 1,
+          "gold": 1,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 6
+        },
+        "pct": {
+          "shortlist": 12.7,
+          "bronze": 2,
+          "silver": 0.7,
+          "gold": 0.7,
+          "grandPrix": 0.7,
+          "titaniumLion": 0,
+          "metal": 4
+        }
+      },
+      {
+        "slug": "luxury",
+        "entries": 0,
+        "counts": {
+          "shortlist": 0,
+          "bronze": 0,
+          "silver": 0,
+          "gold": 0,
+          "grandPrix": 0,
+          "titaniumLion": 0,
+          "metalPieces": 0
+        },
+        "pct": {
+          "shortlist": null,
+          "bronze": null,
+          "silver": null,
+          "gold": null,
+          "grandPrix": null,
+          "titaniumLion": null,
+          "metal": null
+        }
+      },
+      {
+        "slug": "media",
+        "entries": 1849,
+        "counts": {
+          "shortlist": 221,
+          "bronze": 38,
+          "silver": 20,
+          "gold": 12,
+          "grandPrix": 2,
+          "titaniumLion": 0,
+          "metalPieces": 72
+        },
+        "pct": {
+          "shortlist": 12,
+          "bronze": 2.1,
+          "silver": 1.1,
+          "gold": 0.6,
+          "grandPrix": 0.1,
+          "titaniumLion": 0,
+          "metal": 3.9
+        }
+      },
+      {
+        "slug": "outdoor",
+        "entries": 1925,
+        "counts": {
+          "shortlist": 199,
+          "bronze": 47,
+          "silver": 27,
+          "gold": 13,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 88
+        },
+        "pct": {
+          "shortlist": 10.3,
+          "bronze": 2.4,
+          "silver": 1.4,
+          "gold": 0.7,
+          "grandPrix": 0.1,
+          "titaniumLion": 0,
+          "metal": 4.6
+        }
+      },
+      {
+        "slug": "pharma",
+        "entries": 353,
+        "counts": {
+          "shortlist": 35,
+          "bronze": 6,
+          "silver": 6,
+          "gold": 2,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 15
+        },
+        "pct": {
+          "shortlist": 9.9,
+          "bronze": 1.7,
+          "silver": 1.7,
+          "gold": 0.6,
+          "grandPrix": 0.3,
+          "titaniumLion": 0,
+          "metal": 4.2
+        }
+      },
+      {
+        "slug": "pr",
+        "entries": 1595,
+        "counts": {
+          "shortlist": 163,
+          "bronze": 26,
+          "silver": 17,
+          "gold": 8,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 52
+        },
+        "pct": {
+          "shortlist": 10.2,
+          "bronze": 1.6,
+          "silver": 1.1,
+          "gold": 0.5,
+          "grandPrix": 0.1,
+          "titaniumLion": 0,
+          "metal": 3.3
+        }
+      },
+      {
+        "slug": "print-publishing",
+        "entries": 814,
+        "counts": {
+          "shortlist": 97,
+          "bronze": 22,
+          "silver": 11,
+          "gold": 4,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 38
+        },
+        "pct": {
+          "shortlist": 11.9,
+          "bronze": 2.7,
+          "silver": 1.4,
+          "gold": 0.5,
+          "grandPrix": 0.1,
+          "titaniumLion": 0,
+          "metal": 4.7
+        }
+      },
+      {
+        "slug": "social-creator",
+        "entries": 1460,
+        "counts": {
+          "shortlist": 149,
+          "bronze": 25,
+          "silver": 15,
+          "gold": 8,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 49
+        },
+        "pct": {
+          "shortlist": 10.2,
+          "bronze": 1.7,
+          "silver": 1,
+          "gold": 0.5,
+          "grandPrix": 0.1,
+          "titaniumLion": 0,
+          "metal": 3.4
+        }
+      },
+      {
+        "slug": "sustainable-development-goals",
+        "entries": 688,
+        "counts": {
+          "shortlist": 73,
+          "bronze": 10,
+          "silver": 8,
+          "gold": 2,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 21
+        },
+        "pct": {
+          "shortlist": 10.6,
+          "bronze": 1.5,
+          "silver": 1.2,
+          "gold": 0.3,
+          "grandPrix": 0.1,
+          "titaniumLion": 0,
+          "metal": 3.1
+        }
+      },
+      {
+        "slug": "titanium",
+        "entries": 174,
+        "counts": {
+          "shortlist": 17,
+          "bronze": 0,
+          "silver": 0,
+          "gold": 0,
+          "grandPrix": 1,
+          "titaniumLion": 3,
+          "metalPieces": 4
+        },
+        "pct": {
+          "shortlist": 9.8,
+          "bronze": 0,
+          "silver": 0,
+          "gold": 0,
+          "grandPrix": 0.6,
+          "titaniumLion": 1.7,
+          "metal": 2.3
+        }
+      }
+    ],
+    "2024": [
+      {
+        "slug": "audio-radio",
+        "entries": 756,
+        "counts": {
+          "shortlist": 75,
+          "bronze": 12,
+          "silver": 6,
+          "gold": 4,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 23
+        },
+        "pct": {
+          "shortlist": 9.9,
+          "bronze": 1.6,
+          "silver": 0.8,
+          "gold": 0.5,
+          "grandPrix": 0.1,
+          "titaniumLion": 0,
+          "metal": 3
+        }
+      },
+      {
+        "slug": "brand-experience-activation",
+        "entries": 2259,
+        "counts": {
+          "shortlist": 221,
+          "bronze": 30,
+          "silver": 29,
+          "gold": 10,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 70
+        },
+        "pct": {
+          "shortlist": 9.8,
+          "bronze": 1.3,
+          "silver": 1.3,
+          "gold": 0.4,
+          "grandPrix": 0,
+          "titaniumLion": 0,
+          "metal": 3.1
+        }
+      },
+      {
+        "slug": "creative-b2b",
+        "entries": 371,
+        "counts": {
+          "shortlist": 40,
+          "bronze": 6,
+          "silver": 4,
+          "gold": 2,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 13
+        },
+        "pct": {
+          "shortlist": 10.8,
+          "bronze": 1.6,
+          "silver": 1.1,
+          "gold": 0.5,
+          "grandPrix": 0.3,
+          "titaniumLion": 0,
+          "metal": 3.5
+        }
+      },
+      {
+        "slug": "creative-business-transformation",
+        "entries": 271,
+        "counts": {
+          "shortlist": 27,
+          "bronze": 4,
+          "silver": 2,
+          "gold": 1,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 8
+        },
+        "pct": {
+          "shortlist": 10,
+          "bronze": 1.5,
+          "silver": 0.7,
+          "gold": 0.4,
+          "grandPrix": 0.4,
+          "titaniumLion": 0,
+          "metal": 3
+        }
+      },
+      {
+        "slug": "creative-commerce",
+        "entries": 551,
+        "counts": {
+          "shortlist": 60,
+          "bronze": 9,
+          "silver": 5,
+          "gold": 4,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 19
+        },
+        "pct": {
+          "shortlist": 10.9,
+          "bronze": 1.6,
+          "silver": 0.9,
+          "gold": 0.7,
+          "grandPrix": 0.2,
+          "titaniumLion": 0,
+          "metal": 3.4
+        }
+      },
+      {
+        "slug": "creative-data",
+        "entries": 366,
+        "counts": {
+          "shortlist": 39,
+          "bronze": 5,
+          "silver": 3,
+          "gold": 3,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 12
+        },
+        "pct": {
+          "shortlist": 10.7,
+          "bronze": 1.4,
+          "silver": 0.8,
+          "gold": 0.8,
+          "grandPrix": 0.3,
+          "titaniumLion": 0,
+          "metal": 3.3
+        }
+      },
+      {
+        "slug": "creative-effectiveness",
+        "entries": 302,
+        "counts": {
+          "shortlist": 38,
+          "bronze": 7,
+          "silver": 5,
+          "gold": 2,
+          "grandPrix": 4,
+          "titaniumLion": 0,
+          "metalPieces": 18
+        },
+        "pct": {
+          "shortlist": 12.6,
+          "bronze": 2.3,
+          "silver": 1.7,
+          "gold": 0.7,
+          "grandPrix": 1.3,
+          "titaniumLion": 0,
+          "metal": 6
+        }
+      },
+      {
+        "slug": "creative-strategy",
+        "entries": 809,
+        "counts": {
+          "shortlist": 79,
+          "bronze": 13,
+          "silver": 9,
+          "gold": 4,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 27
+        },
+        "pct": {
+          "shortlist": 9.8,
+          "bronze": 1.6,
+          "silver": 1.1,
+          "gold": 0.5,
+          "grandPrix": 0.1,
+          "titaniumLion": 0,
+          "metal": 3.3
+        }
+      },
+      {
+        "slug": "design",
+        "entries": 926,
+        "counts": {
+          "shortlist": 101,
+          "bronze": 14,
+          "silver": 11,
+          "gold": 5,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 31
+        },
+        "pct": {
+          "shortlist": 10.9,
+          "bronze": 1.5,
+          "silver": 1.2,
+          "gold": 0.5,
+          "grandPrix": 0.1,
+          "titaniumLion": 0,
+          "metal": 3.3
+        }
+      },
+      {
+        "slug": "digital-craft",
+        "entries": 552,
+        "counts": {
+          "shortlist": 55,
+          "bronze": 8,
+          "silver": 6,
+          "gold": 3,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 18
+        },
+        "pct": {
+          "shortlist": 10,
+          "bronze": 1.4,
+          "silver": 1.1,
+          "gold": 0.5,
+          "grandPrix": 0.2,
+          "titaniumLion": 0,
+          "metal": 3.3
+        }
+      },
+      {
+        "slug": "direct",
+        "entries": 2025,
+        "counts": {
+          "shortlist": 204,
+          "bronze": 31,
+          "silver": 20,
+          "gold": 10,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 62
+        },
+        "pct": {
+          "shortlist": 10.1,
+          "bronze": 1.5,
+          "silver": 1,
+          "gold": 0.5,
+          "grandPrix": 0,
+          "titaniumLion": 0,
+          "metal": 3.1
+        }
+      },
+      {
+        "slug": "entertainment",
+        "entries": 762,
+        "counts": {
+          "shortlist": 71,
+          "bronze": 15,
+          "silver": 8,
+          "gold": 3,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 27
+        },
+        "pct": {
+          "shortlist": 9.3,
+          "bronze": 2,
+          "silver": 1,
+          "gold": 0.4,
+          "grandPrix": 0.1,
+          "titaniumLion": 0,
+          "metal": 3.5
+        }
+      },
+      {
+        "slug": "entertainment-lions-for-gaming",
+        "entries": 407,
+        "counts": {
+          "shortlist": 45,
+          "bronze": 7,
+          "silver": 5,
+          "gold": 2,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 15
+        },
+        "pct": {
+          "shortlist": 11.1,
+          "bronze": 1.7,
+          "silver": 1.2,
+          "gold": 0.5,
+          "grandPrix": 0.2,
+          "titaniumLion": 0,
+          "metal": 3.7
+        }
+      },
+      {
+        "slug": "entertainment-lions-for-music",
+        "entries": 440,
+        "counts": {
+          "shortlist": 50,
+          "bronze": 8,
+          "silver": 5,
+          "gold": 2,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 16
+        },
+        "pct": {
+          "shortlist": 11.4,
+          "bronze": 1.8,
+          "silver": 1.1,
+          "gold": 0.5,
+          "grandPrix": 0.2,
+          "titaniumLion": 0,
+          "metal": 3.6
+        }
+      },
+      {
+        "slug": "entertainment-lions-for-sport",
+        "entries": 661,
+        "counts": {
+          "shortlist": 65,
+          "bronze": 10,
+          "silver": 6,
+          "gold": 4,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 21
+        },
+        "pct": {
+          "shortlist": 9.8,
+          "bronze": 1.5,
+          "silver": 0.9,
+          "gold": 0.6,
+          "grandPrix": 0.2,
+          "titaniumLion": 0,
+          "metal": 3.2
+        }
+      },
+      {
+        "slug": "film",
+        "entries": 1885,
+        "counts": {
+          "shortlist": 190,
+          "bronze": 28,
+          "silver": 16,
+          "gold": 12,
+          "grandPrix": 2,
+          "titaniumLion": 0,
+          "metalPieces": 58
+        },
+        "pct": {
+          "shortlist": 10.1,
+          "bronze": 1.5,
+          "silver": 0.8,
+          "gold": 0.6,
+          "grandPrix": 0.1,
+          "titaniumLion": 0,
+          "metal": 3.1
+        }
+      },
+      {
+        "slug": "film-craft",
+        "entries": 1548,
+        "counts": {
+          "shortlist": 155,
+          "bronze": 22,
+          "silver": 16,
+          "gold": 7,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 46
+        },
+        "pct": {
+          "shortlist": 10,
+          "bronze": 1.4,
+          "silver": 1,
+          "gold": 0.5,
+          "grandPrix": 0.1,
+          "titaniumLion": 0,
+          "metal": 3
+        }
+      },
+      {
+        "slug": "glass-the-lion-for-change",
+        "entries": 165,
+        "counts": {
+          "shortlist": 17,
+          "bronze": 3,
+          "silver": 2,
+          "gold": 1,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 7
+        },
+        "pct": {
+          "shortlist": 10.3,
+          "bronze": 1.8,
+          "silver": 1.2,
+          "gold": 0.6,
+          "grandPrix": 0.6,
+          "titaniumLion": 0,
+          "metal": 4.2
+        }
+      },
+      {
+        "slug": "health-wellness",
+        "entries": 1250,
+        "counts": {
+          "shortlist": 129,
+          "bronze": 18,
+          "silver": 14,
+          "gold": 5,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 38
+        },
+        "pct": {
+          "shortlist": 10.3,
+          "bronze": 1.4,
+          "silver": 1.1,
+          "gold": 0.4,
+          "grandPrix": 0.1,
+          "titaniumLion": 0,
+          "metal": 3
+        }
+      },
+      {
+        "slug": "industry-craft",
+        "entries": 1000,
+        "counts": {
+          "shortlist": 101,
+          "bronze": 15,
+          "silver": 18,
+          "gold": 4,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 38
+        },
+        "pct": {
+          "shortlist": 10.1,
+          "bronze": 1.5,
+          "silver": 1.8,
+          "gold": 0.4,
+          "grandPrix": 0.1,
+          "titaniumLion": 0,
+          "metal": 3.8
+        }
+      },
+      {
+        "slug": "innovation",
+        "entries": 231,
+        "counts": {
+          "shortlist": 23,
+          "bronze": 4,
+          "silver": 2,
+          "gold": 1,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 8
+        },
+        "pct": {
+          "shortlist": 10,
+          "bronze": 1.7,
+          "silver": 0.9,
+          "gold": 0.4,
+          "grandPrix": 0.4,
+          "titaniumLion": 0,
+          "metal": 3.5
+        }
+      },
+      {
+        "slug": "luxury",
+        "entries": 188,
+        "counts": {
+          "shortlist": 20,
+          "bronze": 3,
+          "silver": 2,
+          "gold": 1,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 7
+        },
+        "pct": {
+          "shortlist": 10.6,
+          "bronze": 1.6,
+          "silver": 1.1,
+          "gold": 0.5,
+          "grandPrix": 0.5,
+          "titaniumLion": 0,
+          "metal": 3.7
+        }
+      },
+      {
+        "slug": "media",
+        "entries": 1885,
+        "counts": {
+          "shortlist": 192,
+          "bronze": 30,
+          "silver": 19,
+          "gold": 10,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 60
+        },
+        "pct": {
+          "shortlist": 10.2,
+          "bronze": 1.6,
+          "silver": 1,
+          "gold": 0.5,
+          "grandPrix": 0.1,
+          "titaniumLion": 0,
+          "metal": 3.2
+        }
+      },
+      {
+        "slug": "outdoor",
+        "entries": 2053,
+        "counts": {
+          "shortlist": 211,
+          "bronze": 29,
+          "silver": 20,
+          "gold": 12,
+          "grandPrix": 4,
+          "titaniumLion": 0,
+          "metalPieces": 65
+        },
+        "pct": {
+          "shortlist": 10.3,
+          "bronze": 1.4,
+          "silver": 1,
+          "gold": 0.6,
+          "grandPrix": 0.2,
+          "titaniumLion": 0,
+          "metal": 3.2
+        }
+      },
+      {
+        "slug": "pharma",
+        "entries": 224,
+        "counts": {
+          "shortlist": 22,
+          "bronze": 3,
+          "silver": 2,
+          "gold": 1,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 7
+        },
+        "pct": {
+          "shortlist": 9.8,
+          "bronze": 1.3,
+          "silver": 0.9,
+          "gold": 0.4,
+          "grandPrix": 0.4,
+          "titaniumLion": 0,
+          "metal": 3.1
+        }
+      },
+      {
+        "slug": "pr",
+        "entries": 1522,
+        "counts": {
+          "shortlist": 156,
+          "bronze": 25,
+          "silver": 16,
+          "gold": 8,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 50
+        },
+        "pct": {
+          "shortlist": 10.2,
+          "bronze": 1.6,
+          "silver": 1.1,
+          "gold": 0.5,
+          "grandPrix": 0.1,
+          "titaniumLion": 0,
+          "metal": 3.3
+        }
+      },
+      {
+        "slug": "print-publishing",
+        "entries": 730,
+        "counts": {
+          "shortlist": 85,
+          "bronze": 16,
+          "silver": 5,
+          "gold": 9,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 31
+        },
+        "pct": {
+          "shortlist": 11.6,
+          "bronze": 2.2,
+          "silver": 0.7,
+          "gold": 1.2,
+          "grandPrix": 0.1,
+          "titaniumLion": 0,
+          "metal": 4.2
+        }
+      },
+      {
+        "slug": "social-creator",
+        "entries": 1761,
+        "counts": {
+          "shortlist": 179,
+          "bronze": 28,
+          "silver": 18,
+          "gold": 9,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 56
+        },
+        "pct": {
+          "shortlist": 10.2,
+          "bronze": 1.6,
+          "silver": 1,
+          "gold": 0.5,
+          "grandPrix": 0.1,
+          "titaniumLion": 0,
+          "metal": 3.2
+        }
+      },
+      {
+        "slug": "sustainable-development-goals",
+        "entries": 588,
+        "counts": {
+          "shortlist": 70,
+          "bronze": 10,
+          "silver": 5,
+          "gold": 4,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 20
+        },
+        "pct": {
+          "shortlist": 11.9,
+          "bronze": 1.7,
+          "silver": 0.9,
+          "gold": 0.7,
+          "grandPrix": 0.2,
+          "titaniumLion": 0,
+          "metal": 3.4
+        }
+      },
+      {
+        "slug": "titanium",
+        "entries": 200,
+        "counts": {
+          "shortlist": 20,
+          "bronze": 0,
+          "silver": 0,
+          "gold": 0,
+          "grandPrix": 1,
+          "titaniumLion": 3,
+          "metalPieces": 4
+        },
+        "pct": {
+          "shortlist": 10,
+          "bronze": 0,
+          "silver": 0,
+          "gold": 0,
+          "grandPrix": 0.5,
+          "titaniumLion": 1.5,
+          "metal": 2
+        }
+      }
+    ],
+    "2025": [
+      {
+        "slug": "audio-radio",
+        "entries": 704,
+        "counts": {
+          "shortlist": 68,
+          "bronze": 11,
+          "silver": 12,
+          "gold": 3,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 27
+        },
+        "pct": {
+          "shortlist": 9.7,
+          "bronze": 1.6,
+          "silver": 1.7,
+          "gold": 0.4,
+          "grandPrix": 0.1,
+          "titaniumLion": 0,
+          "metal": 3.8
+        }
+      },
+      {
+        "slug": "brand-experience-activation",
+        "entries": 2323,
+        "counts": {
+          "shortlist": 233,
+          "bronze": 32,
+          "silver": 24,
+          "gold": 10,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 67
+        },
+        "pct": {
+          "shortlist": 10,
+          "bronze": 1.4,
+          "silver": 1,
+          "gold": 0.4,
+          "grandPrix": 0,
+          "titaniumLion": 0,
+          "metal": 2.9
+        }
+      },
+      {
+        "slug": "creative-b2b",
+        "entries": 415,
+        "counts": {
+          "shortlist": 45,
+          "bronze": 6,
+          "silver": 4,
+          "gold": 2,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 13
+        },
+        "pct": {
+          "shortlist": 10.8,
+          "bronze": 1.4,
+          "silver": 1,
+          "gold": 0.5,
+          "grandPrix": 0.2,
+          "titaniumLion": 0,
+          "metal": 3.1
+        }
+      },
+      {
+        "slug": "creative-business-transformation",
+        "entries": 261,
+        "counts": {
+          "shortlist": 34,
+          "bronze": 3,
+          "silver": 2,
+          "gold": 1,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 7
+        },
+        "pct": {
+          "shortlist": 13,
+          "bronze": 1.1,
+          "silver": 0.8,
+          "gold": 0.4,
+          "grandPrix": 0.4,
+          "titaniumLion": 0,
+          "metal": 2.7
+        }
+      },
+      {
+        "slug": "creative-commerce",
+        "entries": 639,
+        "counts": {
+          "shortlist": 62,
+          "bronze": 8,
+          "silver": 8,
+          "gold": 3,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 20
+        },
+        "pct": {
+          "shortlist": 9.7,
+          "bronze": 1.3,
+          "silver": 1.3,
+          "gold": 0.5,
+          "grandPrix": 0.2,
+          "titaniumLion": 0,
+          "metal": 3.1
+        }
+      },
+      {
+        "slug": "creative-data",
+        "entries": 593,
+        "counts": {
+          "shortlist": 58,
+          "bronze": 7,
+          "silver": 7,
+          "gold": 3,
+          "grandPrix": 0,
+          "titaniumLion": 0,
+          "metalPieces": 17
+        },
+        "pct": {
+          "shortlist": 9.8,
+          "bronze": 1.2,
+          "silver": 1.2,
+          "gold": 0.5,
+          "grandPrix": 0,
+          "titaniumLion": 0,
+          "metal": 2.9
+        }
+      },
+      {
+        "slug": "creative-effectiveness",
+        "entries": 324,
+        "counts": {
+          "shortlist": 43,
+          "bronze": 7,
+          "silver": 6,
+          "gold": 3,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 17
+        },
+        "pct": {
+          "shortlist": 13.3,
+          "bronze": 2.2,
+          "silver": 1.9,
+          "gold": 0.9,
+          "grandPrix": 0.3,
+          "titaniumLion": 0,
+          "metal": 5.2
+        }
+      },
+      {
+        "slug": "creative-strategy",
+        "entries": 900,
+        "counts": {
+          "shortlist": 80,
+          "bronze": 13,
+          "silver": 9,
+          "gold": 5,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 28
+        },
+        "pct": {
+          "shortlist": 8.9,
+          "bronze": 1.4,
+          "silver": 1,
+          "gold": 0.6,
+          "grandPrix": 0.1,
+          "titaniumLion": 0,
+          "metal": 3.1
+        }
+      },
+      {
+        "slug": "design",
+        "entries": 1075,
+        "counts": {
+          "shortlist": 100,
+          "bronze": 16,
+          "silver": 10,
+          "gold": 4,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 31
+        },
+        "pct": {
+          "shortlist": 9.3,
+          "bronze": 1.5,
+          "silver": 0.9,
+          "gold": 0.4,
+          "grandPrix": 0.1,
+          "titaniumLion": 0,
+          "metal": 2.9
+        }
+      },
+      {
+        "slug": "digital-craft",
+        "entries": 553,
+        "counts": {
+          "shortlist": 60,
+          "bronze": 8,
+          "silver": 5,
+          "gold": 3,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 17
+        },
+        "pct": {
+          "shortlist": 10.8,
+          "bronze": 1.4,
+          "silver": 0.9,
+          "gold": 0.5,
+          "grandPrix": 0.2,
+          "titaniumLion": 0,
+          "metal": 3.1
+        }
+      },
+      {
+        "slug": "direct",
+        "entries": 2019,
+        "counts": {
+          "shortlist": 212,
+          "bronze": 28,
+          "silver": 20,
+          "gold": 10,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 59
+        },
+        "pct": {
+          "shortlist": 10.5,
+          "bronze": 1.4,
+          "silver": 1,
+          "gold": 0.5,
+          "grandPrix": 0,
+          "titaniumLion": 0,
+          "metal": 2.9
+        }
+      },
+      {
+        "slug": "entertainment",
+        "entries": 735,
+        "counts": {
+          "shortlist": 67,
+          "bronze": 9,
+          "silver": 7,
+          "gold": 5,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 22
+        },
+        "pct": {
+          "shortlist": 9.1,
+          "bronze": 1.2,
+          "silver": 1,
+          "gold": 0.7,
+          "grandPrix": 0.1,
+          "titaniumLion": 0,
+          "metal": 3
+        }
+      },
+      {
+        "slug": "entertainment-lions-for-gaming",
+        "entries": 327,
+        "counts": {
+          "shortlist": 36,
+          "bronze": 6,
+          "silver": 2,
+          "gold": 2,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 11
+        },
+        "pct": {
+          "shortlist": 11,
+          "bronze": 1.8,
+          "silver": 0.6,
+          "gold": 0.6,
+          "grandPrix": 0.3,
+          "titaniumLion": 0,
+          "metal": 3.4
+        }
+      },
+      {
+        "slug": "entertainment-lions-for-music",
+        "entries": 464,
+        "counts": {
+          "shortlist": 50,
+          "bronze": 7,
+          "silver": 5,
+          "gold": 3,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 16
+        },
+        "pct": {
+          "shortlist": 10.8,
+          "bronze": 1.5,
+          "silver": 1.1,
+          "gold": 0.6,
+          "grandPrix": 0.2,
+          "titaniumLion": 0,
+          "metal": 3.4
+        }
+      },
+      {
+        "slug": "entertainment-lions-for-sport",
+        "entries": 762,
+        "counts": {
+          "shortlist": 87,
+          "bronze": 12,
+          "silver": 8,
+          "gold": 5,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 26
+        },
+        "pct": {
+          "shortlist": 11.4,
+          "bronze": 1.6,
+          "silver": 1,
+          "gold": 0.7,
+          "grandPrix": 0.1,
+          "titaniumLion": 0,
+          "metal": 3.4
+        }
+      },
+      {
+        "slug": "film",
+        "entries": 1635,
+        "counts": {
+          "shortlist": 167,
+          "bronze": 27,
+          "silver": 15,
+          "gold": 8,
+          "grandPrix": 2,
+          "titaniumLion": 0,
+          "metalPieces": 52
+        },
+        "pct": {
+          "shortlist": 10.2,
+          "bronze": 1.7,
+          "silver": 0.9,
+          "gold": 0.5,
+          "grandPrix": 0.1,
+          "titaniumLion": 0,
+          "metal": 3.2
+        }
+      },
+      {
+        "slug": "film-craft",
+        "entries": 1450,
+        "counts": {
+          "shortlist": 142,
+          "bronze": 27,
+          "silver": 12,
+          "gold": 9,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 49
+        },
+        "pct": {
+          "shortlist": 9.8,
+          "bronze": 1.9,
+          "silver": 0.8,
+          "gold": 0.6,
+          "grandPrix": 0.1,
+          "titaniumLion": 0,
+          "metal": 3.4
+        }
+      },
+      {
+        "slug": "glass-the-lion-for-change",
+        "entries": 251,
+        "counts": {
+          "shortlist": 28,
+          "bronze": 4,
+          "silver": 2,
+          "gold": 1,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 8
+        },
+        "pct": {
+          "shortlist": 11.2,
+          "bronze": 1.6,
+          "silver": 0.8,
+          "gold": 0.4,
+          "grandPrix": 0.4,
+          "titaniumLion": 0,
+          "metal": 3.2
+        }
+      },
+      {
+        "slug": "health-wellness",
+        "entries": 1165,
+        "counts": {
+          "shortlist": 123,
+          "bronze": 15,
+          "silver": 11,
+          "gold": 6,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 33
+        },
+        "pct": {
+          "shortlist": 10.6,
+          "bronze": 1.3,
+          "silver": 0.9,
+          "gold": 0.5,
+          "grandPrix": 0.1,
+          "titaniumLion": 0,
+          "metal": 2.8
+        }
+      },
+      {
+        "slug": "industry-craft",
+        "entries": 770,
+        "counts": {
+          "shortlist": 80,
+          "bronze": 16,
+          "silver": 7,
+          "gold": 6,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 30
+        },
+        "pct": {
+          "shortlist": 10.4,
+          "bronze": 2.1,
+          "silver": 0.9,
+          "gold": 0.8,
+          "grandPrix": 0.1,
+          "titaniumLion": 0,
+          "metal": 3.9
+        }
+      },
+      {
+        "slug": "innovation",
+        "entries": 229,
+        "counts": {
+          "shortlist": 26,
+          "bronze": 3,
+          "silver": 2,
+          "gold": 1,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 7
+        },
+        "pct": {
+          "shortlist": 11.4,
+          "bronze": 1.3,
+          "silver": 0.9,
+          "gold": 0.4,
+          "grandPrix": 0.4,
+          "titaniumLion": 0,
+          "metal": 3.1
+        }
+      },
+      {
+        "slug": "luxury",
+        "entries": 181,
+        "counts": {
+          "shortlist": 17,
+          "bronze": 4,
+          "silver": 1,
+          "gold": 1,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 7
+        },
+        "pct": {
+          "shortlist": 9.4,
+          "bronze": 2.2,
+          "silver": 0.6,
+          "gold": 0.6,
+          "grandPrix": 0.6,
+          "titaniumLion": 0,
+          "metal": 3.9
+        }
+      },
+      {
+        "slug": "media",
+        "entries": 2049,
+        "counts": {
+          "shortlist": 213,
+          "bronze": 31,
+          "silver": 22,
+          "gold": 12,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 66
+        },
+        "pct": {
+          "shortlist": 10.4,
+          "bronze": 1.5,
+          "silver": 1.1,
+          "gold": 0.6,
+          "grandPrix": 0,
+          "titaniumLion": 0,
+          "metal": 3.2
+        }
+      },
+      {
+        "slug": "outdoor",
+        "entries": 1987,
+        "counts": {
+          "shortlist": 200,
+          "bronze": 35,
+          "silver": 25,
+          "gold": 13,
+          "grandPrix": 4,
+          "titaniumLion": 0,
+          "metalPieces": 77
+        },
+        "pct": {
+          "shortlist": 10.1,
+          "bronze": 1.8,
+          "silver": 1.3,
+          "gold": 0.7,
+          "grandPrix": 0.2,
+          "titaniumLion": 0,
+          "metal": 3.9
+        }
+      },
+      {
+        "slug": "pharma",
+        "entries": 298,
+        "counts": {
+          "shortlist": 28,
+          "bronze": 4,
+          "silver": 3,
+          "gold": 1,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 9
+        },
+        "pct": {
+          "shortlist": 9.4,
+          "bronze": 1.3,
+          "silver": 1,
+          "gold": 0.3,
+          "grandPrix": 0.3,
+          "titaniumLion": 0,
+          "metal": 3
+        }
+      },
+      {
+        "slug": "pr",
+        "entries": 1531,
+        "counts": {
+          "shortlist": 141,
+          "bronze": 21,
+          "silver": 14,
+          "gold": 8,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 44
+        },
+        "pct": {
+          "shortlist": 9.2,
+          "bronze": 1.4,
+          "silver": 0.9,
+          "gold": 0.5,
+          "grandPrix": 0.1,
+          "titaniumLion": 0,
+          "metal": 2.9
+        }
+      },
+      {
+        "slug": "print-publishing",
+        "entries": 761,
+        "counts": {
+          "shortlist": 94,
+          "bronze": 21,
+          "silver": 15,
+          "gold": 9,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 46
+        },
+        "pct": {
+          "shortlist": 12.4,
+          "bronze": 2.8,
+          "silver": 2,
+          "gold": 1.2,
+          "grandPrix": 0.1,
+          "titaniumLion": 0,
+          "metal": 6
+        }
+      },
+      {
+        "slug": "social-creator",
+        "entries": 1665,
+        "counts": {
+          "shortlist": 165,
+          "bronze": 26,
+          "silver": 16,
+          "gold": 7,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 50
+        },
+        "pct": {
+          "shortlist": 9.9,
+          "bronze": 1.6,
+          "silver": 1,
+          "gold": 0.4,
+          "grandPrix": 0.1,
+          "titaniumLion": 0,
+          "metal": 3
+        }
+      },
+      {
+        "slug": "sustainable-development-goals",
+        "entries": 480,
+        "counts": {
+          "shortlist": 46,
+          "bronze": 7,
+          "silver": 4,
+          "gold": 4,
+          "grandPrix": 1,
+          "titaniumLion": 0,
+          "metalPieces": 16
+        },
+        "pct": {
+          "shortlist": 9.6,
+          "bronze": 1.5,
+          "silver": 0.8,
+          "gold": 0.8,
+          "grandPrix": 0.2,
+          "titaniumLion": 0,
+          "metal": 3.3
+        }
+      },
+      {
+        "slug": "titanium",
+        "entries": 184,
+        "counts": {
+          "shortlist": 18,
+          "bronze": 0,
+          "silver": 0,
+          "gold": 0,
+          "grandPrix": 1,
+          "titaniumLion": 3,
+          "metalPieces": 4
+        },
+        "pct": {
+          "shortlist": 9.8,
+          "bronze": 0,
+          "silver": 0,
+          "gold": 0,
+          "grandPrix": 0.5,
+          "titaniumLion": 1.6,
+          "metal": 2.2
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "cannes-decoded",
+  "private": true,
+  "type": "module",
+  "version": "1.0.0",
+  "scripts": {
+    "scrape": "node scripts/scrape-cannes-lovethework.mjs",
+    "scrape:counts": "node scripts/scrape-cannes-category-entry-counts.mjs",
+    "enrich:points": "node scripts/enrich-jsonl-with-points.mjs",
+    "stats:build": "node scripts/build-category-stats.mjs",
+    "stats:diminishing": "node scripts/build-diminishing-returns-stats.mjs",
+    "web:dev": "npm run stats:build --silent && npm run dev --prefix web",
+    "web:build": "npm run stats:build && npm run build --prefix web"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "generated_at": "2026-04-10T00:43:39.226Z",
+  "source": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions",
+  "script": "scripts/scrape-cannes-category-entry-counts.mjs",
+  "years": [
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "categories": 30,
+  "totals": {
+    "ok": 330,
+    "missing_count": 0,
+    "fetch_error": 0
+  }
+}

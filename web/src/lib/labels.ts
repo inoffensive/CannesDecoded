@@ -1,0 +1,37 @@
+/** Display titles for hub slugs (aligned with The Work / Cannes naming). */
+export function slugToLabel(slug: string): string {
+  const map: Record<string, string> = {
+    "creative-brand": "Creative Brand",
+    "audio-radio": "Audio & Radio",
+    film: "Film",
+    outdoor: "Outdoor",
+    "print-publishing": "Print & Publishing",
+    design: "Design",
+    "digital-craft": "Digital Craft",
+    "film-craft": "Film Craft",
+    "industry-craft": "Industry Craft",
+    "creative-b2b": "Creative B2B",
+    "creative-data": "Creative Data",
+    direct: "Direct",
+    media: "Media",
+    pr: "PR",
+    "social-creator": "Social & Creator",
+    entertainment: "Entertainment",
+    "entertainment-lions-for-gaming": "Entertainment for Gaming",
+    "entertainment-lions-for-music": "Entertainment for Music",
+    "entertainment-lions-for-sport": "Entertainment for Sport",
+    "brand-experience-activation": "Brand Experience & Activation",
+    "creative-business-transformation": "Creative Business Transformation",
+    "creative-commerce": "Creative Commerce",
+    innovation: "Innovation",
+    luxury: "Luxury",
+    "glass-the-lion-for-change": "Glass: The Lion for Change",
+    "sustainable-development-goals": "Sustainable Development Goals",
+    "health-wellness": "Health & Wellness",
+    pharma: "Pharma",
+    "creative-effectiveness": "Creative Effectiveness",
+    "creative-strategy": "Creative Strategy",
+    titanium: "Titanium",
+  };
+  return map[slug] ?? slug.replace(/-/g, " ").replace(/\b\w/g, (c) => c.toUpperCase());
+}

@@ -1,0 +1,39 @@
+{
+  "note": "Creative Data Lions 2015–2018: The Work /awards/results/cannes-lions?entry_type_id=… does not publish these tables (no extractable payload). Counts match the winners-shortlists Creative Data hub (Grand Prix + metals + shortlists) on lovethework.com.",
+  "bySlug": {
+    "creative-data": {
+      "2015": {
+        "shortlists": 27,
+        "bronze": 12,
+        "silver": 10,
+        "gold": 6,
+        "grandPrix": 0,
+        "titaniumLion": 0
+      },
+      "2016": {
+        "shortlists": 33,
+        "bronze": 21,
+        "silver": 13,
+        "gold": 5,
+        "grandPrix": 1,
+        "titaniumLion": 0
+      },
+      "2017": {
+        "shortlists": 39,
+        "bronze": 21,
+        "silver": 11,
+        "gold": 5,
+        "grandPrix": 1,
+        "titaniumLion": 0
+      },
+      "2018": {
+        "shortlists": 33,
+        "bronze": 12,
+        "silver": 7,
+        "gold": 4,
+        "grandPrix": 1,
+        "titaniumLion": 0
+      }
+    }
+  }
+}
