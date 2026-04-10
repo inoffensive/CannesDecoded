@@ -201,6 +201,9 @@ const TITANIUM_AWARD_FILTER_OPTIONS: {
 
 const WINNERS_PAGE_SIZE = 25;
 
+/** Stable fallback so `rawRows` is not a new `[]` every render when a slug has no winner rows. */
+const EMPTY_CATEGORY_WINNER_ROWS: CategoryWinnerRow[] = [];
+
 const AWARD_DISPLAY_CHIP_BASE =
   "inline-flex max-w-full items-center justify-center rounded-full border px-2 py-0.5 text-[9px] font-semibold leading-tight tracking-wide sm:text-[10px]";
 
@@ -273,13 +276,11 @@ function WinnerEntryLinkIcon() {
 
 function CategoryWinnersSection({
   slug,
-  series,
   winnersPayload,
   winnersLoadFailed,
   isTitaniumCategory,
 }: {
   slug: string;
-  series: CategoryYearSeriesRow[];
   winnersPayload: CategoryWinnersPayload | null;
   winnersLoadFailed: boolean;
   isTitaniumCategory: boolean;
@@ -296,16 +297,14 @@ function CategoryWinnersSection({
     setWinnersPage(1);
   }, [slug]);
 
-  const rawRows = winnersPayload?.bySlug[slug] ?? [];
+  const rawRows = winnersPayload?.bySlug[slug] ?? EMPTY_CATEGORY_WINNER_ROWS;
 
+  /** Only years that actually appear in winner rows (series can include years with entries but no published winner lines). */
   const yearOptions = useMemo(() => {
     const ys = new Set<number>();
-    rawRows.forEach((r) => ys.add(r.year));
-    series.forEach((r) => {
-      if (r.entries > 0) ys.add(r.year);
-    });
+    rawRows.forEach((r) => ys.add(Number(r.year)));
     return [...ys].sort((a, b) => b - a);
-  }, [rawRows, series]);
+  }, [rawRows]);
 
   const filteredRows = useMemo(() => {
     let rows = rawRows;
@@ -315,7 +314,7 @@ function CategoryWinnersSection({
       );
     }
     if (yearFilter !== "all") {
-      rows = rows.filter((r) => r.year === yearFilter);
+      rows = rows.filter((r) => Number(r.year) === yearFilter);
     }
     if (awardFilter !== "all") {
       rows = rows.filter((r) => r.bucket === awardFilter);
@@ -325,10 +324,8 @@ function CategoryWinnersSection({
 
   const winnersPageCount = Math.max(1, Math.ceil(filteredRows.length / WINNERS_PAGE_SIZE));
   const currentWinnersPage = Math.min(winnersPage, winnersPageCount);
-
-  useEffect(() => {
-    setWinnersPage(1);
-  }, [yearFilter, awardFilter]);
+  /** Index of the first row on this page within `filteredRows` (unique, stable keys for <tbody>). */
+  const winnerRowSliceStart = (currentWinnersPage - 1) * WINNERS_PAGE_SIZE;
 
   const pagedWinnerRows = useMemo(() => {
     const start = (currentWinnersPage - 1) * WINNERS_PAGE_SIZE;
@@ -380,7 +377,10 @@ function CategoryWinnersSection({
           <button
             type="button"
             className={`${WINNER_CHIP_BASE} ${yearFilter === "all" ? WINNER_CHIP_ACTIVE : WINNER_CHIP_MUTED}`}
-            onClick={() => setYearFilter("all")}
+            onClick={() => {
+              setYearFilter("all");
+              setWinnersPage(1);
+            }}
           >
             All years
           </button>
@@ -389,7 +389,10 @@ function CategoryWinnersSection({
               key={y}
               type="button"
               className={`${WINNER_CHIP_BASE} ${yearFilter === y ? WINNER_CHIP_ACTIVE : WINNER_CHIP_MUTED}`}
-              onClick={() => setYearFilter(y)}
+              onClick={() => {
+                setYearFilter(y);
+                setWinnersPage(1);
+              }}
             >
               {y}
             </button>
@@ -405,7 +408,10 @@ function CategoryWinnersSection({
           <button
             type="button"
             className={`${WINNER_CHIP_BASE} ${awardFilter === "all" ? WINNER_CHIP_ACTIVE : WINNER_CHIP_MUTED}`}
-            onClick={() => setAwardFilter("all")}
+            onClick={() => {
+              setAwardFilter("all");
+              setWinnersPage(1);
+            }}
           >
             All awards
           </button>
@@ -414,7 +420,10 @@ function CategoryWinnersSection({
               key={bucket}
               type="button"
               className={`${WINNER_CHIP_BASE} ${awardFilter === bucket ? WINNER_CHIP_ACTIVE : WINNER_CHIP_MUTED}`}
-              onClick={() => setAwardFilter(bucket)}
+              onClick={() => {
+                setAwardFilter(bucket);
+                setWinnersPage(1);
+              }}
             >
               {label}
             </button>
@@ -448,7 +457,7 @@ function CategoryWinnersSection({
               ) : (
                 pagedWinnerRows.map((row, idx) => (
                 <tr
-                  key={`${row.year}-${row.title}-${row.entry_url ?? idx}`}
+                  key={winnerRowSliceStart + idx}
                   className="border-b border-[var(--color-cannes-line)] last:border-0 hover:bg-stone-50/50"
                 >
                   <td className="whitespace-nowrap px-3 py-2.5 tabular-nums text-[var(--color-cannes-ink)]">
@@ -980,7 +989,6 @@ export default function CategoryDetailPage() {
 
         <CategoryWinnersSection
           slug={slug}
-          series={series}
           winnersPayload={winnersPayload}
           winnersLoadFailed={winnersLoadFailed}
           isTitaniumCategory={isTitaniumCategory}
