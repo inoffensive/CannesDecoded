@@ -1840,28 +1840,31 @@ function SubcategoryCostTable({
       <tbody>
         {sortedLabels.map((label) => {
           const p = priorityBySub[label];
+          const missingEntries = entriesPerMetalBySub[label] == null;
+          const rowText = missingEntries ? "text-stone-400" : "text-[var(--color-cannes-muted)]";
+          const subText = missingEntries ? "text-stone-400" : "text-[var(--color-cannes-ink)]";
           return (
             <tr
               key={label}
               className="border-b border-[var(--color-cannes-line)] last:border-0 hover:bg-stone-50/50"
             >
-              <td className="max-w-[min(360px,70vw)] px-3 py-2.5 text-xs leading-snug text-[var(--color-cannes-ink)]">
+              <td className={`max-w-[min(360px,70vw)] px-3 py-2.5 text-xs leading-snug ${subText}`}>
                 {label}
               </td>
-              <td className="whitespace-nowrap px-3 py-2.5 text-left tabular-nums text-[var(--color-cannes-muted)]">
+              <td className={`whitespace-nowrap px-3 py-2.5 text-left tabular-nums ${rowText}`}>
                 {formatMoneyPer(avgEurPerPoint[label] ?? undefined)}
               </td>
-              <td className="whitespace-nowrap px-3 py-2.5 text-left tabular-nums text-[var(--color-cannes-muted)]">
+              <td className={`whitespace-nowrap px-3 py-2.5 text-left tabular-nums ${rowText}`}>
                 {entriesPerMetalBySub[label] != null
                   ? entriesPerMetalBySub[label].toLocaleString("en-US", {
                       maximumFractionDigits: 1,
                     })
                   : "—"}
               </td>
-              <td className="px-3 py-2.5">
+              <td className={`px-3 py-2.5 ${rowText}`}>
                 {p != null ? (
                   <div
-                    className="flex max-w-[200px] items-center gap-2"
+                    className={`flex max-w-[200px] items-center gap-2 ${missingEntries ? "opacity-80" : ""}`}
                     title="Higher priority when average €/point and entries per metal win are both lower than other subcategories here"
                   >
                     <div
@@ -1877,10 +1880,10 @@ function SubcategoryCostTable({
                         style={{ width: `${p}%` }}
                       />
                     </div>
-                    <span className="shrink-0 tabular-nums text-xs text-[var(--color-cannes-muted)]">{p}</span>
+                    <span className={`shrink-0 tabular-nums text-xs ${rowText}`}>{p}</span>
                   </div>
                 ) : (
-                  <span className="text-[var(--color-cannes-muted)]">—</span>
+                  <span className={rowText}>—</span>
                 )}
               </td>
             </tr>
