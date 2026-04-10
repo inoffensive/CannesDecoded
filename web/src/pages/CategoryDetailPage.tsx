@@ -726,7 +726,7 @@ function DiminishedReturnsTable({
             rowSpan={2}
             scope="col"
           >
-            Pieces <span className="font-normal text-[var(--color-cannes-muted)]">(n)</span>
+            Submissions <span className="font-normal text-[var(--color-cannes-muted)]">(n)</span>
           </th>
           {active.map((s, i) => (
             <th
@@ -965,8 +965,8 @@ function CategoryProbabilityChart({
         role="img"
         aria-label={
           titaniumOnly
-            ? "Probability of at least one Titanium Lion versus number of independent pieces submitted to this category"
-            : "Probability of at least one outcome versus number of independent pieces submitted to this category"
+            ? "Probability of at least one Titanium Lion versus number of independent submissions to this category"
+            : "Probability of at least one outcome versus number of independent submissions to this category"
         }
       >
         <rect
@@ -1023,7 +1023,7 @@ function CategoryProbabilityChart({
           className="fill-[var(--color-cannes-muted)]"
           fontSize={10}
         >
-          Number of pieces submitted
+          Number of submissions
         </text>
       </svg>
       <div className="mt-6 flex flex-wrap items-center justify-center gap-x-5 gap-y-2 text-[11px] text-[var(--color-cannes-muted)]">
