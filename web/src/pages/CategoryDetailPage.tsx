@@ -411,7 +411,7 @@ function CategoryWinnersSection({
 
       {!filtersReady ? (
         <p className="max-w-2xl text-sm leading-relaxed text-[var(--color-cannes-muted)]">
-          Choose a year and an award to show the table. &quot;All years&quot; and &quot;All awards&quot; count as selections.
+          Choose a year and award to reveal the winners
         </p>
       ) : (
         <div className="overflow-x-auto rounded-xl border border-[var(--color-cannes-line)] bg-white/90">
