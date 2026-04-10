@@ -901,11 +901,11 @@ function CategoryProbabilityChart({
   const layout = useMemo(() => {
     if (!rates) return null;
     const w = 800;
-    const h = 280;
+    const h = 300;
     const padL = 48;
     const padR = 20;
     const padT = 16;
-    const padB = 52;
+    const padB = 72;
     const iw = w - padL - padR;
     const ih = h - padT - padB;
     const nMax = 20;
@@ -1007,7 +1007,7 @@ function CategoryProbabilityChart({
           <text
             key={n}
             x={xAt(n - 1)}
-            y={h - 12}
+            y={h - 36}
             textAnchor="middle"
             className="fill-[var(--color-cannes-muted)]"
             fontSize={10}
@@ -1017,7 +1017,7 @@ function CategoryProbabilityChart({
         ))}
         <text
           x={padL + layout.iw / 2}
-          y={h - 2}
+          y={h - 10}
           textAnchor="middle"
           className="fill-[var(--color-cannes-muted)]"
           fontSize={10}
