@@ -1317,6 +1317,11 @@ function SubcategoryCostTable({
   const sortedLabels = useMemo(() => {
     const rows = [...labels2025];
     rows.sort((a, b) => {
+      const aNoAvgEntries = entriesPerMetalBySub[a] == null;
+      const bNoAvgEntries = entriesPerMetalBySub[b] == null;
+      if (aNoAvgEntries !== bNoAvgEntries) {
+        return aNoAvgEntries ? 1 : -1;
+      }
       let raw = 0;
       switch (sort.key) {
         case "sub":
