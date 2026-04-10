@@ -282,14 +282,14 @@ function CategoryWinnersSection({
   winnersLoadFailed: boolean;
   isTitaniumCategory: boolean;
 }) {
-  const [yearFilter, setYearFilter] = useState<number | "all">("all");
+  const [yearFilter, setYearFilter] = useState<number | "all" | null>(null);
   const [awardFilter, setAwardFilter] = useState<
-    "all" | NonNullable<CategoryWinnerRow["bucket"]>
-  >("all");
+    "all" | NonNullable<CategoryWinnerRow["bucket"]> | null
+  >(null);
 
   useEffect(() => {
-    setYearFilter("all");
-    setAwardFilter("all");
+    setYearFilter(null);
+    setAwardFilter(null);
   }, [slug]);
 
   const rawRows = winnersPayload?.bySlug[slug] ?? [];
@@ -303,7 +303,10 @@ function CategoryWinnersSection({
     return [...ys].sort((a, b) => b - a);
   }, [rawRows, series]);
 
+  const filtersReady = yearFilter !== null && awardFilter !== null;
+
   const filteredRows = useMemo(() => {
+    if (yearFilter === null || awardFilter === null) return [];
     let rows = rawRows;
     if (isTitaniumCategory) {
       rows = rows.filter(
@@ -406,31 +409,36 @@ function CategoryWinnersSection({
         </div>
       </div>
 
-      <div className="overflow-x-auto rounded-xl border border-[var(--color-cannes-line)] bg-white/90">
-        <table className="w-full min-w-[720px] border-collapse text-left text-sm">
-          <thead>
-            <tr className="border-b border-[var(--color-cannes-line)] bg-stone-50/80">
-              <th className="whitespace-nowrap px-3 py-3 font-medium text-[var(--color-cannes-ink)]">Year</th>
-              <th className="whitespace-nowrap px-3 py-3 font-medium text-[var(--color-cannes-ink)]">Award</th>
-              <th className="min-w-[160px] px-3 py-3 font-medium text-[var(--color-cannes-ink)]">Title</th>
-              <th className="min-w-[120px] px-3 py-3 font-medium text-[var(--color-cannes-ink)]">Brand</th>
-              <th className="min-w-[180px] px-3 py-3 font-medium text-[var(--color-cannes-ink)]">Subcategory</th>
-              <th className="min-w-[160px] px-3 py-3 font-medium text-[var(--color-cannes-ink)]">Entrant</th>
-              <th className="whitespace-nowrap px-3 py-3 font-medium text-[var(--color-cannes-ink)]">Location</th>
-              <th scope="col" className="w-12 px-2 py-3 text-center font-medium text-[var(--color-cannes-ink)]">
-                <span className="sr-only">Entry link</span>
-              </th>
-            </tr>
-          </thead>
-          <tbody>
-            {filteredRows.length === 0 ? (
-              <tr>
-                <td colSpan={8} className="px-3 py-8 text-center text-sm text-[var(--color-cannes-muted)]">
-                  No winners match these filters.
-                </td>
+      {!filtersReady ? (
+        <p className="max-w-2xl text-sm leading-relaxed text-[var(--color-cannes-muted)]">
+          Choose a year and an award to show the table. &quot;All years&quot; and &quot;All awards&quot; count as selections.
+        </p>
+      ) : (
+        <div className="overflow-x-auto rounded-xl border border-[var(--color-cannes-line)] bg-white/90">
+          <table className="w-full min-w-[720px] border-collapse text-left text-sm">
+            <thead>
+              <tr className="border-b border-[var(--color-cannes-line)] bg-stone-50/80">
+                <th className="whitespace-nowrap px-3 py-3 font-medium text-[var(--color-cannes-ink)]">Year</th>
+                <th className="whitespace-nowrap px-3 py-3 font-medium text-[var(--color-cannes-ink)]">Award</th>
+                <th className="min-w-[160px] px-3 py-3 font-medium text-[var(--color-cannes-ink)]">Title</th>
+                <th className="min-w-[120px] px-3 py-3 font-medium text-[var(--color-cannes-ink)]">Brand</th>
+                <th className="min-w-[180px] px-3 py-3 font-medium text-[var(--color-cannes-ink)]">Subcategory</th>
+                <th className="min-w-[160px] px-3 py-3 font-medium text-[var(--color-cannes-ink)]">Entrant</th>
+                <th className="whitespace-nowrap px-3 py-3 font-medium text-[var(--color-cannes-ink)]">Location</th>
+                <th scope="col" className="w-12 px-2 py-3 text-center font-medium text-[var(--color-cannes-ink)]">
+                  <span className="sr-only">Entry link</span>
+                </th>
               </tr>
-            ) : (
-              filteredRows.map((row, idx) => (
+            </thead>
+            <tbody>
+              {filteredRows.length === 0 ? (
+                <tr>
+                  <td colSpan={8} className="px-3 py-8 text-center text-sm text-[var(--color-cannes-muted)]">
+                    No entries match these filters.
+                  </td>
+                </tr>
+              ) : (
+                filteredRows.map((row, idx) => (
                 <tr
                   key={`${row.year}-${row.title}-${row.entry_url ?? idx}`}
                   className="border-b border-[var(--color-cannes-line)] last:border-0 hover:bg-stone-50/50"
@@ -496,7 +504,8 @@ function CategoryWinnersSection({
             )}
           </tbody>
         </table>
-      </div>
+        </div>
+      )}
     </section>
   );
 }
