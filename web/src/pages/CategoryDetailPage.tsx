@@ -473,7 +473,7 @@ export default function CategoryDetailPage() {
             </h3>
             <div className="max-w-3xl space-y-3 text-sm leading-relaxed text-[var(--color-cannes-muted)]">
               <p>
-                Concurrent Cannes entries from the same side of the fence do not behave like fully independent lottery tickets: they{" "}
+                Concurrent Cannes entries do not behave like fully independent lottery tickets: they{" "}
                 <strong className="font-medium text-[var(--color-cannes-ink)]">compete for jury attention</strong> in review and discussion.
                 At the same time,{" "}
                 <strong className="font-medium text-[var(--color-cannes-ink)]">metal wins are scarce</strong>—shortlists and Lions are
@@ -481,10 +481,9 @@ export default function CategoryDetailPage() {
               </p>
               <p>
                 Together, that means there is a <strong className="font-medium text-[var(--color-cannes-ink)]">practical limit</strong> to
-                how many points a single push can convert into scored work, no matter how many parallel entries you field: each extra piece
-                adds a <strong className="font-medium text-[var(--color-cannes-ink)]">smaller marginal gain</strong> toward points
-                {isTitaniumCategory ? " and Titanium Lions" : " and metals"},
-                which is why the table below focuses on those diminishing steps—and why we cap concurrent submissions further down.
+                how many points you can convert into scored work, no matter how many parallel entries you field: each extra piece adds a{" "}
+                <strong className="font-medium text-[var(--color-cannes-ink)]">smaller marginal gain</strong> toward points
+                {isTitaniumCategory ? " and Titanium Lions" : " and metals"}.
               </p>
             </div>
           </div>
