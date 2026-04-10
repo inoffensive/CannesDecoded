@@ -474,8 +474,8 @@ export default function CategoryDetailPage() {
             <div className="max-w-3xl space-y-3 text-sm leading-relaxed text-[var(--color-cannes-muted)]">
               <p>
                 Concurrent Cannes entries from the same side of the fence do not behave like fully independent lottery tickets: they{" "}
-                <strong className="font-medium text-[var(--color-cannes-ink)]">compete for jury attention</strong> in review and discussion,
-                and they draw on the same creative and media story. At the same time,{" "}
+                <strong className="font-medium text-[var(--color-cannes-ink)]">compete for jury attention</strong> in review and discussion.
+                At the same time,{" "}
                 <strong className="font-medium text-[var(--color-cannes-ink)]">metal wins are scarce</strong>—shortlists and Lions are
                 limited each year—so there is a hard ceiling on how much recognition the festival can hand out in a category.
               </p>
