@@ -75,6 +75,14 @@ function SortHeaderGlyph({ active, dir }: { active: boolean; dir: "asc" | "desc"
   );
 }
 
+/** Full-cell hover: background on `<th>`, padding on the inner button. */
+const SORT_HEADER_TH =
+  "p-0 align-bottom bg-stone-50/95 transition-colors hover:bg-stone-200/70";
+const SORT_HEADER_TH_STICKY = `${SORT_HEADER_TH} sticky left-0 z-[1]`;
+const SORT_HEADER_BTN =
+  "flex w-full items-start justify-between gap-2 px-3 py-3 text-left font-medium text-[var(--color-cannes-ink)] focus-visible:z-[1] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-cannes-ink)]";
+const SORT_HEADER_BTN_NUM = `${SORT_HEADER_BTN} tabular-nums`;
+
 /** Extra probability from adding the n-th independent piece: F(n) − F(n−1) with F(n) = 1 − (1−p)ⁿ */
 function marginalProbGain(p: number | null | undefined, n: number): number | null {
   if (p == null || Number.isNaN(p) || n < 1) return null;
@@ -798,10 +806,10 @@ function DiminishedReturnsTable({
       </thead>
       <tbody>
         {DIMINISHED_RETURNS_N.map((n) => (
-          <tr key={n} className="border-b border-[var(--color-cannes-line)]/70 odd:bg-white/60">
+          <tr key={n} className="group border-b border-[var(--color-cannes-line)]/70 odd:bg-white/60 hover:bg-stone-50/50">
             <th
               scope="row"
-              className="sticky left-0 z-[1] bg-white/95 px-3 py-2 text-left font-medium tabular-nums text-[var(--color-cannes-ink)] odd:bg-stone-50/90"
+              className="sticky left-0 z-[1] bg-white/95 px-3 py-2 text-left font-medium tabular-nums text-[var(--color-cannes-ink)] odd:bg-stone-50/90 group-hover:bg-stone-50/50"
             >
               {n}
             </th>
@@ -891,8 +899,8 @@ function MaxConcurrentSubmissionsSummaryTable({
           const pRate = titaniumOnly ? r?.pTitanium : r?.pAtLeastOnePoint;
           const cap = recommendedMaxConcurrentPiecesFromRate(pRate);
           return (
-            <tr key={label} className="border-b border-[var(--color-cannes-line)] last:border-0 hover:bg-stone-50/50">
-              <td className="sticky left-0 z-[1] max-w-[min(280px,45vw)] bg-white/95 px-3 py-2.5 text-xs leading-snug text-[var(--color-cannes-ink)]">
+            <tr key={label} className="group border-b border-[var(--color-cannes-line)] last:border-0 hover:bg-stone-50/50">
+              <td className="sticky left-0 z-[1] max-w-[min(280px,45vw)] bg-white/95 px-3 py-2.5 text-xs leading-snug text-[var(--color-cannes-ink)] group-hover:bg-stone-50/50">
                 {label}
               </td>
               <td className="whitespace-nowrap px-3 py-2.5 text-left tabular-nums font-medium text-[var(--color-cannes-ink)]">
@@ -1146,30 +1154,27 @@ function SubcategoryProbabilityTable({
     );
   }
 
-  const btnTh =
-    "inline-flex w-full items-center justify-between gap-2 rounded px-0.5 py-0.5 text-left font-medium text-[var(--color-cannes-ink)] transition hover:bg-stone-200/60 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-cannes-ink)]";
-
   return (
     <table className="w-full min-w-[560px] border-collapse text-left text-sm">
       <thead>
         <tr className="border-b border-[var(--color-cannes-line)] bg-stone-50/80">
           <th
-            className="sticky left-0 z-[1] bg-stone-50/95 px-3 py-3 font-medium text-[var(--color-cannes-ink)]"
+            className={SORT_HEADER_TH_STICKY}
             aria-sort={sort.key === "sub" ? (sort.dir === "asc" ? "ascending" : "descending") : undefined}
           >
-            <button type="button" className={btnTh} onClick={() => setProbSort("sub")}>
+            <button type="button" className={SORT_HEADER_BTN} onClick={() => setProbSort("sub")}>
               <span>Subcategory</span>
               <SortHeaderGlyph active={sort.key === "sub"} dir={sort.dir} />
             </button>
           </th>
           {titaniumOnly ? (
             <th
-              className="whitespace-nowrap px-3 py-3 text-left font-medium tabular-nums text-[var(--color-cannes-ink)]"
+              className={`whitespace-nowrap ${SORT_HEADER_TH}`}
               aria-sort={
                 sort.key === "titanium" ? (sort.dir === "asc" ? "ascending" : "descending") : undefined
               }
             >
-              <button type="button" className={btnTh} onClick={() => setProbSort("titanium")}>
+              <button type="button" className={SORT_HEADER_BTN_NUM} onClick={() => setProbSort("titanium")}>
                 <span>
                   Titanium Lion
                   <span className="block text-[10px] font-normal normal-case tracking-normal text-[var(--color-cannes-muted)]">
@@ -1182,12 +1187,12 @@ function SubcategoryProbabilityTable({
           ) : (
             <>
               <th
-                className="whitespace-nowrap px-3 py-3 text-left font-medium tabular-nums text-[var(--color-cannes-ink)]"
+                className={`whitespace-nowrap ${SORT_HEADER_TH}`}
                 aria-sort={
                   sort.key === "point" ? (sort.dir === "asc" ? "ascending" : "descending") : undefined
                 }
               >
-                <button type="button" className={btnTh} onClick={() => setProbSort("point")}>
+                <button type="button" className={SORT_HEADER_BTN_NUM} onClick={() => setProbSort("point")}>
                   <span>
                     ≥1 point
                     <span className="block text-[10px] font-normal normal-case tracking-normal text-[var(--color-cannes-muted)]">
@@ -1198,12 +1203,12 @@ function SubcategoryProbabilityTable({
                 </button>
               </th>
               <th
-                className="whitespace-nowrap px-3 py-3 text-left font-medium tabular-nums text-[var(--color-cannes-ink)]"
+                className={`whitespace-nowrap ${SORT_HEADER_TH}`}
                 aria-sort={
                   sort.key === "bronze" ? (sort.dir === "asc" ? "ascending" : "descending") : undefined
                 }
               >
-                <button type="button" className={btnTh} onClick={() => setProbSort("bronze")}>
+                <button type="button" className={SORT_HEADER_BTN_NUM} onClick={() => setProbSort("bronze")}>
                   <span>
                     Bronze
                     <span className="block text-[10px] font-normal normal-case tracking-normal text-[var(--color-cannes-muted)]">
@@ -1214,12 +1219,12 @@ function SubcategoryProbabilityTable({
                 </button>
               </th>
               <th
-                className="whitespace-nowrap px-3 py-3 text-left font-medium tabular-nums text-[var(--color-cannes-ink)]"
+                className={`whitespace-nowrap ${SORT_HEADER_TH}`}
                 aria-sort={
                   sort.key === "silver" ? (sort.dir === "asc" ? "ascending" : "descending") : undefined
                 }
               >
-                <button type="button" className={btnTh} onClick={() => setProbSort("silver")}>
+                <button type="button" className={SORT_HEADER_BTN_NUM} onClick={() => setProbSort("silver")}>
                   <span>
                     Silver
                     <span className="block text-[10px] font-normal normal-case tracking-normal text-[var(--color-cannes-muted)]">
@@ -1230,12 +1235,12 @@ function SubcategoryProbabilityTable({
                 </button>
               </th>
               <th
-                className="whitespace-nowrap px-3 py-3 text-left font-medium tabular-nums text-[var(--color-cannes-ink)]"
+                className={`whitespace-nowrap ${SORT_HEADER_TH}`}
                 aria-sort={
                   sort.key === "gold" ? (sort.dir === "asc" ? "ascending" : "descending") : undefined
                 }
               >
-                <button type="button" className={btnTh} onClick={() => setProbSort("gold")}>
+                <button type="button" className={SORT_HEADER_BTN_NUM} onClick={() => setProbSort("gold")}>
                   <span>
                     Gold
                     <span className="block text-[10px] font-normal normal-case tracking-normal text-[var(--color-cannes-muted)]">
@@ -1260,9 +1265,9 @@ function SubcategoryProbabilityTable({
           return (
             <tr
               key={label}
-              className="border-b border-[var(--color-cannes-line)] last:border-0 hover:bg-stone-50/50"
+              className="group border-b border-[var(--color-cannes-line)] last:border-0 hover:bg-stone-50/50"
             >
-              <td className="sticky left-0 z-[1] max-w-[min(280px,45vw)] bg-white/95 px-3 py-2.5 text-xs leading-snug text-[var(--color-cannes-ink)]">
+              <td className="sticky left-0 z-[1] max-w-[min(280px,45vw)] bg-white/95 px-3 py-2.5 text-xs leading-snug text-[var(--color-cannes-ink)] group-hover:bg-stone-50/50">
                 {label}
               </td>
               {titaniumOnly ? (
@@ -1352,27 +1357,24 @@ function SubcategoryCostTable({
     );
   }
 
-  const btnTh =
-    "inline-flex w-full items-center justify-between gap-2 rounded px-0.5 py-0.5 text-left font-medium text-[var(--color-cannes-ink)] transition hover:bg-stone-200/60 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-cannes-ink)]";
-
   return (
     <table className="w-full min-w-[720px] border-collapse text-left text-sm">
       <thead>
         <tr className="border-b border-[var(--color-cannes-line)] bg-stone-50/80">
           <th
-            className="px-3 py-3 font-medium text-[var(--color-cannes-ink)]"
+            className={SORT_HEADER_TH}
             aria-sort={sort.key === "sub" ? (sort.dir === "asc" ? "ascending" : "descending") : undefined}
           >
-            <button type="button" className={btnTh} onClick={() => setCostSort("sub")}>
+            <button type="button" className={SORT_HEADER_BTN} onClick={() => setCostSort("sub")}>
               <span>Subcategory</span>
               <SortHeaderGlyph active={sort.key === "sub"} dir={sort.dir} />
             </button>
           </th>
           <th
-            className="whitespace-nowrap px-3 py-3 text-left font-medium tabular-nums text-[var(--color-cannes-ink)]"
+            className={`whitespace-nowrap ${SORT_HEADER_TH}`}
             aria-sort={sort.key === "eur" ? (sort.dir === "asc" ? "ascending" : "descending") : undefined}
           >
-            <button type="button" className={btnTh} onClick={() => setCostSort("eur")}>
+            <button type="button" className={SORT_HEADER_BTN_NUM} onClick={() => setCostSort("eur")}>
               <span>
                 Avg. €
                 <span className="block text-[10px] font-normal normal-case tracking-normal text-[var(--color-cannes-muted)]">
@@ -1383,12 +1385,12 @@ function SubcategoryCostTable({
             </button>
           </th>
           <th
-            className="whitespace-nowrap px-3 py-3 text-left font-medium tabular-nums text-[var(--color-cannes-ink)]"
+            className={`whitespace-nowrap ${SORT_HEADER_TH}`}
             aria-sort={
               sort.key === "entries" ? (sort.dir === "asc" ? "ascending" : "descending") : undefined
             }
           >
-            <button type="button" className={btnTh} onClick={() => setCostSort("entries")}>
+            <button type="button" className={SORT_HEADER_BTN_NUM} onClick={() => setCostSort("entries")}>
               <span>
                 Avg. Entries
                 <span className="block text-[10px] font-normal normal-case tracking-normal text-[var(--color-cannes-muted)]">
@@ -1399,12 +1401,12 @@ function SubcategoryCostTable({
             </button>
           </th>
           <th
-            className="min-w-[140px] px-3 py-3 font-medium text-[var(--color-cannes-ink)]"
+            className={`min-w-[140px] ${SORT_HEADER_TH}`}
             aria-sort={
               sort.key === "priority" ? (sort.dir === "asc" ? "ascending" : "descending") : undefined
             }
           >
-            <button type="button" className={btnTh} onClick={() => setCostSort("priority")}>
+            <button type="button" className={SORT_HEADER_BTN_NUM} onClick={() => setCostSort("priority")}>
               <span>Priority</span>
               <SortHeaderGlyph active={sort.key === "priority"} dir={sort.dir} />
             </button>
