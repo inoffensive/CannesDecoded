@@ -8,6 +8,8 @@ import { SiteFooter } from "../SiteFooter";
 import type {
   CategoryDetailsPayload,
   CategoryProbabilities,
+  CategoryWinnerRow,
+  CategoryWinnersPayload,
   CategoryYearSeriesRow,
   ProbabilityRates,
 } from "../types";
@@ -166,19 +168,372 @@ function StatCard({
   );
 }
 
+const WINNER_CHIP_BASE =
+  "inline-flex items-center rounded-full border px-3 py-1 text-xs font-medium transition";
+const WINNER_CHIP_MUTED =
+  "border-[var(--color-cannes-line)] bg-white/80 text-[var(--color-cannes-muted)] hover:border-zinc-400 hover:text-[var(--color-cannes-ink)]";
+const WINNER_CHIP_ACTIVE = "border-black bg-black text-white hover:bg-zinc-900 hover:border-zinc-900";
+
+/** Award filters for non–Titanium categories (Titanium Lions only exist in the Titanium category). */
+const AWARD_FILTER_OPTIONS: { bucket: NonNullable<CategoryWinnerRow["bucket"]>; label: string }[] = [
+  { bucket: "grandPrix", label: "Grand Prix" },
+  { bucket: "gold", label: "Gold" },
+  { bucket: "silver", label: "Silver" },
+  { bucket: "bronze", label: "Bronze" },
+  { bucket: "shortlist", label: "Shortlist" },
+];
+
+/** Titanium category: only Grand Prix, Titanium Lion, and Shortlist rows (plus filters below). */
+const TITANIUM_WINNER_BUCKETS: NonNullable<CategoryWinnerRow["bucket"]>[] = [
+  "grandPrix",
+  "titaniumLion",
+  "shortlist",
+];
+
+const TITANIUM_AWARD_FILTER_OPTIONS: {
+  bucket: NonNullable<CategoryWinnerRow["bucket"]>;
+  label: string;
+}[] = [
+  { bucket: "grandPrix", label: "Grand Prix" },
+  { bucket: "titaniumLion", label: "Titanium" },
+  { bucket: "shortlist", label: "Shortlist" },
+];
+
+const AWARD_DISPLAY_CHIP_BASE =
+  "inline-flex max-w-full items-center justify-center rounded-full border px-2 py-0.5 text-[9px] font-semibold leading-tight tracking-wide sm:text-[10px]";
+
+function awardDisplayChipClass(bucket: NonNullable<CategoryWinnerRow["bucket"]>): string {
+  switch (bucket) {
+    case "grandPrix":
+      return "border-[var(--color-cannes-gp)] bg-[var(--color-cannes-gp)] text-white";
+    case "gold":
+      return "border-[var(--color-cannes-gold)] bg-[var(--color-cannes-gold)] text-[#1a1508]";
+    case "silver":
+      return "border-[var(--color-cannes-silver)] bg-[var(--color-cannes-silver)] text-white";
+    case "bronze":
+      return "border-[var(--color-cannes-bronze)] bg-[var(--color-cannes-bronze)] text-white";
+    case "shortlist":
+      return "border-transparent bg-white text-[var(--color-cannes-muted)] ring-1 ring-inset ring-[var(--color-cannes-shortlist)]";
+    case "titaniumLion":
+      return "border-[var(--color-cannes-award-black)] bg-[var(--color-cannes-award-black)] text-white";
+    default:
+      return "border-[var(--color-cannes-line)] bg-stone-100 text-[var(--color-cannes-muted)]";
+  }
+}
+
+function AwardTableChip({ bucket }: { bucket: CategoryWinnerRow["bucket"] }) {
+  if (bucket == null) {
+    return <span className="text-xs text-[var(--color-cannes-muted)]">—</span>;
+  }
+  const label =
+    bucket === "grandPrix"
+      ? "Grand Prix"
+      : bucket === "gold"
+        ? "Gold"
+        : bucket === "silver"
+          ? "Silver"
+          : bucket === "bronze"
+            ? "Bronze"
+            : bucket === "shortlist"
+              ? "Shortlist"
+              : bucket === "titaniumLion"
+                ? "Titanium"
+                : null;
+  if (label == null) {
+    return <span className="text-xs text-[var(--color-cannes-muted)]">—</span>;
+  }
+  return (
+    <span
+      className={`${AWARD_DISPLAY_CHIP_BASE} whitespace-nowrap ${awardDisplayChipClass(bucket)}`}
+    >
+      {label}
+    </span>
+  );
+}
+
+function WinnerEntryLinkIcon() {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth={2}
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      className="h-4 w-4 shrink-0"
+      aria-hidden
+    >
+      <path d="M7 17 17 7M17 7H9M17 7v8" />
+    </svg>
+  );
+}
+
+function CategoryWinnersSection({
+  slug,
+  series,
+  winnersPayload,
+  winnersLoadFailed,
+  isTitaniumCategory,
+}: {
+  slug: string;
+  series: CategoryYearSeriesRow[];
+  winnersPayload: CategoryWinnersPayload | null;
+  winnersLoadFailed: boolean;
+  isTitaniumCategory: boolean;
+}) {
+  const [yearFilter, setYearFilter] = useState<number | "all">("all");
+  const [awardFilter, setAwardFilter] = useState<
+    "all" | NonNullable<CategoryWinnerRow["bucket"]>
+  >("all");
+
+  useEffect(() => {
+    setYearFilter("all");
+    setAwardFilter("all");
+  }, [slug]);
+
+  const rawRows = winnersPayload?.bySlug[slug] ?? [];
+
+  const yearOptions = useMemo(() => {
+    const ys = new Set<number>();
+    rawRows.forEach((r) => ys.add(r.year));
+    series.forEach((r) => {
+      if (r.entries > 0) ys.add(r.year);
+    });
+    return [...ys].sort((a, b) => b - a);
+  }, [rawRows, series]);
+
+  const filteredRows = useMemo(() => {
+    let rows = rawRows;
+    if (isTitaniumCategory) {
+      rows = rows.filter(
+        (r) => r.bucket != null && TITANIUM_WINNER_BUCKETS.includes(r.bucket),
+      );
+    }
+    if (yearFilter !== "all") {
+      rows = rows.filter((r) => r.year === yearFilter);
+    }
+    if (awardFilter !== "all") {
+      rows = rows.filter((r) => r.bucket === awardFilter);
+    }
+    return rows;
+  }, [rawRows, yearFilter, awardFilter, isTitaniumCategory]);
+
+  if (winnersLoadFailed && !winnersPayload) {
+    return (
+      <section className="space-y-6" aria-labelledby="winners-heading">
+        <h2
+          id="winners-heading"
+          className="font-[family-name:var(--font-display)] text-2xl font-normal tracking-tight text-[var(--color-cannes-ink)]"
+        >
+          Winners
+        </h2>
+        <p className="text-sm text-[var(--color-cannes-muted)]">Could not load winner list.</p>
+      </section>
+    );
+  }
+
+  if (!winnersPayload) {
+    return (
+      <section className="space-y-6" aria-labelledby="winners-heading">
+        <h2
+          id="winners-heading"
+          className="font-[family-name:var(--font-display)] text-2xl font-normal tracking-tight text-[var(--color-cannes-ink)]"
+        >
+          Winners
+        </h2>
+        <p className="text-sm text-[var(--color-cannes-muted)]">Loading winners…</p>
+      </section>
+    );
+  }
+
+  return (
+    <section className="space-y-6" aria-labelledby="winners-heading">
+      <h2
+        id="winners-heading"
+        className="font-[family-name:var(--font-display)] text-2xl font-normal tracking-tight text-[var(--color-cannes-ink)]"
+      >
+        Winners
+      </h2>
+
+      <div className="space-y-3">
+        <p className="text-[11px] font-semibold uppercase tracking-[0.12em] text-[var(--color-cannes-muted)]">
+          Year
+        </p>
+        <div className="flex flex-wrap items-center gap-2" role="group" aria-label="Filter by festival year">
+          <button
+            type="button"
+            className={`${WINNER_CHIP_BASE} ${yearFilter === "all" ? WINNER_CHIP_ACTIVE : WINNER_CHIP_MUTED}`}
+            onClick={() => setYearFilter("all")}
+          >
+            All years
+          </button>
+          {yearOptions.map((y) => (
+            <button
+              key={y}
+              type="button"
+              className={`${WINNER_CHIP_BASE} ${yearFilter === y ? WINNER_CHIP_ACTIVE : WINNER_CHIP_MUTED}`}
+              onClick={() => setYearFilter(y)}
+            >
+              {y}
+            </button>
+          ))}
+        </div>
+      </div>
+
+      <div className="space-y-3">
+        <p className="text-[11px] font-semibold uppercase tracking-[0.12em] text-[var(--color-cannes-muted)]">
+          Award
+        </p>
+        <div className="flex flex-wrap items-center gap-2" role="group" aria-label="Filter by award type">
+          <button
+            type="button"
+            className={`${WINNER_CHIP_BASE} ${awardFilter === "all" ? WINNER_CHIP_ACTIVE : WINNER_CHIP_MUTED}`}
+            onClick={() => setAwardFilter("all")}
+          >
+            All awards
+          </button>
+          {(isTitaniumCategory ? TITANIUM_AWARD_FILTER_OPTIONS : AWARD_FILTER_OPTIONS).map(({ bucket, label }) => (
+            <button
+              key={bucket}
+              type="button"
+              className={`${WINNER_CHIP_BASE} ${awardFilter === bucket ? WINNER_CHIP_ACTIVE : WINNER_CHIP_MUTED}`}
+              onClick={() => setAwardFilter(bucket)}
+            >
+              {label}
+            </button>
+          ))}
+        </div>
+      </div>
+
+      <div className="overflow-x-auto rounded-xl border border-[var(--color-cannes-line)] bg-white/90">
+        <table className="w-full min-w-[720px] border-collapse text-left text-sm">
+          <thead>
+            <tr className="border-b border-[var(--color-cannes-line)] bg-stone-50/80">
+              <th className="whitespace-nowrap px-3 py-3 font-medium text-[var(--color-cannes-ink)]">Year</th>
+              <th className="whitespace-nowrap px-3 py-3 font-medium text-[var(--color-cannes-ink)]">Award</th>
+              <th className="min-w-[160px] px-3 py-3 font-medium text-[var(--color-cannes-ink)]">Title</th>
+              <th className="min-w-[120px] px-3 py-3 font-medium text-[var(--color-cannes-ink)]">Brand</th>
+              <th className="min-w-[180px] px-3 py-3 font-medium text-[var(--color-cannes-ink)]">Subcategory</th>
+              <th className="min-w-[160px] px-3 py-3 font-medium text-[var(--color-cannes-ink)]">Entrant</th>
+              <th className="whitespace-nowrap px-3 py-3 font-medium text-[var(--color-cannes-ink)]">Location</th>
+              <th scope="col" className="w-12 px-2 py-3 text-center font-medium text-[var(--color-cannes-ink)]">
+                <span className="sr-only">Entry link</span>
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            {filteredRows.length === 0 ? (
+              <tr>
+                <td colSpan={8} className="px-3 py-8 text-center text-sm text-[var(--color-cannes-muted)]">
+                  No winners match these filters.
+                </td>
+              </tr>
+            ) : (
+              filteredRows.map((row, idx) => (
+                <tr
+                  key={`${row.year}-${row.title}-${row.entry_url ?? idx}`}
+                  className="border-b border-[var(--color-cannes-line)] last:border-0 hover:bg-stone-50/50"
+                >
+                  <td className="whitespace-nowrap px-3 py-2.5 tabular-nums text-[var(--color-cannes-ink)]">
+                    {row.year}
+                  </td>
+                  <td className="max-w-[min(220px,40vw)] px-3 py-2.5 align-middle">
+                    <AwardTableChip bucket={row.bucket} />
+                  </td>
+                  <td className="max-w-[min(280px,50vw)] px-3 py-2.5 align-top">
+                    <span
+                      className="block line-clamp-2 break-words text-xs leading-snug text-[var(--color-cannes-ink)]"
+                      title={row.title ? row.title : undefined}
+                    >
+                      {row.title || "—"}
+                    </span>
+                  </td>
+                  <td className="max-w-[min(200px,35vw)] px-3 py-2.5 align-top">
+                    <span
+                      className="block line-clamp-2 break-words text-xs leading-snug text-[var(--color-cannes-muted)]"
+                      title={row.brand ? row.brand : undefined}
+                    >
+                      {row.brand || "—"}
+                    </span>
+                  </td>
+                  <td className="max-w-[min(260px,45vw)] px-3 py-2.5 align-top">
+                    <span
+                      className="block line-clamp-2 break-words text-xs leading-snug text-[var(--color-cannes-muted)]"
+                      title={row.subcategory ? row.subcategory : undefined}
+                    >
+                      {row.subcategory || "—"}
+                    </span>
+                  </td>
+                  <td className="max-w-[min(240px,40vw)] px-3 py-2.5 align-top">
+                    <span
+                      className="block line-clamp-2 break-words text-xs leading-snug text-[var(--color-cannes-muted)]"
+                      title={row.entrant ? row.entrant : undefined}
+                    >
+                      {row.entrant || "—"}
+                    </span>
+                  </td>
+                  <td className="whitespace-nowrap px-3 py-2.5 text-xs text-[var(--color-cannes-muted)]">
+                    {row.location || "—"}
+                  </td>
+                  <td className="px-2 py-2.5 text-center">
+                    {row.entry_url ? (
+                      <a
+                        href={row.entry_url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center justify-center rounded p-1 text-[var(--color-cannes-ink)] transition hover:bg-stone-100 hover:text-zinc-900"
+                        aria-label="Open entry on LoveThework"
+                      >
+                        <WinnerEntryLinkIcon />
+                      </a>
+                    ) : (
+                      <span className="text-[var(--color-cannes-muted)]">—</span>
+                    )}
+                  </td>
+                </tr>
+              ))
+            )}
+          </tbody>
+        </table>
+      </div>
+    </section>
+  );
+}
+
 export default function CategoryDetailPage() {
   const { slug } = useParams<{ slug: string }>();
   const [data, setData] = useState<CategoryDetailsPayload | null>(null);
+  const [winnersPayload, setWinnersPayload] = useState<CategoryWinnersPayload | null>(null);
+  const [winnersLoadFailed, setWinnersLoadFailed] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
-    fetch("/category-details.json")
-      .then((r) => {
-        if (!r.ok) throw new Error(`Failed to load details (${r.status})`);
-        return r.json() as Promise<CategoryDetailsPayload>;
-      })
-      .then(setData)
-      .catch((e: Error) => setError(e.message));
+    let cancelled = false;
+    (async () => {
+      try {
+        const [dRes, wRes] = await Promise.all([
+          fetch("/category-details.json"),
+          fetch("/category-winners.json"),
+        ]);
+        if (!dRes.ok) throw new Error(`Failed to load details (${dRes.status})`);
+        const d = (await dRes.json()) as CategoryDetailsPayload;
+        if (cancelled) return;
+        setData(d);
+        if (wRes.ok) {
+          setWinnersPayload((await wRes.json()) as CategoryWinnersPayload);
+          setWinnersLoadFailed(false);
+        } else {
+          setWinnersPayload(null);
+          setWinnersLoadFailed(true);
+        }
+      } catch (e) {
+        if (!cancelled) setError(e instanceof Error ? e.message : "Failed to load");
+      }
+    })();
+    return () => {
+      cancelled = true;
+    };
   }, []);
 
   const detail = slug ? data?.bySlug[slug] : undefined;
@@ -574,6 +929,14 @@ export default function CategoryDetailPage() {
             </div>
           </div>
         </section>
+
+        <CategoryWinnersSection
+          slug={slug}
+          series={series}
+          winnersPayload={winnersPayload}
+          winnersLoadFailed={winnersLoadFailed}
+          isTitaniumCategory={isTitaniumCategory}
+        />
       </main>
       <SiteFooter narrow />
     </div>

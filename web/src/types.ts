@@ -90,6 +90,24 @@ export type SubcategoryCostBreakdown = {
   priorityBySub: Record<string, number | null>;
 };
 
+/** From LoveThework winner rows; `bucket` from points_rule via build script. */
+export type CategoryWinnerRow = {
+  year: number;
+  bucket: "bronze" | "silver" | "gold" | "grandPrix" | "titaniumLion" | "shortlist" | null;
+  prize: string;
+  title: string;
+  brand: string;
+  subcategory: string;
+  entrant: string;
+  location: string;
+  entry_url: string | null;
+};
+
+export type CategoryWinnersPayload = {
+  generated_at: string;
+  bySlug: Record<string, CategoryWinnerRow[]>;
+};
+
 export type CategoryDetailsPayload = {
   generated_at: string;
   fee_note: string;

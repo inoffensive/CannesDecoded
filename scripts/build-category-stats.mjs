@@ -84,6 +84,20 @@ async function main() {
   /** Bronze / silver / gold / titanium Lion win rows per subcategory. */
   /** @type {Record<string, Record<string, Record<string, { bronze: number, silver: number, gold: number, titaniumLion: number }>>>} */
   const subBsgAgg = {};
+  /** Per category: LoveThework winner rows for the Winners UI (links, titles, buckets). */
+  /** @type {Record<string, Array<{
+   * year: number,
+   * bucket: string | null,
+   * prize: string,
+   * title: string,
+   * brand: string,
+   * subcategory: string,
+   * entrant: string,
+   * location: string,
+   * entry_url: string | null,
+   * }>>}
+   */
+  const winnersBySlug = {};
 
   for (const line of jl) {
     const row = JSON.parse(line);
@@ -149,10 +163,54 @@ async function main() {
     const a = agg[year][slug];
     if (row.list_type === "shortlist") {
       a.shortlist++;
+      {
+        const prizeRaw =
+          typeof row.prize === "string" && row.prize.trim()
+            ? row.prize.trim()
+            : typeof row.award === "string" &&
+                row.award.trim() &&
+                row.award.trim() !== "N/A"
+              ? row.award.trim()
+              : "Shortlist";
+        if (!winnersBySlug[slug]) winnersBySlug[slug] = [];
+        winnersBySlug[slug].push({
+          year: parseInt(year, 10),
+          bucket: "shortlist",
+          prize: prizeRaw,
+          title: typeof row.title === "string" ? row.title.trim() : "",
+          brand: typeof row.brand === "string" ? row.brand.trim() : "",
+          subcategory: subKey,
+          entrant: typeof row.entrant === "string" ? row.entrant.trim() : "",
+          location: typeof row.location === "string" ? row.location.trim() : "",
+          entry_url: entryUrl || null,
+        });
+      }
       continue;
     }
     if (row.list_type !== "winner") continue;
     const b = bucketForRule(row.points_rule);
+    {
+      const prizeRaw =
+        typeof row.prize === "string" && row.prize.trim()
+          ? row.prize.trim()
+          : typeof row.award === "string" &&
+              row.award.trim() &&
+              row.award.trim() !== "N/A"
+            ? row.award.trim()
+            : "—";
+      if (!winnersBySlug[slug]) winnersBySlug[slug] = [];
+      winnersBySlug[slug].push({
+        year: parseInt(year, 10),
+        bucket: b,
+        prize: prizeRaw,
+        title: typeof row.title === "string" ? row.title.trim() : "",
+        brand: typeof row.brand === "string" ? row.brand.trim() : "",
+        subcategory: subKey,
+        entrant: typeof row.entrant === "string" ? row.entrant.trim() : "",
+        location: typeof row.location === "string" ? row.location.trim() : "",
+        entry_url: entryUrl || null,
+      });
+    }
     if (b === "bronze") a.bronze++;
     else if (b === "silver") a.silver++;
     else if (b === "gold") a.gold++;
@@ -685,6 +743,23 @@ async function main() {
   const detailsPath = path.join(ROOT, "web", "public", "category-details.json");
   fs.writeFileSync(detailsPath, JSON.stringify(detailsOut, null, 2) + "\n", "utf8");
   console.log(`Wrote ${detailsPath}`);
+
+  const winnersOut = {
+    generated_at: detailsOut.generated_at,
+    bySlug: Object.fromEntries(
+      Object.entries(winnersBySlug).map(([slug, rows]) => [
+        slug,
+        [...rows].sort((x, y) =>
+          y.year !== x.year
+            ? y.year - x.year
+            : (x.title || "").localeCompare(y.title || "", "en"),
+        ),
+      ]),
+    ),
+  };
+  const winnersPath = path.join(ROOT, "web", "public", "category-winners.json");
+  fs.writeFileSync(winnersPath, JSON.stringify(winnersOut) + "\n", "utf8");
+  console.log(`Wrote ${winnersPath}`);
 }
 
 main().catch((e) => {
