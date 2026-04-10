@@ -732,7 +732,7 @@ function DiminishedReturnsTable({
               key={s.field}
               colSpan={2}
               scope="colgroup"
-              className={`px-3 py-2 text-center font-medium text-[var(--color-cannes-ink)] ${
+              className={`px-3 py-2 text-left font-medium text-[var(--color-cannes-ink)] ${
                 i > 0 ? "border-l border-[var(--color-cannes-line)]" : ""
               }`}
             >
@@ -745,7 +745,7 @@ function DiminishedReturnsTable({
             <th
               key={`${s.field}-cum`}
               scope="col"
-              className={`whitespace-nowrap px-2 py-2 text-center font-normal tabular-nums text-[var(--color-cannes-muted)] ${
+              className={`whitespace-nowrap px-2 py-2 text-left font-normal tabular-nums text-[var(--color-cannes-muted)] ${
                 i > 0 ? "border-l border-[var(--color-cannes-line)]" : ""
               }`}
             >
@@ -754,7 +754,7 @@ function DiminishedReturnsTable({
             <th
               key={`${s.field}-mar`}
               scope="col"
-              className="whitespace-nowrap px-2 py-2 text-center font-normal tabular-nums text-[var(--color-cannes-muted)]"
+              className="whitespace-nowrap px-2 py-2 text-left font-normal tabular-nums text-[var(--color-cannes-muted)]"
             >
               Marginal
             </th>,
@@ -777,7 +777,7 @@ function DiminishedReturnsTable({
               return [
                 <td
                   key={`${s.field}-cum-${n}`}
-                  className={`px-2 py-2 text-right tabular-nums text-[var(--color-cannes-ink)] ${
+                  className={`px-2 py-2 text-left tabular-nums text-[var(--color-cannes-ink)] ${
                     i > 0 ? "border-l border-[var(--color-cannes-line)]/60" : ""
                   }`}
                 >
@@ -785,7 +785,7 @@ function DiminishedReturnsTable({
                 </td>,
                 <td
                   key={`${s.field}-mar-${n}`}
-                  className="px-2 py-2 text-right tabular-nums text-[var(--color-cannes-muted)]"
+                  className="px-2 py-2 text-left tabular-nums text-[var(--color-cannes-muted)]"
                 >
                   {formatProbPct(mar)}
                 </td>,
