@@ -1265,7 +1265,7 @@ function theWorkRowsForChart(row: CategoryYearSeriesRow, isTitaniumCategory: boo
 function EntriesChartLegend({ isTitaniumCategory }: { isTitaniumCategory: boolean }) {
   const parts = isTitaniumCategory ? ENTRIES_CHART_PARTS_TITANIUM : ENTRIES_CHART_PARTS;
   return (
-    <div className="mt-6 flex flex-wrap items-center gap-x-4 gap-y-2 text-[11px] text-[var(--color-cannes-muted)]">
+    <div className="mt-6 flex flex-wrap items-center justify-center gap-x-4 gap-y-2 text-[11px] text-[var(--color-cannes-muted)]">
       {parts.map(({ label, colorKey }) => (
         <span key={label} className="inline-flex items-center gap-1.5">
           <span
