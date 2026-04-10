@@ -404,7 +404,7 @@ export default function CategoryDetailPage() {
               Breakdown by Sub-Category
             </h3>
             {data.subcategory_cost_note ? (
-              <p className="mt-2 max-w-3xl text-xs leading-relaxed text-[var(--color-cannes-muted)]">
+              <p className="mt-2 max-w-3xl text-sm leading-relaxed text-[var(--color-cannes-muted)]">
                 {data.subcategory_cost_note}
               </p>
             ) : null}
