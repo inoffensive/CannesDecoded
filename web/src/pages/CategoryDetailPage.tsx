@@ -40,6 +40,41 @@ function formatProbPct(p: number | null | undefined) {
   return `${(p * 100).toLocaleString("en-US", { maximumFractionDigits: 1 })}%`;
 }
 
+/** Nulls sort after any number (stable tie-breaker: label). */
+function compareNullableNum(a: number | null | undefined, b: number | null | undefined): number {
+  const na = a ?? null;
+  const nb = b ?? null;
+  if (na == null && nb == null) return 0;
+  if (na == null) return 1;
+  if (nb == null) return -1;
+  return na - nb;
+}
+
+function withDir(cmp: number, dir: "asc" | "desc"): number {
+  return dir === "asc" ? cmp : -cmp;
+}
+
+type CostSortKey = "sub" | "eur" | "entries" | "priority";
+
+function defaultCostSortDir(key: CostSortKey): "asc" | "desc" {
+  return key === "priority" ? "desc" : "asc";
+}
+
+type ProbSortKey = "sub" | "point" | "bronze" | "silver" | "gold" | "titanium";
+
+function defaultProbSortDir(key: ProbSortKey): "asc" | "desc" {
+  return key === "sub" ? "asc" : "desc";
+}
+
+function SortHeaderGlyph({ active, dir }: { active: boolean; dir: "asc" | "desc" }) {
+  if (!active) return null;
+  return (
+    <span className="shrink-0 tabular-nums text-[var(--color-cannes-muted)]" aria-hidden>
+      {dir === "asc" ? "↑" : "↓"}
+    </span>
+  );
+}
+
 /** Extra probability from adding the n-th independent piece: F(n) − F(n−1) with F(n) = 1 − (1−p)ⁿ */
 function marginalProbGain(p: number | null | undefined, n: number): number | null {
   if (p == null || Number.isNaN(p) || n < 1) return null;
@@ -1046,6 +1081,63 @@ function SubcategoryProbabilityTable({
   bySub: CategoryProbabilities["bySubcategory"];
   titaniumOnly?: boolean;
 }) {
+  const [sort, setSort] = useState<{ key: ProbSortKey; dir: "asc" | "desc" }>({
+    key: "sub",
+    dir: "asc",
+  });
+
+  useEffect(() => {
+    setSort({ key: "sub", dir: "asc" });
+  }, [titaniumOnly]);
+
+  const sortedLabels = useMemo(() => {
+    const rows = [...labels2025];
+    rows.sort((a, b) => {
+      const ra = bySub[a];
+      const rb = bySub[b];
+      let raw = 0;
+      if (titaniumOnly) {
+        if (sort.key === "sub") {
+          raw = a.localeCompare(b, "en");
+        } else {
+          raw = compareNullableNum(ra?.pTitanium, rb?.pTitanium);
+        }
+      } else {
+        switch (sort.key) {
+          case "sub":
+            raw = a.localeCompare(b, "en");
+            break;
+          case "point":
+            raw = compareNullableNum(ra?.pAtLeastOnePoint, rb?.pAtLeastOnePoint);
+            break;
+          case "bronze":
+            raw = compareNullableNum(ra?.pBronze, rb?.pBronze);
+            break;
+          case "silver":
+            raw = compareNullableNum(ra?.pSilver, rb?.pSilver);
+            break;
+          case "gold":
+            raw = compareNullableNum(ra?.pGold, rb?.pGold);
+            break;
+          default:
+            raw = a.localeCompare(b, "en");
+        }
+      }
+      const w = withDir(raw, sort.dir);
+      if (w !== 0) return w;
+      return a.localeCompare(b, "en");
+    });
+    return rows;
+  }, [labels2025, bySub, sort, titaniumOnly]);
+
+  const setProbSort = (key: ProbSortKey) => {
+    setSort((prev) =>
+      prev.key === key
+        ? { key, dir: prev.dir === "asc" ? "desc" : "asc" }
+        : { key, dir: defaultProbSortDir(key) },
+    );
+  };
+
   if (labels2025.length === 0) {
     return (
       <p className="px-4 py-8 text-sm text-[var(--color-cannes-muted)]">
@@ -1054,52 +1146,111 @@ function SubcategoryProbabilityTable({
     );
   }
 
+  const btnTh =
+    "inline-flex w-full items-center justify-between gap-2 rounded px-0.5 py-0.5 text-left font-medium text-[var(--color-cannes-ink)] transition hover:bg-stone-200/60 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-cannes-ink)]";
+
   return (
     <table className="w-full min-w-[560px] border-collapse text-left text-sm">
       <thead>
         <tr className="border-b border-[var(--color-cannes-line)] bg-stone-50/80">
-          <th className="sticky left-0 z-[1] bg-stone-50/95 px-3 py-3 font-medium text-[var(--color-cannes-ink)]">
-            Subcategory
+          <th
+            className="sticky left-0 z-[1] bg-stone-50/95 px-3 py-3 font-medium text-[var(--color-cannes-ink)]"
+            aria-sort={sort.key === "sub" ? (sort.dir === "asc" ? "ascending" : "descending") : undefined}
+          >
+            <button type="button" className={btnTh} onClick={() => setProbSort("sub")}>
+              <span>Subcategory</span>
+              <SortHeaderGlyph active={sort.key === "sub"} dir={sort.dir} />
+            </button>
           </th>
           {titaniumOnly ? (
-            <th className="whitespace-nowrap px-3 py-3 text-left font-medium tabular-nums text-[var(--color-cannes-ink)]">
-              Titanium Lion
-              <span className="block text-[10px] font-normal normal-case tracking-normal text-[var(--color-cannes-muted)]">
-                avg.
-              </span>
+            <th
+              className="whitespace-nowrap px-3 py-3 text-left font-medium tabular-nums text-[var(--color-cannes-ink)]"
+              aria-sort={
+                sort.key === "titanium" ? (sort.dir === "asc" ? "ascending" : "descending") : undefined
+              }
+            >
+              <button type="button" className={btnTh} onClick={() => setProbSort("titanium")}>
+                <span>
+                  Titanium Lion
+                  <span className="block text-[10px] font-normal normal-case tracking-normal text-[var(--color-cannes-muted)]">
+                    avg.
+                  </span>
+                </span>
+                <SortHeaderGlyph active={sort.key === "titanium"} dir={sort.dir} />
+              </button>
             </th>
           ) : (
             <>
-              <th className="whitespace-nowrap px-3 py-3 text-left font-medium tabular-nums text-[var(--color-cannes-ink)]">
-                ≥1 point
-                <span className="block text-[10px] font-normal normal-case tracking-normal text-[var(--color-cannes-muted)]">
-                  avg.
-                </span>
+              <th
+                className="whitespace-nowrap px-3 py-3 text-left font-medium tabular-nums text-[var(--color-cannes-ink)]"
+                aria-sort={
+                  sort.key === "point" ? (sort.dir === "asc" ? "ascending" : "descending") : undefined
+                }
+              >
+                <button type="button" className={btnTh} onClick={() => setProbSort("point")}>
+                  <span>
+                    ≥1 point
+                    <span className="block text-[10px] font-normal normal-case tracking-normal text-[var(--color-cannes-muted)]">
+                      avg.
+                    </span>
+                  </span>
+                  <SortHeaderGlyph active={sort.key === "point"} dir={sort.dir} />
+                </button>
               </th>
-              <th className="whitespace-nowrap px-3 py-3 text-left font-medium tabular-nums text-[var(--color-cannes-ink)]">
-                Bronze
-                <span className="block text-[10px] font-normal normal-case tracking-normal text-[var(--color-cannes-muted)]">
-                  avg.
-                </span>
+              <th
+                className="whitespace-nowrap px-3 py-3 text-left font-medium tabular-nums text-[var(--color-cannes-ink)]"
+                aria-sort={
+                  sort.key === "bronze" ? (sort.dir === "asc" ? "ascending" : "descending") : undefined
+                }
+              >
+                <button type="button" className={btnTh} onClick={() => setProbSort("bronze")}>
+                  <span>
+                    Bronze
+                    <span className="block text-[10px] font-normal normal-case tracking-normal text-[var(--color-cannes-muted)]">
+                      avg.
+                    </span>
+                  </span>
+                  <SortHeaderGlyph active={sort.key === "bronze"} dir={sort.dir} />
+                </button>
               </th>
-              <th className="whitespace-nowrap px-3 py-3 text-left font-medium tabular-nums text-[var(--color-cannes-ink)]">
-                Silver
-                <span className="block text-[10px] font-normal normal-case tracking-normal text-[var(--color-cannes-muted)]">
-                  avg.
-                </span>
+              <th
+                className="whitespace-nowrap px-3 py-3 text-left font-medium tabular-nums text-[var(--color-cannes-ink)]"
+                aria-sort={
+                  sort.key === "silver" ? (sort.dir === "asc" ? "ascending" : "descending") : undefined
+                }
+              >
+                <button type="button" className={btnTh} onClick={() => setProbSort("silver")}>
+                  <span>
+                    Silver
+                    <span className="block text-[10px] font-normal normal-case tracking-normal text-[var(--color-cannes-muted)]">
+                      avg.
+                    </span>
+                  </span>
+                  <SortHeaderGlyph active={sort.key === "silver"} dir={sort.dir} />
+                </button>
               </th>
-              <th className="whitespace-nowrap px-3 py-3 text-left font-medium tabular-nums text-[var(--color-cannes-ink)]">
-                Gold
-                <span className="block text-[10px] font-normal normal-case tracking-normal text-[var(--color-cannes-muted)]">
-                  avg.
-                </span>
+              <th
+                className="whitespace-nowrap px-3 py-3 text-left font-medium tabular-nums text-[var(--color-cannes-ink)]"
+                aria-sort={
+                  sort.key === "gold" ? (sort.dir === "asc" ? "ascending" : "descending") : undefined
+                }
+              >
+                <button type="button" className={btnTh} onClick={() => setProbSort("gold")}>
+                  <span>
+                    Gold
+                    <span className="block text-[10px] font-normal normal-case tracking-normal text-[var(--color-cannes-muted)]">
+                      avg.
+                    </span>
+                  </span>
+                  <SortHeaderGlyph active={sort.key === "gold"} dir={sort.dir} />
+                </button>
               </th>
             </>
           )}
         </tr>
       </thead>
       <tbody>
-        {labels2025.map((label) => {
+        {sortedLabels.map((label) => {
           const r = bySub[label];
           const p1 = r?.pAtLeastOnePoint;
           const pb = r?.pBronze;
@@ -1153,6 +1304,46 @@ function SubcategoryCostTable({
   entriesPerMetalBySub: Record<string, number | null>;
   priorityBySub: Record<string, number | null>;
 }) {
+  const [sort, setSort] = useState<{ key: CostSortKey; dir: "asc" | "desc" }>({
+    key: "sub",
+    dir: "asc",
+  });
+
+  const sortedLabels = useMemo(() => {
+    const rows = [...labels2025];
+    rows.sort((a, b) => {
+      let raw = 0;
+      switch (sort.key) {
+        case "sub":
+          raw = a.localeCompare(b, "en");
+          break;
+        case "eur":
+          raw = compareNullableNum(avgEurPerPoint[a], avgEurPerPoint[b]);
+          break;
+        case "entries":
+          raw = compareNullableNum(entriesPerMetalBySub[a], entriesPerMetalBySub[b]);
+          break;
+        case "priority":
+          raw = compareNullableNum(priorityBySub[a], priorityBySub[b]);
+          break;
+        default:
+          raw = a.localeCompare(b, "en");
+      }
+      const w = withDir(raw, sort.dir);
+      if (w !== 0) return w;
+      return a.localeCompare(b, "en");
+    });
+    return rows;
+  }, [labels2025, sort, avgEurPerPoint, entriesPerMetalBySub, priorityBySub]);
+
+  const setCostSort = (key: CostSortKey) => {
+    setSort((prev) =>
+      prev.key === key
+        ? { key, dir: prev.dir === "asc" ? "desc" : "asc" }
+        : { key, dir: defaultCostSortDir(key) },
+    );
+  };
+
   if (labels2025.length === 0) {
     return (
       <p className="px-4 py-8 text-sm text-[var(--color-cannes-muted)]">
@@ -1161,28 +1352,67 @@ function SubcategoryCostTable({
     );
   }
 
+  const btnTh =
+    "inline-flex w-full items-center justify-between gap-2 rounded px-0.5 py-0.5 text-left font-medium text-[var(--color-cannes-ink)] transition hover:bg-stone-200/60 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-cannes-ink)]";
+
   return (
     <table className="w-full min-w-[720px] border-collapse text-left text-sm">
       <thead>
         <tr className="border-b border-[var(--color-cannes-line)] bg-stone-50/80">
-          <th className="px-3 py-3 font-medium text-[var(--color-cannes-ink)]">Subcategory</th>
-          <th className="whitespace-nowrap px-3 py-3 text-left font-medium tabular-nums text-[var(--color-cannes-ink)]">
-            Avg. €
-            <span className="block text-[10px] font-normal normal-case tracking-normal text-[var(--color-cannes-muted)]">
-              per point awarded
-            </span>
+          <th
+            className="px-3 py-3 font-medium text-[var(--color-cannes-ink)]"
+            aria-sort={sort.key === "sub" ? (sort.dir === "asc" ? "ascending" : "descending") : undefined}
+          >
+            <button type="button" className={btnTh} onClick={() => setCostSort("sub")}>
+              <span>Subcategory</span>
+              <SortHeaderGlyph active={sort.key === "sub"} dir={sort.dir} />
+            </button>
           </th>
-          <th className="whitespace-nowrap px-3 py-3 text-left font-medium tabular-nums text-[var(--color-cannes-ink)]">
-            Avg. Entries
-            <span className="block text-[10px] font-normal normal-case tracking-normal text-[var(--color-cannes-muted)]">
-              per metal win
-            </span>
+          <th
+            className="whitespace-nowrap px-3 py-3 text-left font-medium tabular-nums text-[var(--color-cannes-ink)]"
+            aria-sort={sort.key === "eur" ? (sort.dir === "asc" ? "ascending" : "descending") : undefined}
+          >
+            <button type="button" className={btnTh} onClick={() => setCostSort("eur")}>
+              <span>
+                Avg. €
+                <span className="block text-[10px] font-normal normal-case tracking-normal text-[var(--color-cannes-muted)]">
+                  per point awarded
+                </span>
+              </span>
+              <SortHeaderGlyph active={sort.key === "eur"} dir={sort.dir} />
+            </button>
           </th>
-          <th className="min-w-[140px] px-3 py-3 font-medium text-[var(--color-cannes-ink)]">Priority</th>
+          <th
+            className="whitespace-nowrap px-3 py-3 text-left font-medium tabular-nums text-[var(--color-cannes-ink)]"
+            aria-sort={
+              sort.key === "entries" ? (sort.dir === "asc" ? "ascending" : "descending") : undefined
+            }
+          >
+            <button type="button" className={btnTh} onClick={() => setCostSort("entries")}>
+              <span>
+                Avg. Entries
+                <span className="block text-[10px] font-normal normal-case tracking-normal text-[var(--color-cannes-muted)]">
+                  per metal win
+                </span>
+              </span>
+              <SortHeaderGlyph active={sort.key === "entries"} dir={sort.dir} />
+            </button>
+          </th>
+          <th
+            className="min-w-[140px] px-3 py-3 font-medium text-[var(--color-cannes-ink)]"
+            aria-sort={
+              sort.key === "priority" ? (sort.dir === "asc" ? "ascending" : "descending") : undefined
+            }
+          >
+            <button type="button" className={btnTh} onClick={() => setCostSort("priority")}>
+              <span>Priority</span>
+              <SortHeaderGlyph active={sort.key === "priority"} dir={sort.dir} />
+            </button>
+          </th>
         </tr>
       </thead>
       <tbody>
-        {labels2025.map((label) => {
+        {sortedLabels.map((label) => {
           const p = priorityBySub[label];
           return (
             <tr
