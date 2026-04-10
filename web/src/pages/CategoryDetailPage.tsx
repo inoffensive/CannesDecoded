@@ -199,6 +199,8 @@ const TITANIUM_AWARD_FILTER_OPTIONS: {
   { bucket: "shortlist", label: "Shortlist" },
 ];
 
+const WINNERS_PAGE_SIZE = 25;
+
 const AWARD_DISPLAY_CHIP_BASE =
   "inline-flex max-w-full items-center justify-center rounded-full border px-2 py-0.5 text-[9px] font-semibold leading-tight tracking-wide sm:text-[10px]";
 
@@ -282,14 +284,16 @@ function CategoryWinnersSection({
   winnersLoadFailed: boolean;
   isTitaniumCategory: boolean;
 }) {
-  const [yearFilter, setYearFilter] = useState<number | "all" | null>(null);
+  const [yearFilter, setYearFilter] = useState<number | "all">("all");
   const [awardFilter, setAwardFilter] = useState<
-    "all" | NonNullable<CategoryWinnerRow["bucket"]> | null
-  >(null);
+    "all" | NonNullable<CategoryWinnerRow["bucket"]>
+  >("all");
+  const [winnersPage, setWinnersPage] = useState(1);
 
   useEffect(() => {
-    setYearFilter(null);
-    setAwardFilter(null);
+    setYearFilter("all");
+    setAwardFilter("all");
+    setWinnersPage(1);
   }, [slug]);
 
   const rawRows = winnersPayload?.bySlug[slug] ?? [];
@@ -303,10 +307,7 @@ function CategoryWinnersSection({
     return [...ys].sort((a, b) => b - a);
   }, [rawRows, series]);
 
-  const filtersReady = yearFilter !== null && awardFilter !== null;
-
   const filteredRows = useMemo(() => {
-    if (yearFilter === null || awardFilter === null) return [];
     let rows = rawRows;
     if (isTitaniumCategory) {
       rows = rows.filter(
@@ -321,6 +322,18 @@ function CategoryWinnersSection({
     }
     return rows;
   }, [rawRows, yearFilter, awardFilter, isTitaniumCategory]);
+
+  const winnersPageCount = Math.max(1, Math.ceil(filteredRows.length / WINNERS_PAGE_SIZE));
+  const currentWinnersPage = Math.min(winnersPage, winnersPageCount);
+
+  useEffect(() => {
+    setWinnersPage(1);
+  }, [yearFilter, awardFilter]);
+
+  const pagedWinnerRows = useMemo(() => {
+    const start = (currentWinnersPage - 1) * WINNERS_PAGE_SIZE;
+    return filteredRows.slice(start, start + WINNERS_PAGE_SIZE);
+  }, [filteredRows, currentWinnersPage]);
 
   if (winnersLoadFailed && !winnersPayload) {
     return (
@@ -409,12 +422,7 @@ function CategoryWinnersSection({
         </div>
       </div>
 
-      {!filtersReady ? (
-        <p className="max-w-2xl text-sm leading-relaxed text-[var(--color-cannes-muted)]">
-          Choose a year and award to reveal the winners
-        </p>
-      ) : (
-        <div className="overflow-x-auto rounded-xl border border-[var(--color-cannes-line)] bg-white/90">
+      <div className="overflow-x-auto rounded-xl border border-[var(--color-cannes-line)] bg-white/90">
           <table className="w-full min-w-[720px] border-collapse text-left text-sm">
             <thead>
               <tr className="border-b border-[var(--color-cannes-line)] bg-stone-50/80">
@@ -438,7 +446,7 @@ function CategoryWinnersSection({
                   </td>
                 </tr>
               ) : (
-                filteredRows.map((row, idx) => (
+                pagedWinnerRows.map((row, idx) => (
                 <tr
                   key={`${row.year}-${row.title}-${row.entry_url ?? idx}`}
                   className="border-b border-[var(--color-cannes-line)] last:border-0 hover:bg-stone-50/50"
@@ -449,40 +457,45 @@ function CategoryWinnersSection({
                   <td className="max-w-[min(220px,40vw)] px-3 py-2.5 align-middle">
                     <AwardTableChip bucket={row.bucket} />
                   </td>
-                  <td className="max-w-[min(280px,50vw)] px-3 py-2.5 align-top">
+                  <td className="min-w-0 max-w-[min(280px,50vw)] overflow-hidden px-3 py-2.5 align-top">
                     <span
-                      className="block line-clamp-2 break-words text-xs leading-snug text-[var(--color-cannes-ink)]"
+                      className="line-clamp-2 break-words text-xs leading-snug text-[var(--color-cannes-ink)]"
                       title={row.title ? row.title : undefined}
                     >
                       {row.title || "—"}
                     </span>
                   </td>
-                  <td className="max-w-[min(200px,35vw)] px-3 py-2.5 align-top">
+                  <td className="min-w-0 max-w-[min(200px,35vw)] overflow-hidden px-3 py-2.5 align-top">
                     <span
-                      className="block line-clamp-2 break-words text-xs leading-snug text-[var(--color-cannes-muted)]"
+                      className="line-clamp-2 break-words text-xs leading-snug text-[var(--color-cannes-muted)]"
                       title={row.brand ? row.brand : undefined}
                     >
                       {row.brand || "—"}
                     </span>
                   </td>
-                  <td className="max-w-[min(260px,45vw)] px-3 py-2.5 align-top">
+                  <td className="min-w-0 max-w-[min(260px,45vw)] overflow-hidden px-3 py-2.5 align-top">
                     <span
-                      className="block line-clamp-2 break-words text-xs leading-snug text-[var(--color-cannes-muted)]"
+                      className="line-clamp-2 break-words text-xs leading-snug text-[var(--color-cannes-muted)]"
                       title={row.subcategory ? row.subcategory : undefined}
                     >
                       {row.subcategory || "—"}
                     </span>
                   </td>
-                  <td className="max-w-[min(240px,40vw)] px-3 py-2.5 align-top">
+                  <td className="min-w-0 max-w-[min(240px,40vw)] overflow-hidden px-3 py-2.5 align-top">
                     <span
-                      className="block line-clamp-2 break-words text-xs leading-snug text-[var(--color-cannes-muted)]"
+                      className="line-clamp-2 break-words text-xs leading-snug text-[var(--color-cannes-muted)]"
                       title={row.entrant ? row.entrant : undefined}
                     >
                       {row.entrant || "—"}
                     </span>
                   </td>
-                  <td className="whitespace-nowrap px-3 py-2.5 text-xs text-[var(--color-cannes-muted)]">
-                    {row.location || "—"}
+                  <td className="min-w-0 max-w-[min(200px,35vw)] overflow-hidden px-3 py-2.5 align-top text-xs text-[var(--color-cannes-muted)]">
+                    <span
+                      className="line-clamp-2 break-words leading-snug"
+                      title={row.location ? row.location : undefined}
+                    >
+                      {row.location || "—"}
+                    </span>
                   </td>
                   <td className="px-2 py-2.5 text-center">
                     {row.entry_url ? (
@@ -504,8 +517,34 @@ function CategoryWinnersSection({
             )}
           </tbody>
         </table>
+      </div>
+      {filteredRows.length > 0 && winnersPageCount > 1 ? (
+        <div className="flex w-full flex-wrap items-center justify-center gap-2 pt-1.5">
+          <button
+            type="button"
+            className={`${WINNER_CHIP_BASE} ${
+              currentWinnersPage <= 1 ? "cursor-not-allowed opacity-40" : WINNER_CHIP_MUTED
+            }`}
+            disabled={currentWinnersPage <= 1}
+            onClick={() => setWinnersPage((p) => Math.max(1, p - 1))}
+          >
+            Previous
+          </button>
+          <span className="text-xs tabular-nums text-[var(--color-cannes-muted)]">
+            Page {currentWinnersPage} of {winnersPageCount}
+          </span>
+          <button
+            type="button"
+            className={`${WINNER_CHIP_BASE} ${
+              currentWinnersPage >= winnersPageCount ? "cursor-not-allowed opacity-40" : WINNER_CHIP_MUTED
+            }`}
+            disabled={currentWinnersPage >= winnersPageCount}
+            onClick={() => setWinnersPage((p) => Math.min(winnersPageCount, p + 1))}
+          >
+            Next
+          </button>
         </div>
-      )}
+      ) : null}
     </section>
   );
 }
