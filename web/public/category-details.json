@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-10T12:36:43.232Z",
+  "generated_at": "2026-04-10T13:51:42.317Z",
   "fee_note": "Entry fees use the Cannes Lions 2026 “Fee after 2 April 2026” tier from canneslions.com, applied as a rough cost proxy for every festival year.",
   "fee_source": "https://www.canneslions.com/awards/awards-support/dates-and-fees",
   "currency": "EUR",
@@ -11902,7 +11902,7 @@
     }
   },
   "competitiveness_note": "Competitiveness compares categories using pooled festival years: published entry totals divided by metal win rows from The Work (higher = more entries per metal line). Metals are row counts, not unique campaigns—use scores for relative ranking, not literal odds.",
-  "subcategory_cost_note": "Priority (0–100) is higher when average €/point and entries per metal win are both lower relative to other subcategories in this category—favouring subcategories that are easier to score.",
+  "subcategory_cost_note": "Priority (0–100) is higher when average cost (€ spent per point won) and competitiveness (entries per metals won) are both lower relative to other subcategories — favouring subcategories that are easier to score.",
   "categories": [
     "audio-radio",
     "brand-experience-activation",

@@ -583,7 +583,7 @@ async function main() {
   detailsOut.competitiveness_note =
     "Competitiveness compares categories using pooled festival years: published entry totals divided by metal win rows from The Work (higher = more entries per metal line). Metals are row counts, not unique campaigns—use scores for relative ranking, not literal odds.";
   detailsOut.subcategory_cost_note =
-    "Priority (0–100) is higher when average €/point and entries per metal win are both lower relative to other subcategories in this category—favouring subcategories that are easier to score.";
+    "Priority (0–100) is higher when average cost (€ spent per point won) and competitiveness (entries per metals won) are both lower relative to other subcategories — favouring subcategories that are easier to score.";
 
   /** @type {Record<string, { entriesTotal: number, metalsTotal: number, shortlistsTotal: number, pointsTotal: number, nYears: number, entriesPerMetal: number | null }>} */
   const pooled = {};
