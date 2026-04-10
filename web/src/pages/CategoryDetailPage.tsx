@@ -501,7 +501,7 @@ export default function CategoryDetailPage() {
               >
                 Max Concurrent Submissions
               </h3>
-              <p className="mt-2 max-w-3xl text-xs leading-relaxed text-[var(--color-cannes-muted)]">
+              <p className="mt-2 max-w-3xl text-sm leading-relaxed text-[var(--color-cannes-muted)]">
                 {isTitaniumCategory ? (
                   <>
                     Using each sub-category’s historical <strong className="font-medium text-[var(--color-cannes-ink)]">Titanium Lion</strong>{" "}
