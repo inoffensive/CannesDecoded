@@ -1,0 +1,31 @@
+{
+  "generated_at": "2026-04-12T22:52:07.235Z",
+  "source": "https://www.lovethework.com/en/awards/winners-shortlists/cannes-lions",
+  "script": "scripts/scrape-cannes-unawarded.mjs",
+  "tag": "publication+dates@@year@@YEAR##trophies@@award level@@unawarded",
+  "subcategory_year_overrides_path": "/Users/Syndicate/Cursor/Cannes Decoded/scripts/data/cannes-subcategories-by-year.json",
+  "years": [
+    2025
+  ],
+  "categories": 1,
+  "totals": {
+    "ok": 1,
+    "fetch_error": 0,
+    "parse_empty": 0,
+    "row_count": 622
+  },
+  "byKey": [
+    {
+      "key": "2025/audio-radio",
+      "year": 2025,
+      "category_slug": "audio-radio",
+      "status": "ok",
+      "row_count": 622,
+      "total_pages": 27,
+      "error": null,
+      "subcategory_labels_source": "category_details",
+      "meta_total_count": 636,
+      "meta_page_size": 24
+    }
+  ]
+}

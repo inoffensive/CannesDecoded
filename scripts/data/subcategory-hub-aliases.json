@@ -1,0 +1,14 @@
+{
+  "_note": "Optional hub→canonical maps when Love The Work subText is a sector/industry label or shorthand that does not exactly match probabilities.bySubcategory suffixes. Values must match a key in that slug's bySubcategory (full string) or resolve via suffix. bySlug overrides global for the same hub key.",
+  "global": {
+    "Market Disruption": "C02 - Challenger Brand"
+  },
+  "bySlug": {
+    "audio-radio": {
+      "Healthcare": "D01 - Consumer Goods",
+      "Travel, Leisure, Retail, Restaurants & Fast-Food Chains": "D01 - Consumer Goods",
+      "Automotive": "D01 - Consumer Goods",
+      "Media/Entertainment": "A04 - Branded Content/Podcasts"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "generated_at": "2026-04-13T18:44:57.317Z",
+  "awarded_source": "/Users/Syndicate/Cursor/Cannes Decoded/data/processed/cannes_lovethework_with_points.jsonl",
+  "unawarded_source": "/Users/Syndicate/Cursor/Cannes Decoded/data/processed/cannes_unawarded.jsonl",
+  "counts": {
+    "awarded_lines": 44884,
+    "unawarded_lines": 622,
+    "merged_unique_urls": 33258,
+    "overlap_awarded_unawarded": 0,
+    "awarded_without_url": 0,
+    "unawarded_without_url": 0
+  },
+  "overlap_urls": []
+}

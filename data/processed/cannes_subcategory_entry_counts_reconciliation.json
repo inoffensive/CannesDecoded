@@ -1,0 +1,207 @@
+{
+  "mismatches": [
+    {
+      "year": 2025,
+      "category_slug": "audio-radio",
+      "category_entries": 704,
+      "sum_subcategory_entries": 18304,
+      "delta": 17600
+    },
+    {
+      "year": 2025,
+      "category_slug": "brand-experience-activation",
+      "category_entries": 2323,
+      "sum_subcategory_entries": 81305,
+      "delta": 78982
+    },
+    {
+      "year": 2025,
+      "category_slug": "creative-b2b",
+      "category_entries": 415,
+      "sum_subcategory_entries": 5395,
+      "delta": 4980
+    },
+    {
+      "year": 2025,
+      "category_slug": "creative-business-transformation",
+      "category_entries": 261,
+      "sum_subcategory_entries": 3654,
+      "delta": 3393
+    },
+    {
+      "year": 2025,
+      "category_slug": "creative-commerce",
+      "category_entries": 639,
+      "sum_subcategory_entries": 18531,
+      "delta": 17892
+    },
+    {
+      "year": 2025,
+      "category_slug": "creative-data",
+      "category_entries": 593,
+      "sum_subcategory_entries": 11267,
+      "delta": 10674
+    },
+    {
+      "year": 2025,
+      "category_slug": "creative-effectiveness",
+      "category_entries": 324,
+      "sum_subcategory_entries": 7128,
+      "delta": 6804
+    },
+    {
+      "year": 2025,
+      "category_slug": "creative-strategy",
+      "category_entries": 900,
+      "sum_subcategory_entries": 19800,
+      "delta": 18900
+    },
+    {
+      "year": 2025,
+      "category_slug": "design",
+      "category_entries": 1075,
+      "sum_subcategory_entries": 21500,
+      "delta": 20425
+    },
+    {
+      "year": 2025,
+      "category_slug": "digital-craft",
+      "category_entries": 553,
+      "sum_subcategory_entries": 11060,
+      "delta": 10507
+    },
+    {
+      "year": 2025,
+      "category_slug": "direct",
+      "category_entries": 2019,
+      "sum_subcategory_entries": 72684,
+      "delta": 70665
+    },
+    {
+      "year": 2025,
+      "category_slug": "entertainment",
+      "category_entries": 735,
+      "sum_subcategory_entries": 16905,
+      "delta": 16170
+    },
+    {
+      "year": 2025,
+      "category_slug": "entertainment-lions-for-gaming",
+      "category_entries": 327,
+      "sum_subcategory_entries": 6213,
+      "delta": 5886
+    },
+    {
+      "year": 2025,
+      "category_slug": "entertainment-lions-for-music",
+      "category_entries": 464,
+      "sum_subcategory_entries": 7888,
+      "delta": 7424
+    },
+    {
+      "year": 2025,
+      "category_slug": "entertainment-lions-for-sport",
+      "category_entries": 762,
+      "sum_subcategory_entries": 14478,
+      "delta": 13716
+    },
+    {
+      "year": 2025,
+      "category_slug": "film",
+      "category_entries": 1635,
+      "sum_subcategory_entries": 49050,
+      "delta": 47415
+    },
+    {
+      "year": 2025,
+      "category_slug": "film-craft",
+      "category_entries": 1450,
+      "sum_subcategory_entries": 18850,
+      "delta": 17400
+    },
+    {
+      "year": 2025,
+      "category_slug": "glass-the-lion-for-change",
+      "category_entries": 251,
+      "sum_subcategory_entries": 1255,
+      "delta": 1004
+    },
+    {
+      "year": 2025,
+      "category_slug": "health-wellness",
+      "category_entries": 1165,
+      "sum_subcategory_entries": 13980,
+      "delta": 12815
+    },
+    {
+      "year": 2025,
+      "category_slug": "industry-craft",
+      "category_entries": 770,
+      "sum_subcategory_entries": 15400,
+      "delta": 14630
+    },
+    {
+      "year": 2025,
+      "category_slug": "innovation",
+      "category_entries": 229,
+      "sum_subcategory_entries": 1603,
+      "delta": 1374
+    },
+    {
+      "year": 2025,
+      "category_slug": "luxury",
+      "category_entries": 181,
+      "sum_subcategory_entries": 2172,
+      "delta": 1991
+    },
+    {
+      "year": 2025,
+      "category_slug": "media",
+      "category_entries": 2049,
+      "sum_subcategory_entries": 80911,
+      "delta": 78862
+    },
+    {
+      "year": 2025,
+      "category_slug": "outdoor",
+      "category_entries": 1987,
+      "sum_subcategory_entries": 65571,
+      "delta": 63584
+    },
+    {
+      "year": 2025,
+      "category_slug": "pharma",
+      "category_entries": 298,
+      "sum_subcategory_entries": 4470,
+      "delta": 4172
+    },
+    {
+      "year": 2025,
+      "category_slug": "pr",
+      "category_entries": 1531,
+      "sum_subcategory_entries": 53662,
+      "delta": 52131
+    },
+    {
+      "year": 2025,
+      "category_slug": "print-publishing",
+      "category_entries": 761,
+      "sum_subcategory_entries": 14459,
+      "delta": 13698
+    },
+    {
+      "year": 2025,
+      "category_slug": "social-creator",
+      "category_entries": 1665,
+      "sum_subcategory_entries": 63270,
+      "delta": 61605
+    },
+    {
+      "year": 2025,
+      "category_slug": "sustainable-development-goals",
+      "category_entries": 480,
+      "sum_subcategory_entries": 8640,
+      "delta": 8160
+    }
+  ]
+}

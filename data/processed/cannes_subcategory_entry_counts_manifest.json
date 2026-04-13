@@ -1,0 +1,15 @@
+{
+  "generated_at": "2026-04-13T18:34:53.464Z",
+  "source": "https://www.lovethework.com",
+  "script": "scripts/scrape-cannes-subcategory-entry-counts.mjs",
+  "taxonomy_path": "/Users/Syndicate/Cursor/Cannes Decoded/data/processed/cannes_taxonomy_by_year.json",
+  "years": [
+    2025
+  ],
+  "totals": {
+    "ok": 632,
+    "missing_count": 0,
+    "fetch_error": 0,
+    "skipped": 0
+  }
+}

@@ -740,6 +740,24 @@ async function main() {
 
   detailsOut.categories = result.categories;
 
+  const mergedPath = path.join(ROOT, "data/processed/cannes_entries_merged.jsonl");
+  if (fs.existsSync(mergedPath)) {
+    /** @type {Record<string, Record<string, number>>} */
+    const unawardedByYearSlug = {};
+    const lines = fs.readFileSync(mergedPath, "utf8").trim().split("\n");
+    for (const line of lines) {
+      if (!line) continue;
+      const r = JSON.parse(line);
+      if (r.outcome !== "unawarded" || !r.category_slug) continue;
+      const y = String(r.year);
+      const s = r.category_slug;
+      if (!unawardedByYearSlug[y]) unawardedByYearSlug[y] = {};
+      unawardedByYearSlug[y][s] = (unawardedByYearSlug[y][s] ?? 0) + 1;
+    }
+    detailsOut.merged_entries_source = "data/processed/cannes_entries_merged.jsonl";
+    detailsOut.unawarded_row_counts_by_year_slug = unawardedByYearSlug;
+  }
+
   const detailsPath = path.join(ROOT, "web", "public", "category-details.json");
   fs.writeFileSync(detailsPath, JSON.stringify(detailsOut, null, 2) + "\n", "utf8");
   console.log(`Wrote ${detailsPath}`);

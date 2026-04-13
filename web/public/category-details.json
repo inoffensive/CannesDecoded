@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-10T14:28:03.776Z",
+  "generated_at": "2026-04-13T18:45:20.443Z",
   "fee_note": "Entry fees use the Cannes Lions 2026 “Fee after 2 April 2026” tier from canneslions.com, applied as a rough cost proxy for every festival year.",
   "fee_source": "https://www.canneslions.com/awards/awards-support/dates-and-fees",
   "currency": "EUR",
@@ -11934,5 +11934,11 @@
     "social-creator",
     "sustainable-development-goals",
     "titanium"
-  ]
+  ],
+  "merged_entries_source": "data/processed/cannes_entries_merged.jsonl",
+  "unawarded_row_counts_by_year_slug": {
+    "2025": {
+      "audio-radio": 622
+    }
+  }
 }

@@ -9,43 +9,11 @@
 import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
+import { CATEGORY_SLUGS } from "./lib/cannes-category-slugs.mjs";
+import { parseEntryCount } from "./lib/parse-hub-entry-count.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.join(__dirname, "..");
-
-/** Slug paths under /en/awards/winners-shortlists/cannes-lions/ */
-const CATEGORY_SLUGS = [
-  "audio-radio",
-  "film",
-  "outdoor",
-  "print-publishing",
-  "design",
-  "digital-craft",
-  "film-craft",
-  "industry-craft",
-  "creative-b2b",
-  "creative-data",
-  "direct",
-  "media",
-  "pr",
-  "social-creator",
-  "entertainment",
-  "entertainment-lions-for-gaming",
-  "entertainment-lions-for-music",
-  "entertainment-lions-for-sport",
-  "brand-experience-activation",
-  "creative-business-transformation",
-  "creative-commerce",
-  "innovation",
-  "luxury",
-  "glass-the-lion-for-change",
-  "sustainable-development-goals",
-  "health-wellness",
-  "pharma",
-  "creative-effectiveness",
-  "creative-strategy",
-  "titanium",
-];
 
 const YEARS = [];
 for (let y = 2015; y <= 2025; y++) YEARS.push(y);
@@ -64,33 +32,6 @@ function sleep(ms) {
 /** Same tag shape as the site UI: publication+dates@@year@@YYYY */
 function yearTag(year) {
   return `publication+dates%40%40year%40%40${year}`;
-}
-
-/**
- * Hero "N[,N]... Entries" — prefer matches inside <main>; when multiple numbers
- * appear (nav/JSON noise vs hero duplicates), use the most frequent count; ties → lower.
- */
-function parseEntryCount(html) {
-  const lower = html.toLowerCase();
-  const mainIdx = lower.indexOf("<main");
-  const slice = mainIdx >= 0 ? html.slice(mainIdx) : html;
-  const matches = [...slice.matchAll(/([\d,]+)\s*Entries/gi)];
-  if (!matches.length) return null;
-  const nums = matches.map((m) => parseInt(m[1].replace(/,/g, ""), 10));
-  const freq = new Map();
-  for (const n of nums) {
-    if (!Number.isFinite(n) || n < 0) continue;
-    freq.set(n, (freq.get(n) ?? 0) + 1);
-  }
-  let bestN = nums[0];
-  let bestFreq = -1;
-  for (const [n, c] of freq) {
-    if (c > bestFreq || (c === bestFreq && n < bestN)) {
-      bestFreq = c;
-      bestN = n;
-    }
-  }
-  return bestN;
 }
 
 async function fetchPage(url) {
